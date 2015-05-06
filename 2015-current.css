@@ -1,0 +1,3122 @@
+#baconBit {
+  height: 195px!important;
+  width: 200px!important;
+  background-image: url(%%killakonami%%)!important;
+  -webkit-transition: all 10s linear!important;
+  -moz-transition: all 10s linear!important;
+  -o-transition: all 10s linear!important;
+  -ms-transition: all 10s linear!important
+}
+
+.listing-page .id-t3_31t9j2 {
+  background-color: transparent!important;
+  background: url(%%sticky%%) no-repeat top right!important;
+  position: relative!important
+}
+
+html:not(.res-nightmode) .listing-page .id-t3_31t9j2 {
+  text-shadow: 1px 1px 1px #e6e6e6
+}
+
+html:not(.res-nightmode) .listing-page .id-t3_31t9j2 .domain, html:not(.res-nightmode) .listing-page .id-t3_31t9j2 .domain a, html:not(.res-nightmode) .listing-page .id-t3_31t9j2 .tagline, html:not(.res-nightmode) .listing-page .id-t3_31t9j2 .flat-list a {
+  color: #000!important
+}
+
+.listing-page .id-t3_31t9j2 .arrow.up, .listing-page .id-t3_31t9j2 .arrow.down {
+  opacity: .7!important
+}
+
+.listing-page .id-t3_31t9j2 .score {
+  text-shadow: none!important
+}
+
+.listing-page .id-t3_31t9j2 .usertext-body .md {
+  background-color: #fbfbfb!important
+}
+
+.comments-page .sitetable.nestedlisting {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap
+}
+
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cod7fya, .comments-page .sitetable.nestedlisting>.thing.id-t1_cor32br, .comments-page .sitetable.nestedlisting>.thing.id-t1_cpnv5r5, .comments-page .sitetable.nestedlisting>.thing.id-t1_cqudnb7, .comments-page .sitetable.nestedlisting>.thing.id-t1_cprxmqf, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_COMMENT url ID, .comments-page .sitetable.nestedlisting>.thing.id-t1_ {
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  border: solid 2px green!important;
+  background-color: #dfd
+}
+
+div.content {
+  margin-top: 90px!important
+}
+
+.titlebox form {
+  position: static!important
+}
+
+.side h6:nth-of-type(1) {
+  position: absolute;
+  display: block;
+  top: 163px;
+  left: 40px;
+  background-color: #f2f2f2;
+  color: #555;
+  text-align: left;
+  margin: 15px;
+  border-radius: 8px;
+  width: 50%;
+  padding: 7px 0 7px 40px
+}
+
+div.side a[href="http://www.majorleaguegaming.com/competitions/82"] {
+  display: inline-block;
+  width: 320px;
+  height: 120px;
+  background-image: url(%%mlgproleague2%%);
+  margin: 10px 0 0 0
+}
+
+div.side a[href="http://www.reddit.com/r/codcompetitive/wiki/rostermania"] {
+  display: inline-block;
+  width: 320px;
+  height: 40px;
+  background-image: url(%%roster%%);
+  margin: 10px 0 0 0
+}
+
+div.side a[href="http://thecodpedia.com"] {
+  display: inline-block;
+  width: 319px;
+  height: 102px;
+  background-image: url(%%codpedia%%);
+  margin: 10px 0 0 0
+}
+
+div.side a[href="http://scufgaming.com"] {
+  display: inline-block;
+  width: 319px;
+  height: 102px;
+  margin: 10px 0 0 0
+}
+
+div.side h3:first-child {
+  background: #161103
+}
+
+a[href="http://mlg.tv/cod#countdown"] {
+  color: white
+}
+
+.res #header {
+  overflow: visible
+}
+
+.res #RESShortcutsEditContainer {
+  right: 3px
+}
+
+.res.res-nightmode .content textarea {
+  background-color: #222!important
+}
+
+.res-nightmode div.content div.sitetable div.thing.link {
+  background: #222;
+  border-color: #333
+}
+
+.submit_text.enabled {
+  position: absolute;
+  top: 250px
+}
+
+form.submit.content div.formtabs-content div.spacer:first-child {
+  margin-top: 120px
+}
+
+a[href$="/spoiler"] {
+  background: #000!important;
+  color: #000!important
+}
+
+a[href$="/spoiler"]:hover {
+  color: #FFF!important
+}
+
+.dropdown.srdrop .selected {
+  color: white
+}
+
+sr-more-link {
+  background-color: #171203
+}
+
+div.side .flairselector.drop-choices.active {
+  width: auto!important;
+  left: auto!important;
+  right: 200px!important
+}
+
+.flairselector li a {
+  display: none
+}
+
+.flairsample-right {
+  width: 110px!important
+}
+
+.user, .user a, #mailCount, .pref-lang, .logout.hover a, .res-navTop .separator {
+  color: white!important
+}
+
+.logout.hover a {
+  padding-right: 21px!important
+}
+
+#header-bottom-right {
+  position: absolute;
+  top: 133px;
+  right: 0!important;
+  border-radius: 0!important;
+  background-repeat: repeat-x;
+  display: block;
+  background-color: transparent!important;
+  height: 28px!important;
+  padding: 10px 0 0!important
+}
+
+body.res #header #header-bottom-right {
+  position: absolute;
+  top: 130px!important;
+  right: 0!important;
+  background-image: url(%%navbar%%);
+  background-repeat: repeat-x;
+  display: block;
+  background-color: transparent!important;
+  height: 28px!important
+}
+
+#userbarToggle {
+  color: white!important;
+  background-image: url(%%navbar%%);
+  background-repeat: repeat-x;
+  border-radius: 0!important;
+  background-color: transparent!important;
+  border: none!important;
+  line-height: 38px!important;
+  min-height: 38px!important
+}
+
+#userbarToggle.userbarShow {
+  left: -25px!important
+}
+
+#RESShortcutsEditContainer {
+  width: 64px;
+  margin-top: 1px;
+  background-color: #171203!important
+}
+
+#RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  background-color: #171203!important;
+  color: white!important
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd {
+  font-size: 11px!important;
+  line-height: 16px!important
+}
+
+#RESStaticShortcuts, #RESShortcuts, #srDropdown {
+  margin-top: 1px!important
+}
+
+.separator {
+  color: #171203!important
+}
+
+#RESShortcutsSort {
+  font-size: 11px!important;
+  line-height: 15px!important
+}
+
+#sr-header-area {
+  background: black !important;
+  border-bottom: none!important;
+  height: 17px!important
+}
+
+#sr-header-area a {
+  color: white;
+  background-color: black
+}
+
+.selected .title {
+  color: white!important
+}
+
+.res-nightmode .selected .title {
+  color: 222!important
+}
+
+.NERPageMarker {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  border: 0 black solid!important
+}
+
+body {
+  background: #fafafa
+}
+
+#header, .side {
+  font-family: 'Helvetica Neue', 'Myriad Pro', Helvetica, Arial, sans-serif
+}
+
+#header {
+  height: 130px;
+  border: 0;
+  background-image: url(%%header%%);
+  background-position: bottom center;
+  top: 0
+}
+
+#header-img.default-header {
+  display: none
+}
+
+#siteTable a.title {
+  color: #3669c9!important
+}
+
+#siteTable a.title:visited {
+  color: #542189!important
+}
+
+#header span.pagegame.redditname {
+  font-size: 0
+}
+
+#header span.pagename.redditname a {
+  display: block;
+  font-size: 0;
+  width: 1000px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px
+}
+
+.pagename a {
+  background: url(%%shield%%) no-repeat;
+  display: inline-block;
+  position: absolute!important;
+  left: 50%!important;
+  top: 18px!important;
+  width: 1000px;
+  height: 110px;
+  margin-left: -500px!important;
+  margin-top: 0;
+  text-indent: -9999px
+}
+
+img#header-img {
+  display: none
+}
+
+#header ul.tabmenu {
+  height: 40px;
+  background-image: url(%%navbar%%);
+  background-repeat: repeat-x;
+  position: absolute;
+  left: 0;
+  top: 125px!important;
+  width: 95%;
+  padding: 0 2.5%;
+  text-transform: uppercase
+}
+
+a.title {
+  vertical-align: top
+}
+
+#header ul.tabmenu li {
+  display: inline-block;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  line-height: 40px;
+  height: 40px
+}
+
+#header ul.tabmenu li a {
+  padding: 0 24px;
+  background: transparent;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-weight: 200;
+  display: inline-block
+}
+
+.link {
+  margin: 0!important;
+  margin-bottom: 8px!important
+}
+
+.linklisting .thing {
+  border: 1px #e3e3e3 solid;
+  border-left: 3px #e3e3e3 solid;
+  padding: 10px
+}
+
+.commentarea .child .thing {
+  border: 0;
+  border-left: 2px #e3e3e3 solid;
+  padding: 3px 10px 3px 4px;
+  margin: 0 0 3px 0
+}
+
+#header ul.tabmenu li.selected, #header ul.tabmenu li:hover {
+  background: url(%%navbar-selected%%);
+  background-repeat: repeat-x
+}
+
+#header ul.tabmenu li.selected a {
+  color: #f5f5f5;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0
+}
+
+div.side {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 320px;
+  z-index: 5;
+  margin: 60px 25px 0 0;
+  padding: 11px 20px 0 10px;
+  font-weight: 200;
+  background: white;
+  border: 1px solid #e3e3e3
+}
+
+div.side form#search input[type=text] {
+  width: 304px
+}
+
+form#search input {
+  border: #ccc 1px solid!important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: -11px;
+  padding: 7px 8px 7px!important;
+  font-size: 14px!important
+}
+
+div#searchexpando {
+  width: 300px;
+  margin: 10px 10px 0 10px;
+  padding: 0;
+  background: 0;
+  border: 0
+}
+
+div#searchexpando label {
+  display: block!important;
+  width: 300px!important;
+  line-height: 12px!important;
+  padding-bottom: 10px
+}
+
+div#searchexpando label input {
+  display: inline!important;
+  width: 17px!important;
+  padding: 0!important;
+  margin: 0!important
+}
+
+div.wiki hr {
+  margin: 20px 0;
+  border-style: none;
+  border-top: 1px solid #ccc
+}
+
+div.side div.spacer:first-child {
+  margin: 14px 0 12px 0
+}
+
+div.side div.sidebox.submit.submit-text {
+  margin: -5px 0 0 0
+}
+
+div.side div.sidebox.submit div.morelink {
+  border: 0;
+  background-image: url(%%submit%%);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  border-radius: 3px
+}
+
+div.side div.sidebox.submit div.morelink {
+  border: 0;
+  background-image: url(%%submit%%);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  border-radius: 3px
+}
+
+div.side div.sidebox.submit div.morelink a {
+  padding: 0 0 0 10px;
+  color: white;
+  font-size: 16px
+}
+
+div.side div.sidebox.submit div.morelink div.nub {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background: 0;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: no-repeat
+}
+
+div.side div.titlebox h1.redditname {
+  font-weight: 300
+}
+
+div.side span.subscribers {
+  font-size: 13px;
+  font-weight: 200
+}
+
+div.side span.subscribers span.number:before {
+  content: 'A community of '
+}
+
+div.side span.subscribers span.word {
+  color: #fff
+}
+
+div.side span.subscribers span.word:after {
+  content: " Competitive Call of Duty enthusiasts.";
+  color: black;
+  margin-left: -42px
+}
+
+div.side p.users-online span.number:after {
+  content: ' users online in the last 15 minutes'
+}
+
+div.side p.users-online span.word {
+  display: none
+}
+
+div.side .titlebox form.toggle, div.side .leavemoderator {
+  font-size: inherit
+}
+
+div.side div.tagline {
+  font-size: inherit
+}
+
+div.side form.flairtoggle {
+  margin: 10px 0 0 0
+}
+
+div.side form.flairtoggle label[for="flair_enabled"] {
+  visibility: hidden
+}
+
+div.side form.flairtoggle label[for="flair_enabled"]:after {
+  visibility: visible;
+  display: inline-block;
+  margin: -20px 0 0 20px;
+  content: 'I want to display a flair on this subreddit - you will look like this if you comment or post anywhere:'
+}
+
+div.side div.bottom {
+  display: none
+}
+
+div.side .md h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 15px 0 0 0;
+  background: #14446B;
+  border-radius: 3px;
+  padding: 6px 6px 6px 10px;
+  color: white
+}
+
+div.side .md ul li {
+  list-style: none;
+  margin: 0 0 5px -20px
+}
+
+div.side .md ul li em {
+  margin: 0 0 0 5px;
+  font-style: normal
+}
+
+div.side .md ul li strong {
+  font-weight: normal
+}
+
+.md td, .md th {
+  border: 1px solid #EEE;
+  padding: 4px 8px
+}
+
+tr:first-child {
+  text-align: center!important
+}
+
+table:first-child {
+  text-align: center!important
+}
+
+div.side .md table {
+  margin: 10px 10px 15px 10px
+}
+
+div.side .md table:last-child thead {
+  display: none
+}
+
+div.side .md table thead th[align="right"] {
+  text-align: right
+}
+
+div.side .md table:last-child td {
+  border: 0;
+  padding: 2px 19px 2px 1px
+}
+
+div.content {
+  margin: 60px 376px 0 0;
+  padding: 0 20px 0 20px
+}
+
+div.content div.sitetable div.thing hr {
+  margin: 15px 0
+}
+
+div.content div.sitetable div.thing.link {
+  background: white;
+  padding: 5px;
+  margin: 0 350px 0 0;
+  border-radius: 3px
+}
+
+div.content div.sitetable div.thing.link span.rank {
+  padding: 7px 5px 0 5px;
+  font-size: 0
+}
+
+div.content div.sitetable div.thing.link div.entry {
+  padding: 6px 10px
+}
+
+div.content div.sitetable div.thing.link div.entry p.title a {
+  color: #36c
+}
+
+.res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed, .res .keyHighlight, .res .commentarea .keyHighlight.entry .noncollapsed {
+  background-color: transparent!important;
+  outline: none!important;
+  border-right: 3px solid #e6e6e6!important
+}
+
+.res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .keyHighlight .md {
+  background-color: transparent!important;
+  outline: none!important
+}
+
+div.content .thing .title:visited, .thing.visited .title {
+  color: #551a8b!important
+}
+
+div.side .md ul li del, div.side .md ul li strong {
+  font-weight: normal;
+  text-decoration: none
+}
+
+div.side .md ul li del strong {
+  display: inline-block;
+  width: 50px;
+  padding: .4em 0 .4em 0;
+  font-size: 90%;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  border-width: 1px;
+  border-color: #dea85a #c78e3e #c89651;
+  border-style: solid;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.09);
+  background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #f0ad4e;
+  background: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #f0ad4e;
+  background: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #f0ad4e;
+  background: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #f0ad4e;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #f0ad4e
+}
+
+div.side .md ul li strong del {
+  display: inline-block;
+  width: 50px;
+  padding: .4em 0 .4em 0;
+  font-size: 90%;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #54a454 #579f57 #498c49;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.09);
+  background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #5cb85c;
+  background: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #5cb85c;
+  background: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #5cb85c;
+  background: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #5cb85c;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0, rgba(0, 0, 0, 0.07) 100%) #5cb85c
+}
+
+div.side .md ul li strong em {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50%
+}
+
+a[href$="#kappa"], a[href$="#versatile"], a[href$="#phizzurp"], a[href$="#revan"], a[href$="#rambo"], a[href$="#stonemountain"], a[href$="kross"], a[href$="#nypogcham"], a[href$="#ny-kappa"], a[href$="#pogchamp"], a[href$="#failfish"], a[href$="bruhshot"], a[href$="#grumpshot"], a[href$="#smileshot"], a[href$="#fearthebeard"], a[href$="#pjsalt"] {
+  display: inline-block;
+  position: relative;
+  margin: 0 4px 0 0;
+  background: url(%%emote-sprite%%);
+  cursor: default
+}
+
+a[href$="#stonemountain"] {
+  background-position: 0 0;
+  width: 20px;
+  height: 25px;
+  margin-top: -13px;
+  top: 8px
+}
+
+a[href$="#fearthebeard"] {
+  background-position: -80px 0;
+  width: 20px;
+  height: 26px;
+  margin-top: -14px;
+  top: 8px
+}
+
+a[href$="#smileshot"] {
+  background-position: -120px 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -14px;
+  top: 5px
+}
+
+a[href$="#failfish"] {
+  background-position: -160px 0;
+  width: 20px;
+  height: 27px;
+  margin-top: -11px;
+  top: 8px
+}
+
+a[href$="#pogchamp"] {
+  background-position: -200px 0;
+  width: 20px;
+  height: 26px;
+  margin-top: -14px;
+  top: 8px
+}
+
+a[href$="#kappa"] {
+  background-position: -240px 0;
+  width: 20px;
+  height: 25px;
+  margin-top: -13px;
+  top: 8px
+}
+
+a[href$="#nypogcham"] {
+  background-position: -280px 0;
+  width: 20px;
+  height: 38px;
+  margin-top: -14px;
+  top: 8px
+}
+
+a[href$="#kross"] {
+  background-position: -320px 0;
+  width: 20px;
+  height: 28px;
+  margin-top: -12px;
+  top: 8px
+}
+
+a[href$="#versatile"], a[href$="#phizzurp"] {
+  background-position: -360px 0;
+  width: 30px;
+  height: 29px;
+  margin-top: -13px;
+  top: 7px
+}
+
+a[href$="#rambo"] {
+  background-position: -400px 0;
+  width: 22px;
+  height: 25px;
+  margin-top: -13px;
+  top: 8px
+}
+
+a[href$="#bruhshot"] {
+  background-position: -440px 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -14px;
+  top: 5px
+}
+
+a[href$="#ny-kappa"] {
+  background-position: -480px 0;
+  width: 21px;
+  height: 36px;
+  margin-top: -12px;
+  top: 8px
+}
+
+a[href$="#revan"] {
+  background-position: -520px 0;
+  width: 17px;
+  height: 25px;
+  margin-top: -13px;
+  top: 8px
+}
+
+a[href$="#grumpshot"] {
+  background-position: -560px 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -14px;
+  top: 5px
+}
+
+a[href$="#pjsalt"] {
+  background-position: -600px 0;
+  width: 36px;
+  height: 30px;
+  margin-top: -14px;
+  top: 5px
+}
+
+.flair, a[href='#ael'], a[href='#aware'], a[href='#acid'], a[href='#acidd'], a[href='#bati'], a[href='#benson'], a[href='#bo1'], a[href='#bo2'], a[href='#codchamps'], a[href='#cod4'], a[href='#col'], a[href='#curse'], a[href='#curse-black'], a[href='#crsblack'], a[href='#crsorange'], a[href='#curse-orange'], a[href='#curse-lv'], a[href='#curse-ny'], a[href='#curse-yo'], a[href='#crs'], a[href='#denmark'], a[href='#denial'], a[href='#dogecoin'], a[href='#dpkr'], a[href='#egl'], a[href='#esl'], a[href='#envy'], a[href='#ez'], a[href='#egs'], a[href='#eg'], a[href='#ego'], a[href='#elevate'], a[href='#erupt'], a[href='#epsilon'], a[href='#eswc'], a[href='#fa'], a[href='#fariko'], a[href='#faze'], a[href='#faze-black'], a[href='#fazeblack'], a[href='#faze-red'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#fuse'], a[href='#gfinity'], a[href='#ghosts'], a[href='#headshot'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#infused'], a[href='#ireland'], a[href='#ixi'], a[href='#iw'], a[href='#justus'], a[href='#kf'], a[href='#killa'], a[href='#lp'], a[href='#millenium'], a[href='#mlg'], a[href='#monster'], a[href='#mw2'], a[href='#mw3'], a[href='#mym'], a[href='#nv'], a[href='#optic'], a[href='#opticnation'], a[href='#on'], a[href='#orbit'], a[href='#proph'], a[href='#quantic'], a[href='#radius'], a[href='#redbull'], a[href='#revanprincess'], a[href='#revenge'], a[href='#rise'], a[href='#royal'], a[href='#soar'], a[href='#sb'], a[href='#scuf'], a[href='#sk'], a[href='#sublogo'], a[href='#tcm'], a[href='#tk'], a[href='#tko'], a[href='#treyarch'], a[href='#twitch'], a[href='#twitter'], a[href='#umg'], a[href='#unite'], a[href='#vexx'], a[href='#vitality'], a[href='#vq'], a[href='#vvv'], a[href='#australia'], a[href='#belgium'], a[href='#canada'], a[href='#eu'], a[href='#germany'], a[href='#italy'], a[href='#mexico'], a[href='#netherlands'], a[href='#russia'], a[href='#uk'], a[href='#usa'], a[href='#ucgn'], a[href='#xfinity'], a[href='#arrow'], a[href='#sigma'], a[href='#tinfoil'], a[href='#runescape'], a[href='#ohwow'], a[href='#astro'], a[href='#tacobell'], a[href='#spiderman'], a[href='#doge'], a[href='#acl'], a[href='#acl'], a[href='#waw'], a[href='#noble'], a[href='#mw'], a[href='#chipotle'], a[href='#exertus'], a[href='#mindfreak'], a[href='#avantgarde'], a[href='#sweden'], a[href='#wild'], a[href='#scotland'], a[href='#ex'], a[href='#aw'], a[href='#prayers'], a[href='#jamaica'], a[href='#opticpink'], a[href='#gold'], a[href='#karma'], a[href='#newzealand'], a[href='#iceland'], a[href='#aches'], a[href='#nameless'], a[href='#wales'], a[href='#england'], a[href='#mulletnation'], a[href='#bigtone'], a[href='#bigttwo'], a[href='#clayster'], a[href='#ricky'], a[href='#nadeshot'], a[href='#merk'], a[href='#crimbot'], a[href='#crimcreep'], a[href='#fwiz'], a[href='#mboze'], a[href='#parasite'], a[href='#jkap'], a[href='#lf'], a[href='#brazil'], a[href='#chile'], a[href='#spain'], a[href='#doesplay'], a[href='#ar'], a[href='#huckleberry'], a[href='#stunner'], a[href='#bitters'], a[href='#sle'], a[href='#gamersassembly'], a[href='#meltdown'], a[href='#t1'], a[href='#ni'], a[href='#3sup'], a[href='#ascentia'], a[href='#bz'], a[href='#fabe'], a[href='#g2'], a[href='#hypergames'], a[href='#in'], a[href='#klar1ty'], a[href='#rapid'], a[href='#ssof'], a[href='#t1'], a[href='#underratix'], a[href='#menace'], a[href='#ugc'], a[href='#mes'], a[href='#epic'] {
+  cursor: default;
+  border: none!important;
+  padding: 0;
+  background: url(%%sprite%%) no-repeat -9999px -9999px;
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px
+}
+
+.flair {
+  cursor: help
+}
+
+.flair-ael, a[href='#ael'] {
+  background-position: -160px -120px
+}
+
+.flair-aware, a[href='#aware'] {
+  background-position: -100px -60px
+}
+
+.flair-ar, a[href='#ar'] {
+  background-position: -260px -100px
+}
+
+.flair-aches, a[href='#aches'] {
+  background-position: -180px -200px
+}
+
+.flair-acid, a[href='#acid'] {
+  background-position: -140px -80px
+}
+
+.flair-acidd, a[href='#acidd'] {
+  background-position: -140px -60px
+}
+
+.flair-acl, a[href='#acl'] {
+  background-position: -160px -40px
+}
+
+.flair-astro, a[href='#astro'] {
+  background-position: -140px -160px
+}
+
+.flair-avantgarde, a[href='#avantgarde'] {
+  background-position: -200px -160px
+}
+
+.flair-aw, a[href='#aw'] {
+  background-position: -220px -40px
+}
+
+.flair-bati, a[href='#bati'] {
+  background-position: -40px -100px
+}
+
+.flair-benson, a[href='#benson'] {
+  background-position: -140px -40px
+}
+
+.flair-bo1, a[href='#bo1'] {
+  background-position: -160px -200px
+}
+
+.flair-bo2, a[href='#bo2'] {
+  background-position: -180px -20px
+}
+
+.flair-bigtone, a[href='#bigtone'] {
+  background-position: -220px -200px
+}
+
+.flair-bigttwo, a[href='#bigttwo'] {
+  background-position: -240px -0
+}
+
+.flair-bitters, a[href='#bitters'] {
+  background-position: -260px -160px
+}
+
+.flair-brazil, a[href='#brazil'] {
+  background-position: -260px -40px
+}
+
+.flair-clayster, a[href='#clayster'] {
+  background-position: -240px -20px
+}
+
+.flair-chipotle, a[href='#chipotle'] {
+  background-position: -200px -100px
+}
+
+.flair-chile, a[href='#chile'] {
+  background-position: -260px -60px
+}
+
+.flair-codchamps, a[href='#codchamps'] {
+  background-position: -0 -180px
+}
+
+.flair-cod4, a[href='#cod4'] {
+  background-position: -160px -140px
+}
+
+.flair-col, a[href='#col'] {
+  background-position: 0 0
+}
+
+.flair-crimbot, a[href='#crimbot'] {
+  background-position: -240px -100px
+}
+
+.flair-crimcreep, a[href='#crimcreep'] {
+  background-position: -240px -120px
+}
+
+.flair-curse, a[href='#curse'], .flair-curse-orange, a[href='#curse-orange'], a[href='#crs'], a[href='#crsorange'] {
+  background-position: 0 -20px
+}
+
+.flair-curse-black, a[href='#curse-black'], a[href='#crsblack'] {
+  background-position: -160px -60px
+}
+
+.flair-curse-lv, a[href='#curse-lv'] {
+  background-position: -100px -100px
+}
+
+.flair-curse-ny, a[href='#curse-ny'] {
+  background-position: -80px -100px
+}
+
+.flair-curse-yo, a[href='#curse-yo'] {
+  background-position: -120px -100px
+}
+
+.flair-denial, a[href='#denial'] {
+  background-position: -0 -160px
+}
+
+.flair-doge, a[href='#doge'] {
+  background-position: -160px -0
+}
+
+.flair-doesplay, a[href='#doesplay'] {
+  background-position: -260px -80px
+}
+
+.flair-dogecoin, a[href='#dogecoin'] {
+  background-position: -100px -180px
+}
+
+.flair-egs, a[href='#egs'] {
+  background-position: -100px -80px
+}
+
+.flair-eg, a[href='#eg'] {
+  background-position: -160px -100px
+}
+
+.flair-egl, a[href='#egl'] {
+  background-position: -120px -120px
+}
+
+.flair-ego, a[href='#ego'] {
+  background-position: -260px -180px
+}
+
+.flair-t1, a[href='#t1'] {
+  background-position: -280px -40px
+}
+
+.flair-ni, a[href='#ni'] {
+  background-position: -280px -60px
+}
+
+.flair-3sup, a[href='#3sup'] {
+  background-position: -280px -80px
+}
+
+.flair-ascentia, a[href='#ascentia'] {
+  background-position: -280px -100px
+}
+
+.flair-bz, a[href='#bz'] {
+  background-position: -280px -120px
+}
+
+.flair-fabe, a[href='#fabe'] {
+  background-position: -280px -140px
+}
+
+.flair-g2, a[href='#g2'] {
+  background-position: -280px -160px
+}
+
+.flair-hypergames, a[href='#hypergames'] {
+  background-position: -280px -180px
+}
+
+.flair-in, a[href='#in'] {
+  background-position: -280px -200px
+}
+
+.flair-klar1ty, a[href='#klar1ty'] {
+  background-position: -300px 0
+}
+
+.flair-rapid, a[href='#rapid'] {
+  background-position: -300px -20px
+}
+
+.flair-ssof, a[href='#ssof'] {
+  background-position: -300px -40px
+}
+
+.flair-t1, a[href='#t1'] {
+  background-position: -300px -60px
+}
+
+.flair-underratix, a[href='#underratix'] {
+  background-position: -300px -80px
+}
+
+.flair-sle, a[href='#sle'] {
+  background-position: -260px -200px
+}
+
+.flair-gamersassembly, a[href='#gamersassembly'] {
+  background-position: -280px -0
+}
+
+.flair-meltdown, a[href='#meltdown'] {
+  background-position: -280px -20px
+}
+
+.flair-esl, a[href='#esl'] {
+  background-position: -200px -0
+}
+
+.flair-ez, a[href='#ez'] {
+  background-position: -120px -140px
+}
+
+.flair-elevate, a[href='#elevate'] {
+  background-position: -20px -100px
+}
+
+.flair-england, a[href='#england'] {
+  background-position: -220px -160px
+}
+
+.flair-erupt, a[href='#erupt'] {
+  background-position: -140px -20px
+}
+
+.flair-menace, a[href='#menace'] {
+  background-position: -300px -100px
+}
+
+.flair-ugc, a[href='#ugc'] {
+  background-position: -300px -120px
+}
+
+.flair-epic, a[href='#epic'] {
+  background-position: -300px -140px
+}
+
+.flair-mes, a[href='#mes'] {
+  background-position: -300px -160px
+}
+
+.flair-a2p, a[href='#a2p'] {
+  background-position: -100px-30px
+}
+
+flair-epsilon, a[href='#epsilon'] {
+  background-position: -40px -0px
+}
+
+.flair-ex, a[href='#ex'] {
+  background-position: -220px -20px
+}
+
+.flair-exertus, a[href='#exurtus'] {
+  background-position: -200px -120px
+}
+
+.flair-eswc, a[href='#eswc'] {
+  background-position: -180px -100px
+}
+
+a[href='#fa'] {
+  background-position: -80px -80px
+}
+
+.flair-fariko, a[href='#fariko'] {
+  background-position: -60px 0
+}
+
+.flair-faze, a[href='#faze'], .flair-faze-red, a[href='#faze-red'] {
+  background-position: -80px 0
+}
+
+.flair-fazeblack, a[href='#fazeblack'], .flair-faze-black, a[href='#faze-black'] {
+  background-position: -120px -160px
+}
+
+.flair-fear, a[href='#fear'] {
+  background-position: -100px 0
+}
+
+.flair-finalboss, a[href='#finalboss'] {
+  background-position: -60px -60px
+}
+
+.flair-france, a[href='#france'] {
+  background-position: -180px -160px
+}
+
+.flair-fuse, a[href='#fuse'] {
+  background-position: -20px -20px
+}
+
+.flair-fwiz, a[href='#fwiz'] {
+  background-position: -240px -140px
+}
+
+.flair-gfinity, a[href='#gfinity'] {
+  background-position: -120px -80px
+}
+
+.flair-ghosts, a[href='#ghosts'] {
+  background-position: -180px -40px
+}
+
+.flair-gold, a[href='#gold'] {
+  background-position: -220px -120px
+}
+
+.flair-headshot, a[href='#headshot'] {
+  background-position: -180px -80px
+}
+
+.flair-huckleberry, a[href='#huckleberry'] {
+  background-position: -260px -120px
+}
+
+.flair-iceland, a[href='#iceland'] {
+  background-position: -120px -100px
+}
+
+.flair-icons, a[href='#icons'] {
+  background-position: -40px -20px
+}
+
+.flair-immunity, a[href='#immunity'] {
+  background-position: -60px -100px
+}
+
+.flair-impact, a[href='#impact'] {
+  background-position: -120px -20px
+}
+
+.flair-infused, a[href='#infused'] {
+  background-position: -20px -80px
+}
+
+.flair-ireland, a[href='#ireland'] {
+  background-position: -40px -160px
+}
+
+.flair-ixi, a[href='#ixi'] {
+  background-position: -120px -60px
+}
+
+.flair-iw, a[href='#iw'] {
+  background-position: -100px -200px
+}
+
+.flair-jamaica, a[href='#jamaica'] {
+  background-position: -220px -80px
+}
+
+.flair-jkap, a[href='#jkap'] {
+  background-position: -240px -200px
+}
+
+.flair-justus, a[href='#justus'] {
+  background-position: -40px -60px
+}
+
+.flair-karma, a[href='#karma'] {
+  background-position: -160px -20px
+}
+
+.flair-kf, a[href='#kf'] {
+  background-position: -80px -200px
+}
+
+.flair-killa, a[href='#killa'] {
+  background-position: -180px -180px
+}
+
+.flair-lp, a[href='#lp'] {
+  background-position: -60px -200px
+}
+
+.flair-lf, a[href='#lf'] {
+  background-position: -260px -0
+}
+
+.flair-mboze, a[href='#mboze'] {
+  background-position: -240px -160px
+}
+
+.flair-merk, a[href='#merk'] {
+  background-position: -240px -80px
+}
+
+.flair-millenium, a[href='#millenium'] {
+  background-position: -60px -20px
+}
+
+.flair-mindfreak, a[href='#mindfreak'] {
+  background-position: -200px -140px
+}
+
+.flair-mlg, a[href='#mlg'] {
+  background-position: 0 -80px
+}
+
+.flair-monster, a[href='#monster'] {
+  background-position: -180px -60px
+}
+
+.flair-mw, a[href='#mw'] {
+  background-position: -200px -80px
+}
+
+.flair-mulletnation, a[href='#mulletnation'] {
+  background-position: -220px -180px
+}
+
+.flair-mym, a[href='#mym'] {
+  background-position: -40px -80px
+}
+
+.flair-mw2, a[href='#mw2'] {
+  background-position: -160px -180px
+}
+
+.flair-mw3, a[href='#mw3'] {
+  background-position: -180px 0
+}
+
+.flair-nadeshot, a[href='#nadeshot'] {
+  background-position: -240px -60px
+}
+
+.flair-nameless, a[href='#nameless'] {
+  background-position: -200px -40px
+}
+
+.flair-newzealand, a[href='#newzealand'] {
+  background-position: -160px -60px
+}
+
+.flair-noblevq, a[href='#noble'] {
+  background-position: -200px -60px
+}
+
+.flair-nv, a[href='#nv'], a[href='#envy'] {
+  background-position: 0 -40px
+}
+
+.flair-optic, a[href='#optic'] {
+  background-position: 0 -60px
+}
+
+.flair-optic-nation, a[href='#on'], a[href='#opticnation'] {
+  background-position: -160px -80px
+}
+
+.flair-opticpink, a[href='#opticpink'] {
+  background-position: -220px -100px
+}
+
+.flair-orbit, a[href='#orbit'] {
+  background-position: -120px -40px
+}
+
+.flair-parasite, a[href='#parasite'] {
+  background-position: -240px -180px
+}
+
+.flair-prayers, a[href='#prayers'] {
+  background-position: -220px -60px
+}
+
+.flair-proph, a[href='#proph'] {
+  background-position: -80px -20px
+}
+
+.flair-quantic, a[href='#quantic'] {
+  background-position: -100px -20px
+}
+
+.flair-radius, a[href='#radius'] {
+  background-position: -200px -40px
+}
+
+.flair-redbull, a[href='#redbull'] {
+  background-position: -180px -140px
+}
+
+.flair-revanprincess, a[href='#revanprincess'] {
+  background-position: -180px -120px
+}
+
+.flair-revenge, a[href='#revenge'] {
+  background-position: -140px 0
+}
+
+.flair-ricky, a[href='#ricky'] {
+  background-position: -240px -40px
+}
+
+.flair-runescape, a[href='#runescape'] {
+  background-position: -140px -120px
+}
+
+.flair-ohwow, a[href='#ohwow'] {
+  background-position: -140px -140px
+}
+
+.flair-rise, a[href='#rise'] {
+  background-position: -40px -200px
+}
+
+.flair-royal, a[href='#royal'] {
+  background-position: -40px -180px
+}
+
+.flair-sb, a[href='#sb'] {
+  background-position: -40px -40px
+}
+
+.flair-scuf, a[href='#scuf'] {
+  background-position: -200px -20px
+}
+
+.flair-sigma, a[href='#sigma'] {
+  background-position: -60px -180px
+}
+
+.flair-spiderman, a[href='#spiderman'] {
+  background-position: -140px -200px
+}
+
+.flair-soar, a[href='#soar'] {
+  background-position: -20px -40px
+}
+
+.flair-stunner, a[href='#stunner'] {
+  background-position: -260px -140px
+}
+
+.flair-sublogo, a[href='#sublogo'] {
+  background-position: -20px -180px
+}
+
+.flair-sk, a[href='#sk'] {
+  background-position: -60px -80px
+}
+
+.flair-sweden, a[href='#sweden'] {
+  background-position: -200px -180px
+}
+
+.flair-scotland, a[href='#scotland'] {
+  background-position: -220px 0
+}
+
+.flair-tacobell, a[href='#tacobell'] {
+  background-position: -140px -180px
+}
+
+.flair-tcm, a[href='#tcm'] {
+  background-position: -60px -40px
+}
+
+.flair-tinfoil, a[href='#tinfoil'] {
+  background-position: -140px -100px
+}
+
+.flair-tk, a[href='#tk'] {
+  background-position: -80px -40px
+}
+
+.flair-tko, a[href='#tko'] {
+  background-position: -120px -200px
+}
+
+.flair-treyarch, a[href='#treyarch'] {
+  background-position: -0 -200px
+}
+
+a[href='#twitter'] {
+  background-position: -0 -140px
+}
+
+.flair-twitch, a[href='#twitch'] {
+  background-position: -0 -120px
+}
+
+.flair-umg, a[href='#umg'] {
+  background-position: -0 -100px
+}
+
+.flair-unite, a[href='#unite'] {
+  background-position: -100px -40px
+}
+
+.flair-vitality, a[href='#vitality'] {
+  background-position: -80px -60px
+}
+
+.flair-vexx, a[href='#vexx'] {
+  background-position: -120px -180px
+}
+
+.flair-vq, a[href='#vq'] {
+  background-position: -20px -60px
+}
+
+.flair-vvv, a[href='#vvv'] {
+  background-position: -20px -0
+}
+
+.flair-waw, a[href='#waw'] {
+  background-position: -160px -160px
+}
+
+.flair-wild, a[href='#wild'] {
+  background-position: -200px -200px
+}
+
+.flair-australia, a[href='#australia'] {
+  background-position: -20px -120px
+}
+
+.flair-belgium, a[href='#belgium'] {
+  background-position: -40px -120px
+}
+
+.flair-canada, a[href='#canada'] {
+  background-position: -60px -120px
+}
+
+.flair-denmark, a[href='#denmark'] {
+  background-position: -80px -160px
+}
+
+.flair-dpkr, a[href='#dpkr'] {
+  background-position: -100px -160px
+}
+
+.flair-eu, a[href='#eu'] {
+  background-position: -80px -120px
+}
+
+.flair-spain, a[href='#spain'] {
+  background-position: -260px -20px
+}
+
+.flair-finland, a[href='#finland'] {
+  background-position: -60px -160px
+}
+
+.flair-germany, a[href='#germany'] {
+  background-position: -100px -120px
+}
+
+.flair-italy, a[href='#italy'] {
+  background-position: -20px -140px
+}
+
+.flair-mexico, a[href='#mexico'] {
+  background-position: -40px -140px
+}
+
+.flair-, a[href='#nameless'] {
+  background-position: -200px -40px
+}
+
+.flair-netherlands, .flair-ned, a[href='#netherlands'] {
+  background-position: -60px -140px
+}
+
+.flair-russia, a[href='#russia'] {
+  background-position: -80px -140px
+}
+
+.flair-ucgn, a[href='#ucgn'] {
+  background-position: -80px -180px
+}
+
+.flair-xfinity, a[href='#xfinity'] {
+  background-position: -20px -200px
+}
+
+.flair-uk, a[href='#uk'] {
+  background-position: -100px -140px
+}
+
+.flair-usa, a[href='#usa'] {
+  background-position: -20px -160px
+}
+
+.flair-wales, a[href='#wales'] {
+  background-position: -220px -140px
+}
+
+a[href='#arrow'] {
+  margin: 0 5px;
+  background-position: -120px 0
+}
+
+.linkflairlabel {
+  display: none
+}
+
+.thing a.thumbnail {
+  background: url(%%post-flairs%%);
+  width: 50px!important;
+  height: 50px!important;
+  margin: 6px 10px 0 10px;
+  background-position: -150px -0
+}
+
+.thing a.thumbnail img {
+  display: none
+}
+
+.res-nightmode .listing-page .linklisting:hover {
+  background-color: #222!important
+}
+
+.thing.linkflair-weekly a.thumbnail {
+  background-position: -0 -0
+}
+
+.listing-page .linklisting .thing.linkflair-weekly:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #5e60d3 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-weekly:hover {
+  background-color: #222!important;
+  border-left: 3px #5e60d3 solid!important
+}
+
+.thing.linkflair-gif a.thumbnail {
+  background-position: -200px -200px
+}
+
+.listing-page .linklisting .thing.linkflair-gif:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #363636 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-gif:hover {
+  background-color: #222!important;
+  border-left: 3px #363636 solid!important
+}
+
+.thing.linkflair-stats a.thumbnail {
+  background-position: -200px -250px
+}
+
+.listing-page .linklisting .thing.linkflair-stats:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #218bb0 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-stats:hover {
+  background-color: #222!important;
+  border-left: 3px #218bb0 solid!important
+}
+
+.thing.linkflair-top5 a.thumbnail {
+  background-position: -200px -300px
+}
+
+.listing-page .linklisting .thing.linkflair-top5:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #9a2522 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-top5:hover {
+  background-color: #222!important;
+  border-left: 3px #9a2522 solid!important
+}
+
+.thing.linkflair-tweet a.thumbnail {
+  background-position: -0 -50px
+}
+
+.listing-page .linklisting .thing.linkflair-tweet:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #00acee solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-tweet:hover {
+  background-color: #222!important;
+  border-left: 3px #00acee solid!important
+}
+
+.thing.linkflair-vid a.thumbnail {
+  background-position: -0 -100px
+}
+
+.listing-page .linklisting .thing.linkflair-vid:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #cb433f solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-vid:hover {
+  background-color: #222!important;
+  border-left: 3px #cb433f solid!important
+}
+
+.thing.linkflair-event a.thumbnail {
+  background-position: -0 -150px
+}
+
+.listing-page .linklisting .thing.linkflair-event:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #6d59cf solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-event:hover {
+  background-color: #222!important;
+  border-left: 3px #6d59cf solid!important
+}
+
+.thing.linkflair-dis a.thumbnail {
+  background-position: -0 -200px
+}
+
+.listing-page .linklisting .thing.linkflair-dis:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #52b7aa solid
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-dis:hover {
+  background-color: #222!important;
+  border-left: 3px #52b7aa solid
+}
+
+.thing.linkflair-question a.thumbnail {
+  background-position: -0 -250px
+}
+
+.listing-page .linklisting .thing.linkflair-question:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #91b650 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-question:hover {
+  background-color: #222!important;
+  border-left: 3px #91b650 solid!important
+}
+
+.thing.linkflair-win a.thumbnail {
+  background-position: -0 -300px
+}
+
+.listing-page .linklisting .thing.linkflair-win:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #e7ba33 solid!important
+}
+
+.thing.linkflair-meta a.thumbnail, .thumbnail.self {
+  background-position: -50px -0
+}
+
+.listing-page .linklisting .thing.linkflair-meta:hover, .listing-page .linklisting .thing.self:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #3696e0 solid!important
+}
+
+.thing.linkflair-fluff a.thumbnail {
+  background-position: -50px -50px
+}
+
+.listing-page .linklisting .thing.linkflair-fluff:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #f93 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-fluff:hover {
+  background-color: #222!important;
+  border-left: 3px #f93 solid!important
+}
+
+.thing.linkflair-article a.thumbnail {
+  background-position: -50px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-article:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #41a2a8 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-article:hover {
+  background-color: #222!important;
+  border-left: 3px #41a2a8 solid!important
+}
+
+.thing.linkflair-ama a.thumbnail {
+  background-position: -50px -150px
+}
+
+.listing-page .linklisting .thing.linkflair-ama:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #4e4ea1 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-ama:hover {
+  background-color: #222!important;
+  border-left: 3px #4e4ea1 solid!important
+}
+
+.thing.linkflair-news a.thumbnail {
+  background-position: -50px -200px
+}
+
+.listing-page .linklisting .thing.linkflair-news:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #5b9c51 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-news:hover {
+  background-color: #222!important;
+  border-left: 3px #5b9c51 solid!important
+}
+
+.thing.linkflair-pic a.thumbnail {
+  background-position: -50px -250px
+}
+
+.listing-page .linklisting .thing.linkflair-pic:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #8b80e5 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-pic:hover {
+  background-color: #222!important;
+  border-left: 3px #8b80e5 solid!important
+}
+
+.thing.linkflair-trashtalkthread a.thumbnail {
+  background-position: -50px -300px
+}
+
+.listing-page .linklisting .thing.linkflair-trashtalkthread:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #434343 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-trashtalkthread:hover {
+  background-color: #222!important;
+  border-left: 3px #434343 solid!important
+}
+
+.thing.linkflair-psa a.thumbnail {
+  background-position: -100px -0
+}
+
+.listing-page .linklisting .thing.linkflair-psa:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #96a56c solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-psa:hover {
+  background-color: #222!important;
+  border-left: 3px #96a56c solid!important
+}
+
+.thing.linkflair-team a.thumbnail {
+  background-position: -100px -50px
+}
+
+.listing-page .linklisting .thing.linkflair-team:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #975eb7 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-team:hover {
+  background-color: #222!important;
+  border-left: 3px #975eb7 solid!important
+}
+
+.thing.linkflair-ugcn a.thumbnail {
+  background-position: -100px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-ugcn:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #bf1c1f solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-ugcn:hover {
+  background-color: #222!important;
+  border-left: 3px #bf1c1f solid!important
+}
+
+.thing.linkflair-twitch a.thumbnail {
+  background-position: -100px -150px
+}
+
+.listing-page .linklisting .thing.linkflair-twitch:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #6441a5 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-twitch:hover {
+  background-color: #222!important;
+  border-left: 3px #6441a5 solid!important
+}
+
+.thing.linkflair-mlg a.thumbnail {
+  background-position: -100px -200px
+}
+
+.listing-page .linklisting .thing.linkflair-mlg:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #901926 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-mlg:hover {
+  background-color: #222!important;
+  border-left: 3px #901926 solid!important
+}
+
+.thing.linkflair-iw a.thumbnail {
+  background-position: -100px -250px
+}
+
+.listing-page .linklisting .thing.linkflair-iw:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #a04848 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-iw:hover {
+  background-color: #222!important;
+  border-left: 3px #a04848 solid!important
+}
+
+.thing.linkflair-ghosts a.thumbnail {
+  background-position: -100px -300px
+}
+
+.listing-page .linklisting .thing.linkflair-ghosts:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #1a1a1a solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-ghosts:hover {
+  background-color: #222!important;
+  border-left: 3px #1a1a1a solid!important
+}
+
+.thing.linkflair-codchamps a.thumbnail {
+  background-position: -150px -50px
+}
+
+.listing-page .linklisting .thing.linkflair-codchamps:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #1f6192 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-codchamps:hover {
+  background-color: #222!important;
+  border-left: 3px #1f6192 solid!important
+}
+
+.thing.linkflair-dogecoin a.thumbnail {
+  background-position: -150px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-dogecoin:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #ba9f33 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-dogecoin:hover {
+  background-color: #222!important;
+  border-left: 3px #ba9f33 solid!important
+}
+
+.thing.linkflair-astro a.thumbnail {
+  background-position: -150px -150px
+}
+
+.thing.linkflair-rumour a.thumbnail {
+  background-position: -150px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-rumour:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #e74c3c solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-rumour:hover {
+  background-color: #222!important;
+  border-left: 3px #e74c3c solid!important
+}
+
+.thing.linkflair-cetv a.thumbnail {
+  background-position: -150px -200px
+}
+
+.listing-page .linklisting .thing.linkflair-cetv:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #282828 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-cetv:hover {
+  background-color: #222!important;
+  border-left: 3px #282828 solid!important
+}
+
+.thing.linkflair-pax a.thumbnail {
+  background-position: -150px -300px
+}
+
+.listing-page .linklisting .thing.linkflair-pax:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #282828 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-pax:hover {
+  background-color: #222!important;
+  border-left: 3px #282828 solid!important
+}
+
+.thing.linkflair-xgames a.thumbnail {
+  background-position: -200px -0
+}
+
+.listing-page .linklisting .thing.linkflair-xgames:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #363636 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-xgames:hover {
+  background-color: #222!important;
+  border-left: 3px #363636 solid!important
+}
+
+.thing.linkflair-gfinity a.thumbnail {
+  background-position: -200px -50px
+}
+
+.listing-page .linklisting .thing.linkflair-gfinity:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #969696 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-gfinity:hover {
+  background-color: #222!important;
+  border-left: 3px #969696 solid!important
+}
+
+.thing.linkflair-umg a.thumbnail {
+  background-position: -200px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-umg:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #969696 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-umg:hover {
+  background-color: #222!important;
+  border-left: 3px #969696 solid!important
+}
+
+.thing.linkflair-aw a.thumbnail {
+  background-position: -200px -150px
+}
+
+.listing-page .linklisting .thing.linkflair-aw:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #969696 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-aw:hover {
+  background-color: #222!important;
+  border-left: 3px #969696 solid!important
+}
+
+.thing.linkflair-eswc a.thumbnail {
+  background-position: -250px -0
+}
+
+.listing-page .linklisting .thing.linkflair-eswc:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #0079e6 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-eswc:hover {
+  background-color: #222!important;
+  border-left: 3px #0079e6 solid!important
+}
+
+.thing.linkflair-match a.thumbnail {
+  background-position: -250px -50px
+}
+
+.listing-page .linklisting .thing.linkflair-match:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #0079e6 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-match:hover {
+  background-color: #222!important;
+  border-left: 3px #0079e6 solid!important
+}
+
+.thing.linkflair-blackops3 a.thumbnail {
+  background-position: -250px -100px
+}
+
+.listing-page .linklisting .thing.linkflair-blackops3:hover {
+  background-color: #f9f9f9!important;
+  border-left: 3px #000000 solid!important
+}
+
+.res-nightmode .listing-page .linklisting .thing.linkflair-blackops3:hover {
+  background-color: #222!important;
+  border-left: 3px #000000 solid!important
+}
+
+div.arrow {
+  width: 20px!important;
+  margin: 0;
+  height: 20px!important;
+  background-position: -9999px -9999px!important;
+  background-repeat: no-repeat!important;
+  background-image: url(%%vote-sprite%%)!important
+}
+
+div.arrow.up {
+  background-position: 0 0!important
+}
+
+div.arrow.upmod {
+  background-position: -23px 0!important
+}
+
+div.arrow.down {
+  background-position: 0 -26px!important
+}
+
+div.arrow.downmod {
+  background-position: -23px -26px!important
+}
+
+.comment div.arrow.up {
+  margin-bottom: 8px
+}
+
+.comment div.arrow.down {
+  margin-top: 8px
+}
+
+div.arrow.down:hover:before, .comment div.arrow.downmod:hover:before {
+  position: absolute;
+  display: block;
+  z-index: 500;
+  content: "This is not a 'disagree' button. Reserve downvotes for things that add nothing to discussion.";
+  color: white;
+  background-color: #4d95f7;
+  width: 320px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 7px;
+  padding: 5px 8px;
+  text-align: center;
+  border-width: 1px;
+  border-color: #4377d1 #3373e2 #3b65b0;
+  border-style: solid;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.08) 0, rgba(28, 28, 28, 0.13) 100%) #171203;
+  background: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.08) 0, rgba(28, 28, 28, 0.13) 100%) #171203;
+  background: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.08) 0, rgba(28, 28, 28, 0.13) 100%) #171203;
+  background: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.08) 0, rgba(28, 28, 28, 0.13) 100%) #171203;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0, rgba(28, 28, 28, 0.13) 100%) #171203
+}
+
+div.thing div.score {
+  margin: 3px 0;
+  width: 20px;
+  font-size: 9.5px!important;
+  text-align: center!important
+}
+
+.arrow.down {
+  display: none!important
+}
+
+.subscriber .arrow.up {
+  display: block!important
+}
+
+.subscriber .arrow.down {
+  display: block!important
+}
+
+a[href$="user/hubwub"]:before, a[href$="u/hubwub"]:before, a[href$="user/cpennington"]:before, a[href$="u/cpennington"]:before, a[href$="user/synide"]:before, a[href$="u/synide"]:before, a[href$="user/OpTicH3CZ"]:before, a[href$="u/OpTicH3CZ"]:before, a[href$="user/FeaRMoho"]:before, a[href$="u/FeaRMoho"]:before, a[href$="user/JayApex"]:before, a[href$="u/JayApex"]:before, a[href$="user/Synfula"]:before, a[href$="u/Synfula"]:before, a[href$="user/RisePacman"]:before, a[href$="u/RisePacman"]:before, a[href$="user/RickyStacy"]:before, a[href$="u/RickyStacy"]:before, a[href$="user/Kieranfitzz"]:before, a[href$="u/Kieranfitzz"]:before, a[href$="user/JoeLauzonDotCom"]:before, a[href$="u/JoeLauzonDotCom"]:before, a[href$="user/CrsIskatu"]:before, a[href$="u/CrsIskatu"]:before, a[href$="user/RayLyaR"]:before, a[href$="u/RayLyaR"]:before, a[href$="user/monksyman9"]:before, a[href$="u/monksyman9"]:before, a[href$="user/AttachCoD"]:before, a[href$="u/AttachCoD"]:before, a[href$="user/Stun552"]:before, a[href$="u/Stun552"]:before, a[href$="user/EGMrX"]:before, a[href$="u/EGMrX"]:before, a[href$="user/jbass698"]:before, a[href$="u/jbass698"]:before, a[href$="user/te_speedy"]:before, a[href$="u/te_speedy"]:before, a[href$="user/sellmate"]:before, a[href$="u/sellmate"]:before, a[href$="user/ESLqntm"]:before, a[href$="u/ESLqntm"]:before, a[href$="user/shane_lp"]:before, a[href$="u/shane_lp"]:before, a[href$="user/TOMMEYJT"]:before, a[href$="u/TOMMEYJT"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/bigsnackks"]:before, a[href$="u/bigsnackks"]:before, a[href$="user/EnableIan"]:before, a[href$="u/EnableIan"]:before, a[href$="user/Mcondrey"]:before, a[href$="u/Mcondrey"]:before, a[href$="user/EGCrimsix"]:before, a[href$="u/EGCrimsix"]:before, a[href$="user/Jaaaan"]:before, a[href$="u/Jaaaan"]:before, a[href$="user/AlessandroR"]:before, a[href$="u/AlessandroR"]:before, a[href$="user/FearCrad"]:before, a[href$="u/FearCrad"]:before, a[href$="user/HazardTV"]:before, a[href$="u/HazardTV"]:before, a[href$="user/-Swanny"]:before, a[href$="u/-Swanny"]:before, a[href$="user/Sundanced"]:before, a[href$="u/Sundanced"]:before, a[href$="user/Bio-Acid"]:before, a[href$="u/Bio-Acid"]:before, a[href$="user/CrsBlevdog"]:before, a[href$="u/CrsBlevdog"]:before, a[href$="user/letsgohome86"]:before, a[href$="u/letsgohome86"]:before, a[href$="user/RevanJB"]:before, a[href$="u/RevanJB"]:before, a[href$="user/Clay792"]:before, a[href$="u/Clay792"]:before, a[href$="user/rlxthegreat"]:before, a[href$="u/rlxthegreat"]:before, a[href$="user/UNiTE_Jasen"]:before, a[href$="u/UNiTE_Jasen"]:before, a[href$="user/UNiTE_Dan"]:before, a[href$="u/UNiTE_Dan"]:before, a[href$="user/coLMrX"]:before, a[href$="u/coLMrX"]:before, a[href$="user/TeePeeCoD"]:before, a[href$="u/TeePeeCoD"]:before, a[href$="user/PATTYCACHES"]:before, a[href$="u/PATTYCACHES"]:before, a[href$="user/coL-CSIX"]:before, a[href$="u/coL-CSIX"]:before, a[href$="user/MrMLGAdam"]:before, a[href$="u/MrMLGAdam"]:before, a[href$="user/ChanceMLG"]:before, a[href$="u/ChanceMLG"]:before, a[href$="user/GoldenboyFTW"]:before, a[href$="u/GoldenboyFTW"]:before, a[href$="user/BrianSaintt"]:before, a[href$="u/BrianSaintt"]:before, a[href$="user/nadeshot"]:before, a[href$="u/nadeshot"]:before, a[href$="user/schillez"]:before, a[href$="u/schillez"]:before, a[href$="user/Hollow_sB"]:before, a[href$="u/Hollow_sB"]:before, a[href$="user/Tartopome"]:before, a[href$="u/Tartopome"]:before, a[href$="user/eMeRiKa13"]:before, a[href$="u/eMeRiKa13"]:before, a[href$="user/YonnYonn"]:before, a[href$="u/YonnYonn"]:before, a[href$="user/Slashered"]:before, a[href$="u/Slashered"]:before, a[href$="user/Drift0r"]:before, a[href$="u/Drift0r"]:before, a[href$="user/mrfarly"]:before, a[href$="u/mrfarly"]:before, a[href$="user/CrsNameless"]:before, a[href$="u/CrsNameless"]:before, a[href$="user/muddawg"]:before, a[href$="u/muddawg"]:before, a[href$="user/Chewwy94"]:before, a[href$="u/Chewwy94"]:before, a[href$="user/Bricetacular"]:before, a[href$="u/Bricetacular"]:before, a[href$="user/Crsblevdog"]:before, a[href$="u/Crsblevdog"]:before, a[href$="user/APIce"]:before, a[href$="u/APIce"]:before, a[href$="user/Wi5dom12"]:before, a[href$="u/Wi5dom12"]:before, a[href$="user/fwiz"]:before, a[href$="u/fwiz"]:before, a[href$="user/AntMethodz"]:before, a[href$="u/AntMethodz"]:before, a[href$="user/iCn_Quest"]:before, a[href$="u/iCn_Quest"]:before, a[href$="user/SoaRMethodz"]:before, a[href$="u/SoaRMethodz"]:before, a[href$="user/benbowe100"]:before, a[href$="u/benbowe100"]:before, a[href$="user/iloveFPS"]:before, a[href$="u/iloveFPS"]:before, a[href$="user/coLKarma"]:before, a[href$="u/coLKarma"]:before, a[href$="user/PHiZZURP"]:before, a[href$="u/PHiZZURP"]:before, a[href$="user/MLGPuckett"]:before, a[href$="u/MLGPuckett"]:before, a[href$="user/John287"]:before, a[href$="u/John287"]:before, a[href$="user/NotTheFakeJKap"]:before, a[href$="u/NotTheFakeJKap"]:before, a[href$="user/SinfuL-"]:before, a[href$="u/SinfuL-"]:before, a[href$="user/OMGLove"]:before, a[href$="u/OMGLove"]:before, a[href$="user/AcidOli"]:before, a[href$="u/AcidOli"]:before, a[href$="user/Mr_NameLeSs"]:before, a[href$="u/Mr_NameLeSs"]:before, a[href$="user/AnthonyMethodz"]:before, a[href$="u/AnthonyMethodz"]:before, a[href$="user/FBogre2"]:before, a[href$="u/FBogre2"]:before, a[href$="user/SCOTTJORGENSEN"]:before, a[href$="u/SCOTTJORGENSEN"]:before, a[href$="user/Gfinity"]:before, a[href$="u/Gfinity"]:before, a[href$="user/MLGColey"]:before, a[href$="u/MLGColey"]:before, a[href$="user/Revzzz"]:before, a[href$="u/Revzzz"]:before, a[href$="user/iCheeto"]:before, a[href$="u/iCheeto"]:before, a[href$="user/ScottGandhii"]:before, a[href$="u/ScottGandhii"]:before, a[href$="user/Hitchariide"]:before, a[href$="u/Hitchariide"]:before, a[href$="user/NotParasite"]:before, a[href$="u/NotParasite"]:before, a[href$="user/MBoZe"]:before, a[href$="u/MBoZe"]:before, a[href$="user/WhoisRob"]:before, a[href$="u/WhoisRob"]:before, a[href$="user/FB_Snip3down"]:before, a[href$="u/FB_Snip3down"]:before, a[href$="user/agermanguy"]:before, a[href$="u/agermanguy"]:before, a[href$="user/smitingfatty"]:before, a[href$="u/smitingfatty"]:before, a[href$="user/whea7s"]:before, a[href$="u/whea7s"]:before, a[href$="user/SpaceLyNJ"]:before, a[href$="u/SpaceLyNJ"]:before, a[href$="user/Miyagisaur"]:before, a[href$="u/Miyagisaur"]:before, a[href$="user/CurseCable"]:before, a[href$="u/CurseCable"]:before, a[href$="user/TheGinjaNinja6828"]:before, a[href$="u/TheGinjaNinja6828"]:before, a[href$="user/EZGamingEvents"]:before, a[href$="u/EZGamingEvents"]:before, a[href$="user/CrsMochila"]:before, a[href$="u/CrsMochila"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Tipsy93"]:before, a[href$="u/Tipsy93"]:before, a[href$="user/hastr0"]:before, a[href$="u/hastr0"]:before, a[href$="user/yoPittsburgh"]:before, a[href$="u/yoPittsburgh"]:before, a[href$="user/BrianPRPLXD"]:before, a[href$="u/BrianPRPLXD"]:before, a[href$="user/RogueLv"]:before, a[href$="u/RogueLv"]:before, a[href$="user/j0kr555"]:before, a[href$="u/j0kr555"]:before, a[href$="user/clairejeepchick"]:before, a[href$="u/clairejeepchick"]:before, a[href$="user/UGCevents"]:before, a[href$="u/UGCevents"]:before, a[href$="user/Kingdom_Soldier"]:before, a[href$="u/Kingdom_Soldier"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Maven285"]:before, a[href$="u/Maven285"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/UMGChris"]:before, a[href$="u/UMGChris"]:before, a[href$="user/BsportJoshh"]:before, a[href$="u/BsportJoshh"]:before, a[href$="user/EGDKarma"]:before, a[href$="u/EGDKarma"]:before, a[href$="user/RealizeEU"]:before, a[href$="u/RealizeEU"]:before, a[href$="user/EDiehlReadyUpGmng"]:before, a[href$="u/EDiehlReadyUpGmng"]:before, a[href$="user/ApathyCoD"]:before, a[href$="u/ApathyCoD"]:before, a[href$="user/MLGIlir"]:before, a[href$="u/MLGIlir"]:before, a[href$="user/fobindianman"]:before, a[href$="u/fobindianman"]:before, a[href$="user/MLGRon"]:before, a[href$="u/MLGRon"]:before, a[href$="user/MLGBradley"]:before, a[href$="u/MLGBradley"]:before, a[href$="user/Brocco-"]:before, a[href$="u/Brocco-"]:before, a[href$="user/Snxwe"]:before, a[href$="u/Snxwe"]:before, a[href$="user/FuzzyOtterBalls"]:before, a[href$="u/FuzzyOtterBalls"]:before, a[href$="user/xiSerbia"]:before, a[href$="u/xiSerbia"]:before, a[href$="user/samzorzSH"]:before, a[href$="u/samzorzSH"]:before, a[href$="user/BuZZZO"]:before, a[href$="u/BuZZZO"]:before, a[href$="user/CptSwizz"]:before, a[href$="u/CptSwizz"]:before, a[href$="user/Peatiee"]:before, a[href$="u/Peatiee"]:before, a[href$="user/MarkyBCoD"]:before, a[href$="u/MarkyBCoD"]:before, a[href$="user/Zoomaaa"]:before, a[href$="u/Zoomaaa"]:before, a[href$="user/mlgkc"]:before, a[href$="u/mlgkc"]:before, a[href$="user/FroZnRay"]:before, a[href$="u/FroZnRay"]:before, a[href$="user/ringokid"]:before, a[href$="u/ringokid"]:before, a[href$="user/OrbitWanted"]:before, a[href$="u/OrbitWanted"]:before, a[href$="user/Orbit_ZeBrain"]:before, a[href$="u/Orbit_ZeBrain"]:before, a[href$="user/EuropeanGamingLeague"]:before, a[href$="u/EuropeanGamingLeague"]:before, a[href$="user/OpTicMiDNiTE"]:before, a[href$="u/OpTicMiDNiTE"]:before, a[href$="user/Sharp_tK"]:before, a[href$="u/Sharp_tK"]:before, a[href$="user/TheTurboShow"]:before, a[href$="u/TheTurboShow"]:before, a[href$="user/iSowerz"]:before, a[href$="u/iSowerz"]:before, a[href$="user/Crimsux"]:before, a[href$="u/Crimsux"]:before, a[href$="user/UMGmatt"]:before, a[href$="u/UMGmatt"]:before, a[href$="user/RAGEDuffMan"]:before, a[href$="u/RAGEDuffMan"]:before, a[href$="user/Affentod"]:before, a[href$="u/Affentod"]:before, a[href$="user/MyNamesNotNathan"]:before, a[href$="u/MyNamesNotNathan"]:before, a[href$="user/Iamneslo"]:before, a[href$="u/Iamneslo"]:before, a[href$="user/yoBundo"]:before, a[href$="u/yoBundo"]:before, a[href$="user/LambzyJM"]:before, a[href$="u/LambzyJM"]:before, a[href$="user/ottersareneat"]:before, a[href$="u/ottersareneat"]:before, a[href$="user/MerK_nV"]:before, a[href$="u/MerK_nV"]:before, a[href$="user/ChrisTunn"]:before, a[href$="u/ChrisTunn"]:before, a[href$="user/evensides"]:before, a[href$="u/evensides"]:before, a[href$="user/ivscourage"]:before, a[href$="u/ivscourage"]:before, a[href$="user/RealFears"]:before, a[href$="u/RealFears"]:before, a[href$="user/RealLegal"]:before, a[href$="u/RealLegal"]:before, a[href$="user/DenialKross"]:before, a[href$="u/DenialKross"]:before, a[href$="user/AEL_CJ"]:before, a[href$="u/AEL_CJ"]:before, a[href$="user/MrEmceec"]:before, a[href$="u/MrEmceec"]:before, a[href$="user/NakeeeZe"]:before, a[href$="u/NakeeeZe"]:before, a[href$="user/StarClutch"]:before, a[href$="u/StarClutch"]:before, a[href$="user/ACLPro"]:before, a[href$="u/ACLPro"]:before, a[href$="user/mattmrx"]:before, a[href$="u/mattmrx"]:before, a[href$="user/hojuuuu"]:before, a[href$="u/hojuuuu"]:before, a[href$="user/rambo_nv"]:before, a[href$="u/rambo_nv"]:before {
+  content: url(%%verif%%);
+  position: relative;
+  right: -4px;
+  bottom: -4px;
+  margin-right: 8px
+}
+
+a[href$="user/ytupcoming"]:before, a[href$="u/ytupcoming"]:before, a[href$="user/SH8HZ"]:before, a[href$="u/SH8HZ"]:before, a[href$="user/Takeoverkyle"]:before, a[href$="u/Takeoverkyle"]:before, a[href$="user/Sjchuter"]:before, a[href$="u/Sjchuter"]:before, a[href$="user/kaedak"]:before, a[href$="u/kaedak"]:before, a[href$="user/shuggadugga"]:before, a[href$="u/shuggadugga"]:before, a[href$="user/bigdawg_89"]:before, a[href$="u/bigdawg_89"]:before, a[href$="user/J2theP30"]:before, a[href$="u/J2theP30"]:before, a[href$="user/TheTimidDonut"]:before, a[href$="u/TheTimidDonut"]:before, a[href$="user/andytreck"]:before, a[href$="u/andytreck"]:before, a[href$="user/andytreck"]:before, a[href$="u/andytreck"]:before, a[href$="user/gibbymanx"]:before, a[href$="u/gibbymanx"]:before, a[href$="user/kydru"]:before, a[href$="u/kydru"]:before, a[href$="user/f41lurizer"]:before, a[href$="u/f41lurizer"]:before, a[href$="user/ljbrock"]:before, a[href$="u/ljbrock"]:before, a[href$="user/CoDStats"]:before, a[href$="u/CoDStats"]:before, a[href$="user/Quyaz"]:before, a[href$="u/Quyaz"]:before, a[href$="user/Rideout1234"]:before, a[href$="u/Rideout1234"]:before, a[href$="user/Bpsmooth"]:before, a[href$="u/Bpsmooth"]:before, a[href$="user/FavoriteCereal"]:before, a[href$="u/FavoriteCereal"]:before {
+  content: url(%%stats-team%%);
+  position: relative;
+  bottom: -4px;
+  margin-right: 8px
+}
+
+div.sheets div.col textarea {
+  width: 1000px!important
+}
+
+.midcol {
+  margin-right: 5px!important
+}
+
+.comment .midcol {
+  width: 20px
+}
+
+.link .usertext .md {
+  padding: 7px 8px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 2px
+}
+
+.flairoptionpane .linkflairlabel {
+  color: black!important;
+  display: inline-block
+}
+
+div.content div.sitetable div.thing.link {
+  background: white;
+  padding: 10px 20px 10px 0;
+  margin: 0 0 -3px 0!important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.wiki-page .wiki-page-content .md {
+  max-width: 1470px!important
+}
+
+.wiki-page .wiki-page-content .md.wiki p {
+  margin: .75em 0;
+  text-align: justify;
+  max-width: 850px!important
+}
+
+a[href$="user/hubwub"]:before, a[href$="u/hubwub"]:before, a[href$="user/jgmcelwain"]:before, a[href$="u/jgmcelwain"]:before, a[href$="user/IFAPTOACHES"]:before, a[href$="u/IFAPTOACHES"]:before {
+  content: url(%%kingjamie%%);
+  position: relative;
+  right: -4px;
+  bottom: -4px;
+  margin-right: 8px
+}
+
+.tagline .moderator:after {
+  content: "oderator"
+}
+
+a.author.moderator:after {
+  content: ""
+}
+
+a[href$="user/CoDCompBot"]:before, a[href$="u/CoDCompBot"]:before, a[href$="user/CoDEvents"]:before, a[href$="u/CoDEvents"]:before {
+  content: url(%%botflair%%);
+  position: relative;
+  right: -4px;
+  bottom: -4px;
+  margin-right: 8px
+}
+
+.tagline .submitter:after {
+  content: "ubmitter"
+}
+
+a.author.submitter:after {
+  content: ""
+}
+
+.tagline .friend:after {
+  content: "riend"
+}
+
+a.author.friend:after {
+  content: ""
+}
+
+.comment .md h5+h4+h6+p, .comment .md h5+h4+h6+p+p, .comment .md h5+h4+h6+p+p+table, .comment .md h5+h4+h6+p+p+table+hr, .comment .md h5+h4+h6+p+p+table+hr+p, .comment .md h5+h4+h6+p+p+table+hr+p+p, .comment .md h5+h4+h6+p+p+table+hr+p+p+p {
+  display: none
+}
+
+.comment .md:hover h5+h4+h6+p, .comment .md:hover h5+h4+h6+p+p, .comment .md:hover h5+h4+h6+p+p+table, .comment .md:hover h5+h4+h6+p+p+table+hr, .comment .md:hover h5+h4+h6+p+p+table+hr+p, .comment .md:hover h5+h4+h6+p+p+table+hr+p+p, .comment .md:hover h5+h4+h6+p+p+table+hr+p+p+p {
+  display: block
+}
+
+.comment .md h5+h4+h6:after {
+  content: "Timezones converted. Hover to view";
+  background-image: url(%%st-logo-v3%%);
+  background-repeat: no-repeat;
+  padding-left: 20px
+}
+
+.comment .md:hover h5+h4+h6:after {
+  content: ""
+}
+
+.commentarea .usertext-edit textarea {
+  background: url(%%comment%%) no-repeat 0 0
+}
+
+.commentarea>.usertext textarea:focus {
+  background-position: -504px -104px
+}
+
+.commentarea .usertext-edit textarea {
+  background: url(%%comment%%) no-repeat 0 0
+}
+
+.commentarea .usertext-edit textarea:active, .commentarea .usertext-edit textarea:focus {
+  background: transparent
+}
+
+.roundfield-content>.usertext textarea {
+  background-image: url(%%comment%%);
+  background-repeat: no-repeat;
+  border: 1px solid #ccc
+}
+
+.roundfield-content>.usertext textarea:focus {
+  background-position: -504px -104px
+}
+
+a[href$="user/BorchNugget"]:before, a[href$="u/BorchNugget"]:before, a[href$="user/xSchmoopy"]:before, a[href$="u/xSchmoopy"]:before, a[href$="user/Grimey722"]:before, a[href$="u/Grimey722"]:before, a[href$="user/Dipcone"]:before, a[href$="u/Dipcone"]:before {
+  content: url(%%trophy%%);
+  position: relative;
+  right: -4px;
+  bottom: -4px;
+  margin-right: 8px
+}
+
+.side th {
+  background-color: white;
+  margin: 10px 0 10px 1px
+}
+
+.side .md table td {
+  border-top: 1px solid #cccacc;
+  border-left: 1px solid #cccacc;
+  border-bottom: 1px solid #cccacc;
+  border-right: 1px solid #cccacc;
+  padding: 0 2px;
+  vertical-align: middle;
+  font-size: x-small;
+  font-weight: lighter;
+  letter-spacing: .5px;
+  color: #000
+}
+
+.md table tr:hover {
+  background-color: #c8dff2!important
+}
+
+.md table a {
+  border: 0;
+  position: relative;
+  bottom: 0;
+  color: #0645ad
+}
+
+.md table a:hover {
+  color: #4ea7ff
+}
+
+div.content .md table tr:hover {
+  background-color: transparent
+}
+
+div.content .md table a {
+  bottom: 0
+}
+
+.side a[href*='#team'] {
+  display: inline-block;
+  position: relative;
+  width: 148px;
+  margin-top: 2px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #4e4ea1
+}
+
+html:lang(re) .link:not(.linkflair-team) {
+  display: none
+}
+
+.side a[href*='#fl'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #f93
+}
+
+html:lang(fl) .linkflair-fluff {
+  display: none
+}
+
+.side a[href*='#pax'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 0;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #297dbc
+}
+
+.side a[href*='#question'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #96bb54
+}
+
+html:lang(zq) .linkflair-question {
+  display: none
+}
+
+.side a[href*='#media'] {
+  display: inline-block;
+  position: relative;
+  width: 148px;
+  margin-top: 2px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: white!important;
+  font-weight: bold;
+  background: #374452
+}
+
+html:lang(me) .linkflair-weekly {
+  display: none
+}
+
+html:lang(me) .linkflair-aw {
+  display: none
+}
+
+html:lang(me) .linkflair-stats {
+  display: none
+}
+
+html:lang(me) .linkflair-umg {
+  display: none
+}
+
+html:lang(me) .linkflair-tweet {
+  display: none
+}
+
+html:lang(me) .linkflair-event {
+  display: none
+}
+
+html:lang(me) .linkflair-dis {
+  display: none
+}
+
+html:lang(me) .linkflair-question {
+  display: none
+}
+
+html:lang(me) .linkflair-win {
+  display: none
+}
+
+html:lang(me) .linkflair-meta {
+  display: none
+}
+
+html:lang(me) .linkflair-fluff {
+  display: none
+}
+
+html:lang(me) .linkflair-article {
+  display: none
+}
+
+html:lang(me) .linkflair-ama {
+  display: none
+}
+
+html:lang(me) .linkflair-news {
+  display: none
+}
+
+html:lang(me) .linkflair-trashtalkthread {
+  display: none
+}
+
+html:lang(me) .linkflair-psa {
+  display: none
+}
+
+html:lang(me) .linkflair-team {
+  display: none
+}
+
+html:lang(me) .linkflair-twitch {
+  display: none
+}
+
+html:lang(me) .linkflair-mlg {
+  display: none
+}
+
+html:lang(me) .linkflair-iw {
+  display: none
+}
+
+html:lang(me) .linkflair-ghosts {
+  display: none
+}
+
+html:lang(me) .linkflair-codchamps {
+  display: none
+}
+
+html:lang(me) .linkflair-rumour {
+  display: none
+}
+
+html:lang(me) .linkflair-astro {
+  display: none
+}
+
+html:lang(me) .linkflair-gfinity {
+  display: none
+}
+
+html:lang(me) .linkflair-match {
+  display: none
+}
+
+.side a[href*='#tweet'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #55acee
+}
+
+html:lang(zt) .linkflair-tweet {
+  display: none
+}
+
+.side a[href*='#gifoff'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: black!important;
+  font-weight: bold;
+  background: #ffea00
+}
+
+html:lang(ba) .linkflair-gif {
+  display: none
+}
+
+html:lang(ba) .linkflair-top5 {
+  display: none
+}
+
+.side a[href*='#gifon'] {
+  display: inline-block;
+  position: relative;
+  margin-top: 2px;
+  width: 148px;
+  border: 2px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  padding: 3px;
+  color: white!important;
+  font-weight: bold;
+  background: #af2020
+}
+
+html:lang(fd) .linkflair-weekly {
+  display: none
+}
+
+html:lang(fd) .linkflair-tweet {
+  display: none
+}
+
+html:lang(fd) .linkflair-vid {
+  display: none
+}
+
+html:lang(fd) .linkflair-event {
+  display: none
+}
+
+html:lang(fd) .linkflair-dis {
+  display: none
+}
+
+html:lang(fd) .linkflair-win {
+  display: none
+}
+
+html:lang(fd) .linkflair-meta {
+  display: none
+}
+
+html:lang(fd) .linkflair-fluff {
+  display: none
+}
+
+html:lang(fd) .linkflair-article {
+  display: none
+}
+
+html:lang(fd) .linkflair-ama {
+  display: none
+}
+
+html:lang(fd) .linkflair-news {
+  display: none
+}
+
+html:lang(fd) .linkflair-pic {
+  display: none
+}
+
+html:lang(fd) .linkflair-trashtalkthread {
+  display: none
+}
+
+html:lang(fd) .linkflair-psa {
+  display: none
+}
+
+html:lang(fd) .linkflair-team {
+  display: none
+}
+
+html:lang(fd) .linkflair-twitch {
+  display: none
+}
+
+html:lang(fd) .linkflair-mlg {
+  display: none
+}
+
+html:lang(fd) .linkflair-iw {
+  display: none
+}
+
+html:lang(fd) .linkflair-ghosts {
+  display: none
+}
+
+html:lang(fd) .linkflair-codchamps {
+  display: none
+}
+
+html:lang(fd) .linkflair-rumour {
+  display: none
+}
+
+html:lang(fd) .linkflair-astro {
+  display: none
+}
+
+html:lang(fd) .linkflair-gfinity {
+  display: none
+}
+
+html:lang(fd) .linkflair-umg {
+  display: none
+}
+
+html:lang(fd) .linkflair-aw {
+  display: none
+}
+
+html:lang(fd) .linkflair-stats {
+  display: none
+}
+
+html:lang(fd) .linkflair-question {
+  display: none
+}
+
+.midcol {
+  width: 27px!important
+}
+
+.comment .midcol {
+  width: 25px!important
+}
+
+.thing .upmod:focus:after {
+  content: "+100";
+  position: absolute;
+  display: inline-block;
+  font-family: "BankGothic", "Bank Gothic", "Bank Gothic Bold", sans-serif;
+  font-size: 6px;
+  letter-spacing: -1px;
+  text-align: middle;
+  color: #e9e956;
+  text-shadow: 0 1px #808037, 0 0 12px rgba(0, 0, 0, 0.45);
+  animation: upvote 2s linear;
+  -webkit-animation: upvote 2s linear;
+  opacity: 0;
+  z-index: 1;
+  margin-top: -15px;
+  margin-left: -2px
+}
+
+@keyframes upvote {
+  0 {
+    opacity: 1;
+    font-size: 6px;
+    margin-top: -15px;
+    margin-left: -2px
+  }
+  7% {
+    opacity: 1;
+    font-size: 42px;
+    margin-top: -36px;
+    margin-left: -57px
+  }
+  12% {
+    opacity: 1;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+  80% {
+    opacity: 1;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+  100% {
+    opacity: 0;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+}
+
+@-webkit-keyframes upvote {
+  0 {
+    opacity: 1;
+    font-size: 6px;
+    margin-top: -15px;
+    margin-left: -2px
+  }
+  7% {
+    opacity: 1;
+    font-size: 42px;
+    margin-top: -36px;
+    margin-left: -57px
+  }
+  12% {
+    opacity: 1;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+  80% {
+    opacity: 1;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+  100% {
+    opacity: 0;
+    font-size: 18px;
+    margin-top: -21px;
+    margin-left: -20px
+  }
+}
+
+.arrow.upmod:focus {
+  animation: hitmarker 1s linear;
+  -webkit-animation: hitmarker 1s linear
+}
+
+@keyframes hitmarker {
+  0 {
+    background: url(%%hitmarker%%)
+  }
+  25% {
+    background: url(%%hitmarker%%)
+  }
+  40% {
+    background: url(%%hitmarker%%)
+  }
+}
+
+@-webkit-keyframes hitmarker {
+  0 {
+    background: url(%%hitmarker%%)
+  }
+  25% {
+    background: url(%%hitmarker%%)
+  }
+  40% {
+    background: url(%%hitmarker%%)
+  }
+}
+
+body:lang(np):not(.subscriber) .arrow {
+  visibility: hidden!important
+}
+
+body:lang(np):not(.subscriber) .usertext-edit, body:lang(np):not(.subscriber) .sidebox.submit, body:lang(np):not(.subscriber) .commentingAs, body:lang(np):not(.subscriber) .markdownEditor, body:lang(np):not(.subscriber) a[onclick*="return reply(this)"], body:lang(np):not(.subscriber) .subButtons, body:lang(np):not(.subscriber) .helplink, body:lang(np):not(.subscriber) .titlebox .fancy-toggle-button.toggle>.option.add {
+  display: none!important
+}
+
+body:lang(np):not(.subscriber) #siteTable:before {
+  content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+  display: block;
+  max-width: 800px;
+  background-color: #f6e69f;
+  padding: 5px 10px;
+  margin: 5px 305px 5px 0;
+  border: 1px solid orange;
+  font-size: small
+}
+
+body:lang(np):not(.subscriber) .entry.likes:not(.reddit-entry):before, body:lang(np):not(.subscriber) .entry.dislikes:not(.reddit-entry):before {
+  content: "Please do not vote or comment when you come from external subreddits.";
+  color: red;
+  font-size: large;
+  font-weight: bold
+}
+
+body.wiki-page:lang(np):not(.subscriber) span.pageactions a.wikiaction-edit:not(.wikiaction-current), body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform label[for='reason'], body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input#wiki_revision_reason, body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input[type='submit'] {
+  display: none!important
+}
+
+.linkflair-match div div.expando {
+  width: auto
+}
+
+.linkflair-match.link div.md {
+  margin: 0 auto
+}
+
+.linkflair-match.link div.md table {
+  width: 100%;
+  padding: 0;
+  margin: 0
+}
+
+.linkflair-match.link div.md td, .linkflair-match.link div.md th {
+  border: 0;
+  padding: 5px
+}
+
+.linkflair-match.link div div.expando hr {
+  display: none
+}
+
+.linkflair-match.link div div.expando hr+p {
+  overflow: hidden;
+  position: relative
+}
+
+.linkflair-match.link a[href$="#vs"], .linkflair-match.link a[href$="#at"] {
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin-left: -8px;
+  top: 32px;
+  color: #ccc!important
+}
+
+.linkflair-match.link a[href$="#teama"], .linkflair-match.link a[href$="#teamb"] {
+  display: block;
+  font-size: 16px;
+  color: #333!important;
+  line-height: 80px!important
+}
+
+.linkflair-match.link a[href$="#teama"] {
+  float: left
+}
+
+.linkflair-match.link a[href$="#teamb"] {
+  float: right
+}
+
+.linkflair-match.link a[href$="#teama"]:after, .linkflair-match.link a[href$="#teamb"]:before {
+  display: block;
+  height: 80px;
+  width: 80px;
+  background: url(%%logos-80x80%%) 0 -2480px;
+  content: ""
+}
+
+.linkflair-match.link a[href$="#teama"]:after {
+  float: left;
+  margin: 0 10px 0 0
+}
+
+.linkflair-match.link a[href$="#teamb"]:before {
+  float: right;
+  margin: 0 0 0 10px
+}
+
+.linkflair-match.link a[href^="#3sup#"]:after, .linkflair-match.link a[href^="#3sup#"]:before {
+  background-position: 0 0
+}
+
+.linkflair-match.link a[href^="#ar#"]:after, .linkflair-match.link a[href^="#ar#"]:before {
+  background-position: 0 -80px
+}
+
+.linkflair-match.link a[href^="#bz#"]:after, .linkflair-match.link a[href^="#bz#"]:before {
+  background-position: 0 -160px
+}
+
+.linkflair-match.link a[href^="#denial#"]:after, .linkflair-match.link a[href^="#denial#"]:before {
+  background-position: 0 -240px
+}
+
+.linkflair-match.link a[href^="#fazeblack#"]:after, .linkflair-match.link a[href^="#fazeblack#"]:before {
+  background-position: 0 -320px
+}
+
+.linkflair-match.link a[href^="#faze#"]:after, .linkflair-match.link a[href^="#faze#"]:before {
+  background-position: 0 -400px
+}
+
+.linkflair-match.link a[href^="#optic#"]:after, .linkflair-match.link a[href^="#optic#"]:before {
+  background-position: 0 -480px
+}
+
+.linkflair-match.link a[href^="#opticnation#"]:after, .linkflair-match.link a[href^="#opticnation#"]:before {
+  background-position: 0 -560px
+}
+
+.linkflair-match.link a[href^="#orbit#"]:after, .linkflair-match.link a[href^="#orbit#"]:before {
+  background-position: 0 -640px
+}
+
+.linkflair-match.link a[href^="#proph#"]:after, .linkflair-match.link a[href^="#proph#"]:before {
+  background-position: 0 -720px
+}
+
+.linkflair-match.link a[href^="#nv#"]:after, .linkflair-match.link a[href^="#nv#"]:before {
+  background-position: 0 -800px
+}
+
+.linkflair-match.link a[href^="#tk#"]:after, .linkflair-match.link a[href^="#tk#"]:before {
+  background-position: 0 -880px
+}
+
+.linkflair-match.link a[href^="#revenge#"]:after, .linkflair-match.link a[href^="#revenge#"]:before {
+  background-position: 0 -960px
+}
+
+.linkflair-match.link a[href^="#sb#"]:after, .linkflair-match.link a[href^="#sb#"]:before {
+  background-position: 0 -1040px
+}
+
+.linkflair-match.link a[href^="#vitality#"]:after, .linkflair-match.link a[href^="#vitality#"]:before {
+  background-position: 0 -1120px
+}
+
+.linkflair-match.link a[href^="#underratix#"]:after, .linkflair-match.link a[href^="#underratix#"]:before {
+  background-position: 0 -1200px
+}
+
+.linkflair-match.link a[href^="#menace#"]:after, .linkflair-match.link a[href^="#menace#"]:before {
+  background-position: 0 -1280px
+}
+
+.linkflair-match.link a[href^="#infused#"]:after, .linkflair-match.link a[href^="#infused#"]:before {
+  background-position: 0 -1360px
+}
+
+.linkflair-match.link a[href^="#tcm#"]:after, .linkflair-match.link a[href^="#tcm#"]:before {
+  background-position: 0 -1440px
+}
+
+.linkflair-match.link a[href^="#rapid#"]:after, .linkflair-match.link a[href^="#rapid#"]:before {
+  background-position: 0 -1520px
+}
+
+.linkflair-match.link a[href^="#klar1ty#"]:after, .linkflair-match.link a[href^="#klar1ty#"]:before {
+  background-position: 0 -1600px
+}
+
+.linkflair-match.link a[href^="#hypergames#"]:after, .linkflair-match.link a[href^="#hypergames#"]:before {
+  background-position: 0 -1680px
+}
+
+.linkflair-match.link a[href^="#g2#"]:after, .linkflair-match.link a[href^="#g2#"]:before {
+  background-position: 0 -1760px
+}
+
+.linkflair-match.link a[href^="#fabe#"]:after, .linkflair-match.link a[href^="#fabe#"]:before {
+  background-position: 0 -1840px
+}
+
+.linkflair-match.link a[href^="#epsilon#"]:after, .linkflair-match.link a[href^="#epsilon#"]:before {
+  background-position: 0 -1920px
+}
+
+.linkflair-match.link a[href^="#aware#"]:after, .linkflair-match.link a[href^="#aware#"]:before {
+  background-position: 0 -2000px
+}
+
+.linkflair-match.link a[href^="#ascentia#"]:after, .linkflair-match.link a[href^="#ascentia#"]:before {
+  background-position: 0 -2080px
+}
+
+.linkflair-match.link a[href^="#mindfreak#"]:after, .linkflair-match.link a[href^="#mindfreak#"]:before {
+  background-position: 0 -2160px
+}
+
+.linkflair-match.link a[href^="#t1#"]:after, .linkflair-match.link a[href^="#t1#"]:before {
+  background-position: 0 -2240px
+}
+
+.linkflair-match.link a[href^="#in#"]:after, .linkflair-match.link a[href^="#in#"]:before {
+  background-position: 0 -2320px
+}
+
+.linkflair-match.link a[href^="#ssof#"]:after, .linkflair-match.link a[href^="#ssof#"]:before {
+  background-position: 0 -2400px
+}
+
+.linkflair-match.link a[href^="#codchamps#"]:after, .linkflair-match.link a[href^="#codchamps#"]:before {
+  background-position: 0 -2480px
+}
+
+.linkflair-match.link hr+ul {
+  display: block;
+  min-width: 500px;
+  width: auto;
+  background: #eee;
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+  overflow: hidden
+}
+
+.linkflair-match.link hr+ul li {
+  padding: 0 10px
+}
+
+.linkflair-match.link ul.flat-list {
+  background: t
+}
+
+.linkflair-match.link ul li {
+  list-style: none;
+  margin: 0
+}
+
+.linkflair-match.link hr+ul li:nth-of-type(1) {
+  float: left
+}
+
+.linkflair-match.link hr+ul li:nth-of-type(2) {
+  float: right
+}
