@@ -302,7 +302,7 @@ a.random.choice {
 /* sidebar */
 
 .side {
-  margin: 346px 15px 0px 0px;
+  margin: 375px 15px 0px 0px;
   padding: 0px 16px;
   background-color: #fff;
 }
@@ -530,13 +530,13 @@ body:not(.loggedin) #header-bottom-right {
 /* submit button */
 
 .morelink {
-  top: 300px;
+  top: 307px;
   position: absolute;
   background-color: #fc6701;
   background-image: none!important;
   right: 15px;
   width: 300px;
-  height: 36px;
+  height: 60px;
   border-radius: 0px;
   line-height: 36px;
   border: none;
@@ -559,6 +559,7 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 .morelink a {
+  padding-top: 10px;
   color: #fff!important;
   font-weight: normal;
   font-size: 14px;
@@ -2558,7 +2559,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .search-page .morelink {
-  top: 300px
+  top: 307px
 }
 
 .search-page .searchfacets {
@@ -3479,19 +3480,19 @@ body>.content {
 /* customizations to naut */
 
 .search-page .side {
-  margin-top: 346px!important;
+  margin-top: 375px!important;
 }
 
 .comments-page .side {
-  margin-top: 451px!important;
+  margin-top: 480px!important;
 }
 
 .res .comments-page .side {
-  margin-top: 465px!important;
+  margin-top: 500px!important;
 }
 
 .comments-page .side .linkinfo {
-  margin-top: 145px!important;
+  margin-top: 175px!important;
 }
 
 #header-bottom-left {
