@@ -2860,8 +2860,44 @@ div.commentarea div.RES-keyNav-activeElement .md {
 /* footer */
 
 .footer {
-  border: 0 solid
+  color: #000;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+  border: none;
 }
+.footer-parent {
+  height: 250px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: -25px
+}
+.footer .title {
+  color: #fff;
+  font-size: 21px;
+  padding-bottom: 10px;
+  margin-bottom: 10px
+}
+.footer .col {
+  border-left: none
+}
+.footer a {
+  color: #fff;
+  text-decoration: none !important
+}
+.footer a:hover {
+  color: #e2e2e2
+}
+.buygold {
+  color: #9a7d2e !important;
+  font-weight: normal
+}
+
 /* RES fixes */
 
 #RESShortcuts {
