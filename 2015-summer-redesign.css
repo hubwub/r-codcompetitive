@@ -3644,6 +3644,26 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   content: "";
 }
 
+.side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules"] {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  margin: 0 13px 0 0;
+  color: #000;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules"]:before {
+  background: url(%%sprites%%) 0px -125px;
+  display: block;
+  margin: 10px auto 2px;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+
 .side .usertext-body .md h1+ul li ul {
   display: inline-block;
   padding: 0;
@@ -3674,6 +3694,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   text-align: center;
   letter-spacing: -1px;
   line-height: 15px;
+  text-transform: uppercase;
 }
 
 .side .usertext-body .md h1+ul li ul li:hover a[href$="#date"] {
