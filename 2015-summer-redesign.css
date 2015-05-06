@@ -231,7 +231,7 @@ a.random.choice {
   text-indent: -9999px;
   transition: background 0.25s ease;
   position: relative;
-  top: -35px;
+  top: -40px;
   left: -30px;
   margin-top: -275px;
 }
@@ -1794,7 +1794,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .res .commentarea .thing {
-  padding: 16px 16px 0 14px !important
+  padding: 0px 0px 0px 15px !important
 }
 
 .res .commentarea .entry .flat-list {
@@ -2217,7 +2217,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .comment .midcol .arrow {
-  margin-left: 0;
+  margin-left: -5px;
   margin-bottom: 4px
 }
 
@@ -3606,6 +3606,44 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   content: "";
 }
 
+.side .usertext-body .md h1+ul li a[href$="https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive"] {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  margin: 0 13px 0 0;
+  color: #000;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.side .usertext-body .md h1+ul li a[href$="https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive"]:before {
+  background: url(%%sprites%%) 0px -75px;
+  display: block;
+  margin: 10px auto 2px;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/verified_list"] {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  margin: 0 13px 0 0;
+  color: #000;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/verified_list"]:before {
+  background: url(%%sprites%%) 0px -100px;
+  display: block;
+  margin: 10px auto 2px;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
 .side .usertext-body .md h1+ul li ul {
   display: inline-block;
   padding: 0;
@@ -3782,6 +3820,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 .side .md table {
   background: #fff;
   width: 100%;
+  font-size: 11px!important;
 }
 
 .side .md table thead {
