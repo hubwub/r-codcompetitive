@@ -1,7 +1,7 @@
 /*
 /r/codcompetitive stylesheet
 template: naut 3.2
-last modified: 05/01/2015
+last modified: 05/08/2015
  */
 /* general - links / buttons / inputs */
 
@@ -243,7 +243,7 @@ a.random.choice {
 
 #header-bottom-left {
   position: relative;
-  border-left: 3px #fc6701 solid;
+  border-top: 3px #fc6701 solid;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
   height: 35px;
