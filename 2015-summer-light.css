@@ -13,9 +13,9 @@ last modified: 05/08/2015
 
 body {
   overflow-x: hidden;
-  background: #262626;
-  background: -webkit-linear-gradient(45deg, #262626, #000000);
-  background: linear-gradient(45deg, #262626, #000000) fixed no-repeat;
+  background: #d7d7d7;
+  background: -webkit-linear-gradient(45deg, #d7d7d7, #959595);
+  background: linear-gradient(45deg, #d7d7d7, #959595) fixed no-repeat;
   min-width: 640px;
 }
 
@@ -3568,9 +3568,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   top: 300px;
   left: -40px;
   border-left: none;
-  background: #262626;
-  background: -webkit-linear-gradient(45deg, #262626, #000000);
-  background: linear-gradient(45deg, #262626, #000000) fixed no-repeat;
+  background: transparent;
   min-width: 640px;
   max-height: 60px;
   overflow-x: hidden;
