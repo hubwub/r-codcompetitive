@@ -232,7 +232,7 @@ a.random.choice {
   transition: background 0.25s ease;
   position: relative;
   top: -40px;
-  left: -30px;
+  left: -5px;
   margin-top: -275px;
 }
 
@@ -2867,38 +2867,44 @@ div.commentarea div.RES-keyNav-activeElement .md {
   display: inline-block;
   border: none;
 }
+
 .footer-parent {
-  height: 250px;
-  padding-top: 40px;
+  height: 200px;
+  padding-top: 175px;
   padding-bottom: 80px;
   clear: both;
   text-align: center;
   width: 100%;
+  background-image: url(%%footerbg%%);
   background-position: center center;
   background-repeat: no-repeat;
   margin-bottom: -25px
 }
+
 .footer .title {
   color: #fff;
   font-size: 21px;
   padding-bottom: 10px;
   margin-bottom: 10px
 }
+
 .footer .col {
   border-left: none
 }
+
 .footer a {
   color: #fff;
   text-decoration: none !important
 }
+
 .footer a:hover {
   color: #e2e2e2
 }
+
 .buygold {
   color: #9a7d2e !important;
   font-weight: normal
 }
-
 /* RES fixes */
 
 #RESShortcuts {
@@ -3499,22 +3505,6 @@ body>.content {
   top: 241px;
 }
 /* potw */
-/* .side:before {
-  display: block;
-  position: relative;
-  width: 300px;
-  margin: -6px -16px 18px;
-  border-radius: 4px 4px 0 0;
-  vertical-align: bottom;
-  text-align: center;
-  font-size: 14px;
-  line-height: 26px;
-  color: #fff;
-  background: url(%%potw%%) no-repeat;
-  padding-top: 300px;
-  background-color: #fc6701;
-  content: "/r/codcompetitive redesign";
-} */
 
 .side .titlebox .md h1 {
   padding-left: 0;
@@ -3700,7 +3690,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   content: "";
 }
 
-
 .side .usertext-body .md h1+ul li ul {
   display: inline-block;
   padding: 0;
@@ -3765,6 +3754,54 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 }
 /* announcemnt(s) in header */
 
+.side .titlebox .md h5 {
+  text-align: center;
+  letter-spacing: .5px;
+  font-weight: bold;
+  font-size: 11px!important;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.side .titlebox .md h5 a {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  height: auto;
+  top: 24px;
+  padding: 3px;
+  z-index: 99;
+  border-radius: 0px!important;
+  background-color: #fc6701;
+  color: white !important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
+  transition: background 0.15s ease;
+}
+
+.side .titlebox .md h5 a:hover {
+  background: #F22613;
+}
+
+.side .titlebox .md h5 a:before {
+  position: absolute;
+  margin-left: -15px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  content: "";
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-animation: live 2s ease-out;
+  -moz-animation: live 2s ease-out;
+  animation: live 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  opacity: .25;
+}
+
 .side .titlebox .md h6 {
   position: absolute;
   width: 400px;
@@ -3780,6 +3817,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.25s ease;
+  text-transform: uppercase;
 }
 
 .side .titlebox .md h6 a {
@@ -3977,16 +4015,10 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 /* subreddit name */
 
 .side .redditname {
+  display: none;
   font-size: 0;
 }
 
-.side .redditname:after {
-  padding-left: 25px;
-  font-size: 14px;
-  content: "Welcome to CODCompetitive";
-  text-transform: uppercase;
-  text-align: center;
-}
 /* button fix */
 
 .morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar, .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, .linkflairlabel, .fancy-toggle-button .remove:active .expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
@@ -4017,7 +4049,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background: url(%%spritesheet%%) -3px -140px
 }
 /* link flair */
-
 .linkflairlabel {
   max-width: 28px;
   height: 22px;
@@ -4093,4 +4124,503 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   -ms-transition: background-position .3s ease;
   -o-transition: background-position .3s ease;
   transition: background-position .3s ease;
+}
+/* user flairs */
+/*flair selection*/
+
+.flair {
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: inherit;
+  background-color: transparent;
+  color: #222;
+}
+
+.flairoptionpane .flair-label:before, .flair-empty:before, span.flair.flair-empty, .flairoptionpane .author {
+  display: none
+}
+
+.flairoptionpane .flair:hover {
+  width: auto;
+  border-width: 0;
+  padding: 4px;
+  margin: 0
+}
+
+.flairoptionpane .flair {
+  background: none;
+  border: 0 none;
+  width: auto;
+  border-width: 0
+}
+
+.flairoptionpane li {
+  text-align: left!important;
+  padding: 0;
+  margin-right: 5px;
+  border: 0 none
+}
+
+.flairoptionpane li:hover {
+  background: #fff;
+  border: 0px none
+}
+
+.flairoptionpane li .flair-label {
+  background: #ccc;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 9pt;
+  text-align: center;
+  margin: 0;
+  display: block
+}
+
+.flairselector li.selected {
+  border: 0 none;
+  font-weight: bold
+}
+
+*+html .flair, .flair:hover {
+  width: auto;
+  border-width: 1px;
+  background-color: #fff;
+  padding: 1px 1ex 3px 1px
+}
+
+.flair:before, a[href='#aclpro'], a[href='#ar'], a[href='#ascentia'], a[href='#aus'], a[href='#avantgarde'], a[href='#aware'], a[href='#belgium'], a[href='#brazil'], a[href='#bz'], a[href='#canada'], a[href='#cod4'], a[href='#codaw'], a[href='#codbo'], a[href='#codbo2'], a[href='#codchamps'], a[href='#codghosts'], a[href='#codmw2'], a[href='#codmw3'], a[href='#codwaw'], a[href='#complexity'], a[href='#curse'], a[href='#denial'], a[href='#doesplay'], a[href='#eg'], a[href='#egirlslayers'], a[href='#egl'], a[href='#ego'], a[href='#elevate'], a[href='#england'], a[href='#envyus'], a[href='#epic'], a[href='#epsilon'], a[href='#esl'], a[href='#eswc'], a[href='#eu'], a[href='#exertus'], a[href='#fabe'], a[href='#fariko'], a[href='#faze'], a[href='#fazeblack'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#gamers2'], a[href='#germany'], a[href='#gfinity'], a[href='#hypergames'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#in'], a[href='#infused'], a[href='#ireland'], a[href='#italy'], a[href='#iw'], a[href='#justus'], a[href='#killerfish'], a[href='#klar1ty'], a[href='#lp'], a[href='#menace'], a[href='#mes'], a[href='#mexico'], a[href='#millenium'], a[href='#mindfreak'], a[href='#mlg'], a[href='#netherlands'], a[href='#ni'], a[href='#norway'], a[href='#nz'], a[href='#opticgaming'], a[href='#opticnation'], a[href='#orbit'], a[href='#prophecy'], a[href='#quantic'], a[href='#rapid'], a[href='#rise'], a[href='#russia'], a[href='#sb'], a[href='#scotland'], a[href='#spain'], a[href='#ssof'], a[href='#sweden'], a[href='#tcm'], a[href='#threesup'], a[href='#tk'], a[href='#tr'], a[href='#treyarch'], a[href='#twitch'], a[href='#ugc'], a[href='#uk'], a[href='#umg'], a[href='#underratix'], a[href='#unite'], a[href='#usa'], a[href='#vitality'], a[href='#vvv'], a[href='#wales'], a[href='#xtravagant'] {
+  content: "";
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background-image: url(%%sheet%%);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+/* user flair images */
+
+.flair-aaadefault:before {
+  background-position: -0px -0px
+}
+
+.flair-aclpro:before, a[href='#aclpro'] {
+  background-position: -0px -20px
+}
+
+.flair-ar:before, a[href='#ar'] {
+  background-position: -0px -40px
+}
+
+.flair-ascentia:before, a[href='#ascentia'] {
+  background-position: -0px -60px
+}
+
+.flair-aus:before, a[href='#aus'] {
+  background-position: -0px -80px
+}
+
+.flair-avantgarde:before, a[href='#avantgarde'] {
+  background-position: -0px -100px
+}
+
+.flair-aware:before, a[href='#aware'] {
+  background-position: -0px -120px
+}
+
+.flair-belgium:before, a[href='#belgium'] {
+  background-position: -0px -140px
+}
+
+.flair-brazil:before, a[href='#brazil'] {
+  background-position: -0px -160px
+}
+
+.flair-bz:before, a[href='#bz'] {
+  background-position: -0px -180px
+}
+
+.flair-canada:before, a[href='#canada'] {
+  background-position: -0px -200px
+}
+
+.flair-cod4:before, a[href='#cod4'] {
+  background-position: -0px -220px
+}
+
+.flair-codaw:before, a[href='#codaw'] {
+  background-position: -0px -240px
+}
+
+.flair-codbo:before, a[href='#codbo'] {
+  background-position: -0px -260px
+}
+
+.flair-codbo2:before, a[href='#codbo2'] {
+  background-position: -0px -280px
+}
+
+.flair-codchamps:before, a[href='#codchamps'] {
+  background-position: -0px -300px
+}
+
+.flair-codghosts:before, a[href='#codghosts'] {
+  background-position: -0px -320px
+}
+
+.flair-codmw2:before, a[href='#codmw2'] {
+  background-position: -0px -340px
+}
+
+.flair-codmw3:before, a[href='#codmw3'] {
+  background-position: -0px -360px
+}
+
+.flair-codwaw:before, a[href='#codwaw'] {
+  background-position: -0px -380px
+}
+
+.flair-complexity:before, a[href='#complexity'] {
+  background-position: -0px -400px
+}
+
+.flair-curse:before, a[href='#curse'] {
+  background-position: -0px -420px
+}
+
+.flair-denial:before, a[href='#denial'] {
+  background-position: -0px -440px
+}
+
+.flair-doesplay:before, a[href='#doesplay'] {
+  background-position: -0px -460px
+}
+
+.flair-eg:before, a[href='#eg'] {
+  background-position: -0px -480px
+}
+
+.flair-egirlslayers:before, a[href='#egirlslayers'] {
+  background-position: -0px -500px
+}
+
+.flair-egl:before, a[href='#egl'] {
+  background-position: -0px -520px
+}
+
+.flair-ego:before, a[href='#ego'] {
+  background-position: -0px -540px
+}
+
+.flair-elevate:before, a[href='#elevate'] {
+  background-position: -0px -560px
+}
+
+.flair-england:before, a[href='#england'] {
+  background-position: -0px -580px
+}
+
+.flair-envyus:before, a[href='#envyus'] {
+  background-position: -0px -600px
+}
+
+.flair-epic:before, a[href='#epic'] {
+  background-position: -0px -620px
+}
+
+.flair-epsilon:before, a[href='#epsilon'] {
+  background-position: -0px -640px
+}
+
+.flair-esl:before, a[href='#esl'] {
+  background-position: -0px -660px
+}
+
+.flair-eswc:before, a[href='#eswc'] {
+  background-position: -0px -680px
+}
+
+.flair-eu:before, a[href='#eu'] {
+  background-position: -0px -700px
+}
+
+.flair-exertus:before, a[href='#exertus'] {
+  background-position: -0px -720px
+}
+
+.flair-fabe:before, a[href='#fabe'] {
+  background-position: -0px -740px
+}
+
+.flair-fariko:before, a[href='#fariko'] {
+  background-position: -0px -760px
+}
+
+.flair-faze:before, a[href='#faze'] {
+  background-position: -0px -780px
+}
+
+.flair-fazeblack:before, a[href='#fazeblack'] {
+  background-position: -0px -800px
+}
+
+.flair-fear:before, a[href='#fear'] {
+  background-position: -0px -820px
+}
+
+.flair-finalboss:before, a[href='#finalboss'] {
+  background-position: -0px -840px
+}
+
+.flair-finland:before, a[href='#finland'] {
+  background-position: -0px -860px
+}
+
+.flair-france:before, a[href='#france'] {
+  background-position: -0px -880px
+}
+
+.flair-gamers2:before, a[href='#gamers2'] {
+  background-position: -0px -900px
+}
+
+.flair-germany:before, a[href='#germany'] {
+  background-position: -0px -920px
+}
+
+.flair-gfinity:before, a[href='#gfinity'] {
+  background-position: -0px -940px
+}
+
+.flair-hypergames:before, a[href='#hypergames'] {
+  background-position: -0px -960px
+}
+
+.flair-icons:before, a[href='#icons'] {
+  background-position: -0px -980px
+}
+
+.flair-immunity:before, a[href='#immunity'] {
+  background-position: -0px -1000px
+}
+
+.flair-impact:before, a[href='#impact'] {
+  background-position: -0px -1020px
+}
+
+.flair-in:before, a[href='#in'] {
+  background-position: -0px -1040px
+}
+
+.flair-infused:before, a[href='#infused'] {
+  background-position: -0px -1060px
+}
+
+.flair-ireland:before, a[href='#ireland'] {
+  background-position: -0px -1080px
+}
+
+.flair-italy:before, a[href='#italy'] {
+  background-position: -0px -1100px
+}
+
+.flair-iw:before, a[href='#iw'] {
+  background-position: -0px -1120px
+}
+
+.flair-justus:before, a[href='#justus'] {
+  background-position: -0px -1140px
+}
+
+.flair-killerfish:before, a[href='#killerfish'] {
+  background-position: -0px -1160px
+}
+
+.flair-klar1ty:before, a[href='#klar1ty'] {
+  background-position: -0px -1180px
+}
+
+.flair-lp:before, a[href='#lp'] {
+  background-position: -0px -1200px
+}
+
+.flair-menace:before, a[href='#menace'] {
+  background-position: -0px -1220px
+}
+
+.flair-mes:before, a[href='#mes'] {
+  background-position: -0px -1240px
+}
+
+.flair-mexico:before, a[href='#mexico'] {
+  background-position: -0px -1260px
+}
+
+.flair-millenium:before, a[href='#millenium'] {
+  background-position: -0px -1280px
+}
+
+.flair-mindfreak:before, a[href='#mindfreak'] {
+  background-position: -0px -1300px
+}
+
+.flair-mlg:before, a[href='#mlg'] {
+  background-position: -0px -1320px
+}
+
+.flair-netherlands:before, a[href='#netherlands'] {
+  background-position: -0px -1340px
+}
+
+.flair-ni:before, a[href='#ni'] {
+  background-position: -0px -1360px
+}
+
+.flair-norway:before, a[href='#norway'] {
+  background-position: -0px -1380px
+}
+
+.flair-nz:before, a[href='#nz'] {
+  background-position: -0px -1400px
+}
+
+.flair-opticgaming:before, a[href='#opticgaming'] {
+  background-position: -0px -1420px
+}
+
+.flair-opticnation:before, a[href='#opticnation'] {
+  background-position: -0px -1440px
+}
+
+.flair-orbit:before, a[href='#orbit'] {
+  background-position: -0px -1460px
+}
+
+.flair-prophecy:before, a[href='#prophecy'] {
+  background-position: -0px -1480px
+}
+
+.flair-quantic:before, a[href='#quantic'] {
+  background-position: -0px -1500px
+}
+
+.flair-rapid:before, a[href='#rapid'] {
+  background-position: -0px -1520px
+}
+
+.flair-rise:before, a[href='#rise'] {
+  background-position: -0px -1540px
+}
+
+.flair-russia:before, a[href='#russia'] {
+  background-position: -0px -1560px
+}
+
+.flair-sb:before, a[href='#sb'] {
+  background-position: -0px -1580px
+}
+
+.flair-scotland:before, a[href='#scotland'] {
+  background-position: -0px -1600px
+}
+
+.flair-spain:before, a[href='#spain'] {
+  background-position: -0px -1620px
+}
+
+.flair-ssof:before, a[href='#ssof'] {
+  background-position: -0px -1640px
+}
+
+.flair-sweden:before, a[href='#sweden'] {
+  background-position: -0px -1660px
+}
+
+.flair-tcm:before, a[href='#tcm'] {
+  background-position: -0px -1680px
+}
+
+.flair-threesup:before, a[href='#threesup'] {
+  background-position: -0px -1700px
+}
+
+.flair-tk:before, a[href='#tk'] {
+  background-position: -0px -1720px
+}
+
+.flair-tr:before, a[href='#tr'] {
+  background-position: -0px -1740px
+}
+
+.flair-treyarch:before, a[href='#treyarch'] {
+  background-position: -0px -1760px
+}
+
+.flair-twitch:before, a[href='#twitch'] {
+  background-position: -0px -1780px
+}
+
+.flair-ugc:before, a[href='#ugc'] {
+  background-position: -0px -1800px
+}
+
+.flair-uk:before, a[href='#uk'] {
+  background-position: -0px -1820px
+}
+
+.flair-umg:before, a[href='#umg'] {
+  background-position: -0px -1840px
+}
+
+.flair-underratix:before, a[href='#underratix'] {
+  background-position: -0px -1860px
+}
+
+.flair-unite:before, a[href='#unite'] {
+  background-position: -0px -1880px
+}
+
+.flair-usa:before, a[href='#usa'] {
+  background-position: -0px -1900px
+}
+
+.flair-vitality:before, a[href='#vitality'] {
+  background-position: -0px -1920px
+}
+
+.flair-vvv:before, a[href='#vvv'] {
+  background-position: -0px -1940px
+}
+
+.flair-wales:before, a[href='#wales'] {
+  background-position: -0px -1960px
+}
+
+.flair-xtravagant:before, a[href='#xtravagant'] {
+  background-position: -0px -1980px
+}
+/* end user flairs */
+
+/* verified users */
+
+a[href$="user/hubwub"]:before, a[href$="u/hubwub"]:before, a[href$="user/cpennington"]:before, a[href$="u/cpennington"]:before, a[href$="user/synide"]:before, a[href$="u/synide"]:before, a[href$="user/OpTicH3CZ"]:before, a[href$="u/OpTicH3CZ"]:before, a[href$="user/FeaRMoho"]:before, a[href$="u/FeaRMoho"]:before, a[href$="user/JayApex"]:before, a[href$="u/JayApex"]:before, a[href$="user/Synfula"]:before, a[href$="u/Synfula"]:before, a[href$="user/RisePacman"]:before, a[href$="u/RisePacman"]:before, a[href$="user/RickyStacy"]:before, a[href$="u/RickyStacy"]:before, a[href$="user/Kieranfitzz"]:before, a[href$="u/Kieranfitzz"]:before, a[href$="user/JoeLauzonDotCom"]:before, a[href$="u/JoeLauzonDotCom"]:before, a[href$="user/CrsIskatu"]:before, a[href$="u/CrsIskatu"]:before, a[href$="user/RayLyaR"]:before, a[href$="u/RayLyaR"]:before, a[href$="user/monksyman9"]:before, a[href$="u/monksyman9"]:before, a[href$="user/AttachCoD"]:before, a[href$="u/AttachCoD"]:before, a[href$="user/Stun552"]:before, a[href$="u/Stun552"]:before, a[href$="user/EGMrX"]:before, a[href$="u/EGMrX"]:before, a[href$="user/jbass698"]:before, a[href$="u/jbass698"]:before, a[href$="user/te_speedy"]:before, a[href$="u/te_speedy"]:before, a[href$="user/sellmate"]:before, a[href$="u/sellmate"]:before, a[href$="user/ESLqntm"]:before, a[href$="u/ESLqntm"]:before, a[href$="user/shane_lp"]:before, a[href$="u/shane_lp"]:before, a[href$="user/TOMMEYJT"]:before, a[href$="u/TOMMEYJT"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/bigsnackks"]:before, a[href$="u/bigsnackks"]:before, a[href$="user/EnableIan"]:before, a[href$="u/EnableIan"]:before, a[href$="user/Mcondrey"]:before, a[href$="u/Mcondrey"]:before, a[href$="user/EGCrimsix"]:before, a[href$="u/EGCrimsix"]:before, a[href$="user/Jaaaan"]:before, a[href$="u/Jaaaan"]:before, a[href$="user/AlessandroR"]:before, a[href$="u/AlessandroR"]:before, a[href$="user/FearCrad"]:before, a[href$="u/FearCrad"]:before, a[href$="user/HazardTV"]:before, a[href$="u/HazardTV"]:before, a[href$="user/-Swanny"]:before, a[href$="u/-Swanny"]:before, a[href$="user/Sundanced"]:before, a[href$="u/Sundanced"]:before, a[href$="user/Bio-Acid"]:before, a[href$="u/Bio-Acid"]:before, a[href$="user/CrsBlevdog"]:before, a[href$="u/CrsBlevdog"]:before, a[href$="user/letsgohome86"]:before, a[href$="u/letsgohome86"]:before, a[href$="user/RevanJB"]:before, a[href$="u/RevanJB"]:before, a[href$="user/Clay792"]:before, a[href$="u/Clay792"]:before, a[href$="user/rlxthegreat"]:before, a[href$="u/rlxthegreat"]:before, a[href$="user/UNiTE_Jasen"]:before, a[href$="u/UNiTE_Jasen"]:before, a[href$="user/UNiTE_Dan"]:before, a[href$="u/UNiTE_Dan"]:before, a[href$="user/coLMrX"]:before, a[href$="u/coLMrX"]:before, a[href$="user/TeePeeCoD"]:before, a[href$="u/TeePeeCoD"]:before, a[href$="user/PATTYCACHES"]:before, a[href$="u/PATTYCACHES"]:before, a[href$="user/coL-CSIX"]:before, a[href$="u/coL-CSIX"]:before, a[href$="user/MrMLGAdam"]:before, a[href$="u/MrMLGAdam"]:before, a[href$="user/ChanceMLG"]:before, a[href$="u/ChanceMLG"]:before, a[href$="user/GoldenboyFTW"]:before, a[href$="u/GoldenboyFTW"]:before, a[href$="user/BrianSaintt"]:before, a[href$="u/BrianSaintt"]:before, a[href$="user/nadeshot"]:before, a[href$="u/nadeshot"]:before, a[href$="user/schillez"]:before, a[href$="u/schillez"]:before, a[href$="user/Hollow_sB"]:before, a[href$="u/Hollow_sB"]:before, a[href$="user/Tartopome"]:before, a[href$="u/Tartopome"]:before, a[href$="user/eMeRiKa13"]:before, a[href$="u/eMeRiKa13"]:before, a[href$="user/YonnYonn"]:before, a[href$="u/YonnYonn"]:before, a[href$="user/Slashered"]:before, a[href$="u/Slashered"]:before, a[href$="user/Drift0r"]:before, a[href$="u/Drift0r"]:before, a[href$="user/mrfarly"]:before, a[href$="u/mrfarly"]:before, a[href$="user/CrsNameless"]:before, a[href$="u/CrsNameless"]:before, a[href$="user/muddawg"]:before, a[href$="u/muddawg"]:before, a[href$="user/Chewwy94"]:before, a[href$="u/Chewwy94"]:before, a[href$="user/Bricetacular"]:before, a[href$="u/Bricetacular"]:before, a[href$="user/Crsblevdog"]:before, a[href$="u/Crsblevdog"]:before, a[href$="user/APIce"]:before, a[href$="u/APIce"]:before, a[href$="user/Wi5dom12"]:before, a[href$="u/Wi5dom12"]:before, a[href$="user/fwiz"]:before, a[href$="u/fwiz"]:before, a[href$="user/AntMethodz"]:before, a[href$="u/AntMethodz"]:before, a[href$="user/iCn_Quest"]:before, a[href$="u/iCn_Quest"]:before, a[href$="user/SoaRMethodz"]:before, a[href$="u/SoaRMethodz"]:before, a[href$="user/benbowe100"]:before, a[href$="u/benbowe100"]:before, a[href$="user/iloveFPS"]:before, a[href$="u/iloveFPS"]:before, a[href$="user/coLKarma"]:before, a[href$="u/coLKarma"]:before, a[href$="user/PHiZZURP"]:before, a[href$="u/PHiZZURP"]:before, a[href$="user/MLGPuckett"]:before, a[href$="u/MLGPuckett"]:before, a[href$="user/John287"]:before, a[href$="u/John287"]:before, a[href$="user/NotTheFakeJKap"]:before, a[href$="u/NotTheFakeJKap"]:before, a[href$="user/SinfuL-"]:before, a[href$="u/SinfuL-"]:before, a[href$="user/OMGLove"]:before, a[href$="u/OMGLove"]:before, a[href$="user/AcidOli"]:before, a[href$="u/AcidOli"]:before, a[href$="user/Mr_NameLeSs"]:before, a[href$="u/Mr_NameLeSs"]:before, a[href$="user/AnthonyMethodz"]:before, a[href$="u/AnthonyMethodz"]:before, a[href$="user/FBogre2"]:before, a[href$="u/FBogre2"]:before, a[href$="user/SCOTTJORGENSEN"]:before, a[href$="u/SCOTTJORGENSEN"]:before, a[href$="user/Gfinity"]:before, a[href$="u/Gfinity"]:before, a[href$="user/MLGColey"]:before, a[href$="u/MLGColey"]:before, a[href$="user/Revzzz"]:before, a[href$="u/Revzzz"]:before, a[href$="user/iCheeto"]:before, a[href$="u/iCheeto"]:before, a[href$="user/ScottGandhii"]:before, a[href$="u/ScottGandhii"]:before, a[href$="user/Hitchariide"]:before, a[href$="u/Hitchariide"]:before, a[href$="user/NotParasite"]:before, a[href$="u/NotParasite"]:before, a[href$="user/MBoZe"]:before, a[href$="u/MBoZe"]:before, a[href$="user/WhoisRob"]:before, a[href$="u/WhoisRob"]:before, a[href$="user/FB_Snip3down"]:before, a[href$="u/FB_Snip3down"]:before, a[href$="user/agermanguy"]:before, a[href$="u/agermanguy"]:before, a[href$="user/smitingfatty"]:before, a[href$="u/smitingfatty"]:before, a[href$="user/whea7s"]:before, a[href$="u/whea7s"]:before, a[href$="user/SpaceLyNJ"]:before, a[href$="u/SpaceLyNJ"]:before, a[href$="user/Miyagisaur"]:before, a[href$="u/Miyagisaur"]:before, a[href$="user/CurseCable"]:before, a[href$="u/CurseCable"]:before, a[href$="user/TheGinjaNinja6828"]:before, a[href$="u/TheGinjaNinja6828"]:before, a[href$="user/EZGamingEvents"]:before, a[href$="u/EZGamingEvents"]:before, a[href$="user/CrsMochila"]:before, a[href$="u/CrsMochila"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Tipsy93"]:before, a[href$="u/Tipsy93"]:before, a[href$="user/hastr0"]:before, a[href$="u/hastr0"]:before, a[href$="user/yoPittsburgh"]:before, a[href$="u/yoPittsburgh"]:before, a[href$="user/BrianPRPLXD"]:before, a[href$="u/BrianPRPLXD"]:before, a[href$="user/RogueLv"]:before, a[href$="u/RogueLv"]:before, a[href$="user/j0kr555"]:before, a[href$="u/j0kr555"]:before, a[href$="user/clairejeepchick"]:before, a[href$="u/clairejeepchick"]:before, a[href$="user/UGCevents"]:before, a[href$="u/UGCevents"]:before, a[href$="user/Kingdom_Soldier"]:before, a[href$="u/Kingdom_Soldier"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Maven285"]:before, a[href$="u/Maven285"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/UMGChris"]:before, a[href$="u/UMGChris"]:before, a[href$="user/BsportJoshh"]:before, a[href$="u/BsportJoshh"]:before, a[href$="user/EGDKarma"]:before, a[href$="u/EGDKarma"]:before, a[href$="user/RealizeEU"]:before, a[href$="u/RealizeEU"]:before, a[href$="user/EDiehlReadyUpGmng"]:before, a[href$="u/EDiehlReadyUpGmng"]:before, a[href$="user/ApathyCoD"]:before, a[href$="u/ApathyCoD"]:before, a[href$="user/MLGIlir"]:before, a[href$="u/MLGIlir"]:before, a[href$="user/fobindianman"]:before, a[href$="u/fobindianman"]:before, a[href$="user/MLGRon"]:before, a[href$="u/MLGRon"]:before, a[href$="user/MLGBradley"]:before, a[href$="u/MLGBradley"]:before, a[href$="user/Brocco-"]:before, a[href$="u/Brocco-"]:before, a[href$="user/Snxwe"]:before, a[href$="u/Snxwe"]:before, a[href$="user/FuzzyOtterBalls"]:before, a[href$="u/FuzzyOtterBalls"]:before, a[href$="user/xiSerbia"]:before, a[href$="u/xiSerbia"]:before, a[href$="user/samzorzSH"]:before, a[href$="u/samzorzSH"]:before, a[href$="user/BuZZZO"]:before, a[href$="u/BuZZZO"]:before, a[href$="user/CptSwizz"]:before, a[href$="u/CptSwizz"]:before, a[href$="user/Peatiee"]:before, a[href$="u/Peatiee"]:before, a[href$="user/MarkyBCoD"]:before, a[href$="u/MarkyBCoD"]:before, a[href$="user/Zoomaaa"]:before, a[href$="u/Zoomaaa"]:before, a[href$="user/mlgkc"]:before, a[href$="u/mlgkc"]:before, a[href$="user/FroZnRay"]:before, a[href$="u/FroZnRay"]:before, a[href$="user/ringokid"]:before, a[href$="u/ringokid"]:before, a[href$="user/OrbitWanted"]:before, a[href$="u/OrbitWanted"]:before, a[href$="user/Orbit_ZeBrain"]:before, a[href$="u/Orbit_ZeBrain"]:before, a[href$="user/EuropeanGamingLeague"]:before, a[href$="u/EuropeanGamingLeague"]:before, a[href$="user/OpTicMiDNiTE"]:before, a[href$="u/OpTicMiDNiTE"]:before, a[href$="user/Sharp_tK"]:before, a[href$="u/Sharp_tK"]:before, a[href$="user/TheTurboShow"]:before, a[href$="u/TheTurboShow"]:before, a[href$="user/iSowerz"]:before, a[href$="u/iSowerz"]:before, a[href$="user/Crimsux"]:before, a[href$="u/Crimsux"]:before, a[href$="user/UMGmatt"]:before, a[href$="u/UMGmatt"]:before, a[href$="user/RAGEDuffMan"]:before, a[href$="u/RAGEDuffMan"]:before, a[href$="user/Affentod"]:before, a[href$="u/Affentod"]:before, a[href$="user/MyNamesNotNathan"]:before, a[href$="u/MyNamesNotNathan"]:before, a[href$="user/Iamneslo"]:before, a[href$="u/Iamneslo"]:before, a[href$="user/yoBundo"]:before, a[href$="u/yoBundo"]:before, a[href$="user/LambzyJM"]:before, a[href$="u/LambzyJM"]:before, a[href$="user/ottersareneat"]:before, a[href$="u/ottersareneat"]:before, a[href$="user/MerK_nV"]:before, a[href$="u/MerK_nV"]:before, a[href$="user/ChrisTunn"]:before, a[href$="u/ChrisTunn"]:before, a[href$="user/evensides"]:before, a[href$="u/evensides"]:before, a[href$="user/ivscourage"]:before, a[href$="u/ivscourage"]:before, a[href$="user/RealFears"]:before, a[href$="u/RealFears"]:before, a[href$="user/RealLegal"]:before, a[href$="u/RealLegal"]:before, a[href$="user/DenialKross"]:before, a[href$="u/DenialKross"]:before, a[href$="user/AEL_CJ"]:before, a[href$="u/AEL_CJ"]:before, a[href$="user/MrEmceec"]:before, a[href$="u/MrEmceec"]:before, a[href$="user/NakeeeZe"]:before, a[href$="u/NakeeeZe"]:before, a[href$="user/StarClutch"]:before, a[href$="u/StarClutch"]:before, a[href$="user/ACLPro"]:before, a[href$="u/ACLPro"]:before, a[href$="user/mattmrx"]:before, a[href$="u/mattmrx"]:before, a[href$="user/hojuuuu"]:before, a[href$="u/hojuuuu"]:before, a[href$="user/rambo_nv"]:before, a[href$="u/rambo_nv"]:before {
+  content: url(%%verified%%);
+  position: relative;
+  right: -4px;
+  bottom: -4px;
+  margin-right: 8px
+}
+/* end verified users */
+
+a[href='#arrow'] {
+  background-image: url(%%sprites%%);
+  background-position: 0px -175px;
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -9999px;
+  width: 25px;
+  height: 25px
 }
