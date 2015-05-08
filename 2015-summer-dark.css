@@ -918,8 +918,6 @@ body:before {
   width: 100%;
   left: 0px;
   right: 0px;
-  /*	background: #000000 url(%%headerimg%%) fixed no-repeat 50% 0; */
-
   background: linear-gradient(30deg, #2C4E6F, #03111D) fixed no-repeat;
   background-position: 50% 0%;
   content: "";

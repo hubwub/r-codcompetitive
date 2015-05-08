@@ -13,9 +13,7 @@ last modified: 05/08/2015
 
 body {
   overflow-x: hidden;
-  background: #d7d7d7;
-  background: -webkit-linear-gradient(45deg, #d7d7d7, #959595);
-  background: linear-gradient(45deg, #d7d7d7, #959595) fixed no-repeat;
+  background: #f9f9f9;
   min-width: 640px;
 }
 
@@ -243,8 +241,8 @@ a.random.choice {
 
 #header-bottom-left {
   position: relative;
-  border-top: 3px #262626 solid;
-  background-color: #fc6701;
+  border-top: 3px #fc6701 solid;
+  background-color: #262626;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
   height: 35px;
 }
@@ -916,9 +914,7 @@ body:before {
   width: 100%;
   left: 0px;
   right: 0px;
-  /*	background: #000000 url(%%headerimg%%) fixed no-repeat 50% 0; */
-
-  background: linear-gradient(30deg, #2C4E6F, #03111D) fixed no-repeat;
+  background: #000000 url(%%headerimg%%) fixed no-repeat 50% 0;
   background-position: 50% 0%;
   content: "";
   text-indent: -9999px;
@@ -4590,7 +4586,7 @@ a[href='#arrow'] {
   position: relative;
 }
 
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel {
   position: absolute;
   left: 0px;
   top: 0;
@@ -4608,7 +4604,7 @@ a[href='#arrow'] {
   background: url(%%themeflair-bg%%) no-repeat;
 }
 
-.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover {
+.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover {
   color: #fff;
   font-weight: normal;
   line-height: 75px;
@@ -4626,7 +4622,7 @@ a[href='#arrow'] {
   text-transform: uppercase;
 }
 
-.linkflair-blue div.entry p .linkflairlabel {
+.linkflair-blue div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel {
   border-left: #22313F solid 5px!important;
   background-position: -225px 8px!important;
   text-transform: uppercase;
@@ -4668,7 +4664,7 @@ div.flairselector .linkflair-green .linkflairlabel {
   text-transform: uppercase;
 }
 
-div.flairselector .linkflair-blue .linkflairlabel {
+div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel {
   background-color: #22313F;
   color: #fff;
   text-transform: uppercase;
@@ -4690,6 +4686,20 @@ div.flairselector .linkflair-grey .linkflairlabel {
   background-color: #595a5b;
   color: #fff;
   text-transform: uppercase;
+}
+
+body.post-linkflair-gfinity .content:before {
+  background: #000000 url(%%gfinity%%) fixed no-repeat 50% 0;
+}
+
+body.post-linkflair-mlg .content:before {
+  background: #000000 url(%%mlg%%) fixed no-repeat 50% 0;
+}
+
+@media only screen and (min-width: 1920px) {
+  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before {
+    background-size: 100%;
+  }
 }
 /* comments box */
 
