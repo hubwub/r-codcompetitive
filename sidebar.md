@@ -1,8 +1,8 @@
 ##### [GFINITY SPRING MASTERS I IS LIVE!](http://tv.majorleaguegaming.com/channel/gfinity)
 
-###### META: New subreddit theme
+###### META: [New subreddit theme](https://www.reddit.com/r/CoDCompetitive/comments/35ana5/new_subreddit_design/)
 
-###### [](#gfinity) SPRING MASTERS I: [WAGERS](https://www.reddit.com/r/CoDCompetitive/comments/353thc/gfinity_spring_masters_1_wager_thread/) || [OFFICIAL SURVIVAL GUIDE](http://www.reddit.com/r/CoDCompetitive/comments/3566xb/the_gfinity_call_of_duty_spring_masters_i/)
+###### [](#gfinity) SPRING MASTERS I: [DAY 1](https://www.reddit.com/r/CoDCompetitive/comments/35b69a/gfinity_spring_masters_1_official_day_1_thread/) || [WAGERS](https://www.reddit.com/r/CoDCompetitive/comments/353thc/gfinity_spring_masters_1_wager_thread/) || [OFFICIAL SURVIVAL GUIDE](http://www.reddit.com/r/CoDCompetitive/comments/3566xb/the_gfinity_call_of_duty_spring_masters_i/) || [TRASH TALK](https://www.reddit.com/r/CoDCompetitive/comments/35ady8/gfinity_spring_masters_is_just_around_the_corner/)
 
 ###### COMPETITION: [TOP 5 PLAYS (4th May, 2015)](http://www.reddit.com/r/CoDCompetitive/comments/34w94g/top_5_plays_may_4th_2015/) || [HOW TO ENTER](https://www.reddit.com/r/CoDCompetitive/comments/31vrl9/top_5_plays_of_the_week_is_back_for_good_this_time/)
 
