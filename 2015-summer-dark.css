@@ -911,6 +911,22 @@ body:before {
   z-index: -1;
 }
 
+.content:before {
+  height: 300px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  /*	background: #000000 url(%%headerimg%%) fixed no-repeat 50% 0; */
+
+  background: linear-gradient(30deg, #2C4E6F, #03111D) fixed no-repeat;
+  background-position: 50% 0%;
+  content: "";
+  text-indent: -9999px;
+  z-index: -1;
+}
+
 @media only screen and (min-width: 1920px) {
   .content:before {
     background-size: 100%;
@@ -3485,8 +3501,6 @@ body>.content {
 
 .side .titlebox .md h1 {
   padding-left: 0;
-  /* background: #262626; */
-
   color: #fff;
   clear: both;
   float: left;
@@ -4677,7 +4691,6 @@ div.flairselector .linkflair-grey .linkflairlabel {
   color: #fff;
   text-transform: uppercase;
 }
-
 /* comments box */
 
 .commentarea .usertext-edit textarea {
