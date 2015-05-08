@@ -4586,7 +4586,7 @@ a[href='#arrow'] {
   position: relative;
 }
 
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel {
   position: absolute;
   left: 0px;
   top: 0;
