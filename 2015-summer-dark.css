@@ -1655,23 +1655,6 @@ body>.content .link.compressed .midcol {
   padding: 0;
   color: #00000;
 }
-/* .flairoptionpane ul li .linkflair:hover, .flairselector li:hover {
-  background-color: #F5F8F9;
-  border: 0 solid
-}
-
-.flairoptionpane ul li .linkflair span.linkflairlabel {
-  margin: 8px 0;
-  line-height: 1.35;
-  margin-right: 6px
-}
-
-.flairoptionpane ul li .linkflair a.title {
-  font-size: 18px!important;
-  opacity: 100!important;
-  color: #4F8EF7!important
-  display: none;
-} */
 
 .flairselector form {
   padding-top: 12px;
@@ -4040,51 +4023,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background: url(%%spritesheet%%) -3px -140px
 }
 /* link flair */
-/* .linkflairlabel {
-  max-width: 28px;
-  height: 22px;
-  margin-bottom: -10px;
-  top: -8px;
-  text-align: center;
-  text-indent: 38px;
-  font-size: x-small;
-  font-weight: normal;
-  font-style: normal;
-  font-variant: normal;
-  font-family: "Lato", sans-serif;
-  padding: 0px;
-  padding-right: 6px;
-  border: none;
-  border-radius: 0px;
-  vertical-align: middle;
-  position: relative;
-  line-height: 22px;
-  cursor: default;
-  color: #880d0d;
-  -moz-transition: text-indent 5s, color 0.4s, max-width 0.4s;
-  -o-transition: text-indent 5s, color 0.4s, max-width 0.4s;
-  -webkit-transition: text-indent 5s, color 0.4s, max-width 0.4s;
-  transition: text-indent 5s, color 0.4s, max-width 0.4s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-
-.linkflairlabel:hover {
-  max-width: 999px;
-  text-indent: 28px;
-  color: #f2f2f2 !important;
-  -moz-transition: text-indent 0.4s, color 0.4s, max-width 0.4s;
-  -o-transition: text-indent 0.4s, color 0.4s, max-width 0.4s;
-  -webkit-transition: text-indent 0.4s, color 0.4s, max-width 0.4s;
-  transition: text-indent 0.4s, color 0.4s, max-width 0.4s;
-  -moz-transition-delay: 0.6s;
-  -o-transition-delay: 0.6;
-  -webkit-transition-delay: 0.6s;
-  transition-delay: 0.6s;
-  opacity: 1;
-} */
 
 .linkflairlabel {
   padding: 0px 2px;
@@ -4739,21 +4677,8 @@ div.flairselector .linkflair-grey .linkflairlabel {
   color: #fff;
   text-transform: uppercase;
 }
-/*
-.link .flairoptionpane {
-  display: inline-block;
-}
 
-.link .flairoptionpane ul {
-  max-width: none;
-  width: auto;
-}
-
-.link .flairselector {
-  position: absolute;
-  top: -25px;
-}
- */
+/* comments box */
 
 .commentarea .usertext-edit textarea {
   background: url(%%comment%%) no-repeat 0 0
