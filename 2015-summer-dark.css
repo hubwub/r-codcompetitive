@@ -4583,7 +4583,7 @@ a[href='#arrow'] {
   position: relative;
 }
 
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel {
   position: absolute;
   left: 0px;
   top: 0;
@@ -4601,7 +4601,7 @@ a[href='#arrow'] {
   background: url(%%themeflair-bg%%) no-repeat;
 }
 
-.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover {
+.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover, .linkflair-spoiler div.entry p .linkflairlabel:hover {
   color: #fff;
   font-weight: normal;
   line-height: 75px;
@@ -4613,7 +4613,6 @@ a[href='#arrow'] {
   padding: 0;
   z-index: 1;
 }
-
 .linkflair-red div.entry p .linkflairlabel {
   border-left: #CF000F solid 5px;
   background-position: 0 8px!important;
@@ -4644,7 +4643,7 @@ a[href='#arrow'] {
   text-transform: uppercase;
 }
 
-.linkflair-grey div.entry p .linkflairlabel {
+.linkflair-grey div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel {
   border-left: #595a5b solid 5px;
   background-position: -1125px 8px!important;
   text-transform: uppercase;
@@ -4674,13 +4673,13 @@ div.flairselector .linkflair-purple .linkflairlabel {
   text-transform: uppercase;
 }
 
-div.flairselector .linkflair-orange .linkflairlabel,  div.flairselector .linkflair-bo3 .linkflairlabel{
+div.flairselector .linkflair-orange .linkflairlabel,  div.flairselector .linkflair-bo3 .linkflairlabel {
   background-color: #D35400;
   color: #fff;
   text-transform: uppercase;
 }
 
-div.flairselector .linkflair-grey .linkflairlabel {
+div.flairselector .linkflair-grey .linkflairlabel, div.flairselector .linkflair-spoiler .linkflairlabel {
   background-color: #595a5b;
   color: #fff;
   text-transform: uppercase;
@@ -4702,6 +4701,41 @@ body.post-linkflair-bo3 .content:before {
   body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before {
     background-size: 100%;
   }
+}
+/* spoilers */
+
+.linkflair-spoiler a.title {
+  background: #000 !important;
+  color: #000 !important
+}
+
+.linkflair-spoiler a.title:hover {
+  color: #FFF !important
+}
+
+a[href="#s"] {
+  display: inline-block;
+  background: black;
+  color: white!important;
+  transition: color 0.15s ease;
+  padding-left: 5px;
+}
+
+a[href="#s"]::after {
+  content: attr(title);
+  background: black;
+  color: black;
+  visibility: visible;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: color 0.15s ease;
+}
+
+a[href="#s"]:hover::after, a[href="#s"]:active::after {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: color 0.15s ease;
 }
 /* comments box */
 

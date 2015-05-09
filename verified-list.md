@@ -18,7 +18,7 @@ reddit account|More information|
 /u/agermanguy| Player [](#germany)
 /u/ApathyCoD| Player [](#proph)
 /u/BrianPRPLXD|Player [](#rise)|
-/u/BrianSaintt| Player [](#tacobell)
+/u/BrianSaintt| Player
 /u/Clay792|Player [](#denial)
 /u/CrsMochila| Player [](#proph)
 /u/EGCrimsix | Player [](#optic)
@@ -28,7 +28,6 @@ reddit account|More information|
 /u/muddawg| Player
 /u/nadeshot| Player [](#optic)
 /u/NotTheFakeJKap| Player [](#denial)
-/u/OMGLove|Player [](#royal)
 /u/PATTYCACHES| Player [](#nv)
 /u/PHiZZURP| Player [](#sb)
 /u/schillez| Player
@@ -52,7 +51,7 @@ reddit account|More information
 ###Industry Insider
 reddit account|More information|
 :---|:---|
-/u/AcidOli|Manager [](#faze)
+/u/AcidOli|Manager [](#prophecy)
 /u/AlessandroR| AEL Events CEO [](#ael)
 /u/APIce|Technical help [](#optic)
 /u/Brocco-| Founder of CoDeSportsPedia
@@ -64,34 +63,18 @@ reddit account|More information|
 /u/fobindianman| MLG Arena Supervisor Assistant
 /u/Gfinity| E-sports Organization
 /u/hastr0| Owner of Team EnVyUs
-/u/Hitchariide|Media [](#umg)
-/u/iCheeto|coach
+/u/Hitchariide|OpTic Intel
+/u/iCheeto|Coach
 /u/j0kr555| MLG producer|
 /u/Jaaaan|Co-Owner of eLevate
 /u/MLGIlir| GB Community Manager
 /u/MrMLGAdam| MLG Executive Vice President
-/u/rlxthegreat| Strategy & Player Manager [](#curse)
-/u/synide| VP of Productions
+/u/synide| VP of Productions at MLG
 /u/Tartopome| CM ESWC
 /u/TheGinjaNinja6828|Media Manager [](#orbit)
 /u/WhoisRob| Australian Team Manager
 /u/YonnYonn| MLG Producer, Director, and Technical Director
 /u/yoPittsburgh|Owner of Revenge Gaming|
-
----
-
-###CoD Stats Team
-Reddit Account|
-:---|:---|:---
-/u/andytreck|
-/u/buddybar|
-/u/CoDStats|
-/u/J2theP30|
-/u/ljbrock|
-/u/Rideout1234|
-/u/TheTimidDonut|
-/u/venarious|
-/u/ytupcoming|
 
 ---
 
