@@ -222,7 +222,7 @@ a.random.choice {
 
 #header .pagename a {
   width: 300px;
-  height: 250px;
+  height: 180px;
   margin: auto;
   display: block;
   background: rgba(0, 0, 0, 0.0) url(%%logo-arms%%);
@@ -231,7 +231,7 @@ a.random.choice {
   text-indent: -9999px;
   transition: background 0.25s ease;
   position: relative;
-  top: -40px;
+  top: 25px;
   left: -5px;
   margin-top: -275px;
 }
@@ -252,10 +252,9 @@ a.random.choice {
 #header .tabmenu {
   border: none;
   margin: 0px;
-  margin-top: -10px;
+  margin-top: 35px;
   top: -35px;
   left: -30px;
-  margin-top: -181px;
 }
 
 #header .tabmenu li a {
