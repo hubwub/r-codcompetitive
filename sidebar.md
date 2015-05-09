@@ -1,8 +1,8 @@
-##### [GFINITY SPRING MASTERS I IS LIVE!](http://tv.majorleaguegaming.com/channel/gfinity)
+#####[DAY 2 OF THE GFINITY SPRING MASTERS I IS LIVE](http://www.mlg.tv/gfinity)
 
-###### META: [New subreddit theme](https://www.reddit.com/r/CoDCompetitive/comments/35ana5/new_subreddit_design/)
+###### META: [New subreddit theme, now with less darkness!](https://www.reddit.com/r/CoDCompetitive/comments/35ana5/new_subreddit_design/)
 
-###### [](#gfinity) SPRING MASTERS I: [DAY 1](https://www.reddit.com/r/CoDCompetitive/comments/35b69a/gfinity_spring_masters_1_official_day_1_thread/) || [WAGERS](https://www.reddit.com/r/CoDCompetitive/comments/353thc/gfinity_spring_masters_1_wager_thread/) || [OFFICIAL SURVIVAL GUIDE](http://www.reddit.com/r/CoDCompetitive/comments/3566xb/the_gfinity_call_of_duty_spring_masters_i/) || [TRASH TALK](https://www.reddit.com/r/CoDCompetitive/comments/35ady8/gfinity_spring_masters_is_just_around_the_corner/)
+###### [](#gfinity) SPRING MASTERS I: [DAY 1](https://www.reddit.com/r/CoDCompetitive/comments/35b69a/gfinity_spring_masters_1_official_day_1_thread/) || [DAY 2](http://www.reddit.com/r/CoDCompetitive/comments/35du7b/gfinity_spring_masters_i_official_day_2_thread/) || [WAGERS](https://www.reddit.com/r/CoDCompetitive/comments/353thc/gfinity_spring_masters_1_wager_thread/) || [OFFICIAL SURVIVAL GUIDE](http://www.reddit.com/r/CoDCompetitive/comments/3566xb/the_gfinity_call_of_duty_spring_masters_i/) || [TRASH TALK](https://www.reddit.com/r/CoDCompetitive/comments/35ady8/gfinity_spring_masters_is_just_around_the_corner/)
 
 ###### COMPETITION: [TOP 5 PLAYS (4th May, 2015)](http://www.reddit.com/r/CoDCompetitive/comments/34w94g/top_5_plays_may_4th_2015/) || [HOW TO ENTER](https://www.reddit.com/r/CoDCompetitive/comments/31vrl9/top_5_plays_of_the_week_is_back_for_good_this_time/)
 
@@ -21,24 +21,24 @@
 * MLG League Rosters
 
  >||Active|
-|:-:|:-:|
-| [](#ar) | Anticity - Burnsoff - SpaceLy - Mochila |
+| :------: | :-----------------------------------------: |
+| [](#ar) | Anticity - Burnsoff - Mochila - SpaceLy |
 | [](#denial)  | Attach - Clayster - JKap - Replays |
-| [](#elevate) |Classic - Slacked - Temp - Teej|
-| [](#faze)  |Enable - Huke - Slasher - ZooMaa|
-| [](#justus) |MerK - Octane - StuDyy - TcM|
-| [](#envyus) |Loony - ProoFy - Saints - TeePee|
-| [](#opticgaming) |Crimsix - FormaL - Karma - Scump|
-| [](#opticnation) |Killa - MBoZe - MiRx - Ricky|
-| [](#prophecy) |ACHES - Apathy - AquA - Nagafen|
-| [](#rise) |Chino - Neslo - Whea7s - Theory|
-| [](#tcm) |Gunshy - Jurd - Moose - ShAnE|
-| [](#tk) |Goonjar - NAMELESS - Parasite - Sharp|
+| [](#elevate) | Classic - Slacked - Temp - Teej |
+| [](#faze)  | Enable - Huke - Slasher - ZooMaa |
+| [](#justus) | MerK - Octane - StuDyy - TcM |
+| [](#envyus) | Loony - ProoFy - Saints - TeePee |
+| [](#opticgaming) | Crimsix - FormaL - Karma - Scump |
+| [](#opticnation) | Killa - MBoZe - MiRx - Ricky |
+| [](#prophecy) | ACHES - Apathy - AquA - Nagafen |
+| [](#rise) | Chino - Neslo - Whea7s - Theory |
+| [](#tcm) | Gunshy - Jurd - Moose - ShAnE |
+| [](#tk) | Goonjar - NAMELESS - Parasite - Sharp |
 
 * MLG League Standings
 
  >| # |  | Wins | Losses | Win % |
-|:-: | :------------------: | :--: | :--: | :----: |
+|:-: | :---------------: | :-: | :-: | :-: |
 |1| [](#opticgaming) | 25 | 3 | 89% |
 |2| [](#elevate) | 20 | 12 | 63% |
 |3| [](#envyus) | 20 | 12 | 63% |
@@ -55,7 +55,7 @@
 * MLG League Results
 
  >|5th May|Home|Score|Away
-|:-:|:-:|:-:|:-:|
+| :-----:| :------: | :--: | :--------: |
 | 19:00 | [](#tk) | 2-3 | [](#rise) |
 | 19:00 | [](#justus) | 0-3 | [](#prophecy) |
 | 19:00 | [](#elevate) | 3-2 | [](#ar) |
@@ -66,14 +66,14 @@
 * MLG League Schedule
 
  >|12th May|Home||Away
-|:-:|:-:|:-:|:-:|
-| 19:00 | [](#envyus)| vs. | [](#tcm) |
-| 19:00 | [](#elevate)| vs. | [](#rise) |
+| :----: | :------------: | :--: | :--------: |
+| 19:00 | [](#envyus) | vs. | [](#tcm) |
+| 19:00 | [](#elevate) | vs. | [](#rise) |
 | 19:00 | [](#prophecy) | vs. | [](#denial) |
 | 19:00 | [](#tk) | vs. | [](#justus) |
 | 19:00 | [](#opticnation) | vs. | [](#faze) |
 | 20:30 | [](#opticnation) | vs. | [](#envyus) |
-| 20:30 | [](#denial) | vs. | [](#rise)|
+| 20:30 | [](#denial) | vs. | [](#rise) |
 | 20:30 | [](#tk) | vs. | [](#faze) |
 | 20:30 | [](#justus) | vs. | [](#elevate)|
 | 20:30 | [](#prophecy) | vs. | [](#tcm) |
@@ -82,10 +82,10 @@
 * Recent Winners
 
  >| Tournament | Date | Winners |
-| :-------------------------------: | :---------------: | :-----------------: |
+| :------------------------: | :--------: | :-----------------: |
 | [](#eswc) Zenith 2015 | May 2015 | [](#opticgaming) |
 | [](#ugc) Niagara | April 2015 |  [](#tk) |
 | [](#codchamps) 2015 | April 2015 | [](#denial)  |
 | [](#codchamps) NA Championships | March 2015 | [](#opticgaming) |
 | [](#codchamps) EU Championships | February 2015 | [](#epsilon)  |
-| [](#mlg) S1 Playoffs | February 2015 | [](#opticgaming)
+| [](#mlg) S1 Playoffs | February 2015 | [](#opticgaming) |
