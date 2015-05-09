@@ -2879,7 +2879,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .footer .title {
-  color: #fff;
+  color: #b3b3b3;
   font-size: 21px;
   padding-bottom: 10px;
   margin-bottom: 10px
@@ -2890,7 +2890,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .footer a {
-  color: #fff;
+  color: #b3b3b3;
   text-decoration: none !important
 }
 
@@ -3595,7 +3595,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: default;
+  cursor: inherit;
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://twitter.com/rcodcompetitive"]:before {
@@ -3614,7 +3614,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: default;
+  cursor: inherit;
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://cod.esportspedia.com/wiki/Calendar"]:before {
@@ -3633,7 +3633,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: default;
+  cursor: inherit;
 }
 
 .side .usertext-body .md h1+ul li a[href$="https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive"]:before {
@@ -3652,7 +3652,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: default;
+  cursor: inherit;
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/verified_list"]:before {
@@ -3671,7 +3671,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: default;
+  cursor: inherit;
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules"]:before {
@@ -4609,6 +4609,7 @@ a[href='#arrow'] {
   width: 225px;
   max-width: 225px;
   padding: 0;
+  z-index: 1;
 }
 
 .linkflair-red div.entry p .linkflairlabel {
