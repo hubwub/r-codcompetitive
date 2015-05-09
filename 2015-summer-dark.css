@@ -1565,7 +1565,7 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
 
 .link.promotedlink.promoted {
   margin-right: 0;
-  background-color: #EFF7FF;
+  background-color: #e0e6f2;
   border: none;
 }
 
@@ -1590,13 +1590,23 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
   padding: 0;
   z-index: 9999;
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 10px!important;
   margin-right: 320px;
   border: none;
   border-radius: 2px 2px 0px 0px;
 }
 
+.organic-listing .link .entry{
+  background-color: #e0e6f2;
+  padding: 15px 32px 14px 8px;
+  border-left: 10px solid #e0e6f2;
+  margin-left: 0;
+  min-height: 86px;
+  margin-bottom: -1px;
+}
+
 .organic-listing .help {
+  background-color: #e0e6f2;
   margin-bottom: 20px;
   margin-right: 16px
 }
@@ -4012,11 +4022,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 /* thumbnails */
 
 .thumbnail {
-  /* max-width: 64px;
-  max-height: 56px;
-  background-color: #ddd;
-  margin: 16px 10px 10px 10px; */
-
   display: none;
 }
 
@@ -4589,7 +4594,7 @@ a[href='#arrow'] {
   position: relative;
 }
 
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel {
   position: absolute;
   left: 0px;
   top: 0;
@@ -4607,7 +4612,7 @@ a[href='#arrow'] {
   background: url(%%themeflair-bg%%) no-repeat;
 }
 
-.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover {
+.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover {
   color: #fff;
   font-weight: normal;
   line-height: 75px;
@@ -4643,7 +4648,7 @@ a[href='#arrow'] {
   text-transform: uppercase;
 }
 
-.linkflair-orange div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel {
   border-left: #D35400 solid 5px;
   background-position: -900px 8px!important;
   text-transform: uppercase;
@@ -4679,7 +4684,7 @@ div.flairselector .linkflair-purple .linkflairlabel {
   text-transform: uppercase;
 }
 
-div.flairselector .linkflair-orange .linkflairlabel {
+div.flairselector .linkflair-orange .linkflairlabel,  div.flairselector .linkflair-bo3 .linkflairlabel{
   background-color: #D35400;
   color: #fff;
   text-transform: uppercase;
@@ -4699,8 +4704,12 @@ body.post-linkflair-mlg .content:before {
   background: #000000 url(%%mlg%%) fixed no-repeat 50% 0;
 }
 
+body.post-linkflair-bo3 .content:before {
+  background: #000000 url(%%bo3%%) fixed no-repeat 50% 0;
+}
+
 @media only screen and (min-width: 1920px) {
-  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before {
+  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before {
     background-size: 100%;
   }
 }
