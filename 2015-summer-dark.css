@@ -4710,7 +4710,8 @@ body.post-linkflair-bo3 .content:before {
 }
 
 .linkflair-spoiler a.title:hover {
-  color: #FFF !important
+  background-color: transparent!important;
+  color: #b3b3b3!important;
 }
 
 a[href="#s"] {
