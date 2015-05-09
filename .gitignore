@@ -1,1 +1,5 @@
 .DS_Store
+*.min.css
+config*.json
+flair.css
+sheet.png
