@@ -1,4 +1,4 @@
-#####[FINALS OF THE GFINITY SPRING MASTERS I IS LIVE](http://www.mlg.tv/gfinity)
+#####
 
 ###### META: [New subreddit theme, now less dark!](/35ana5)
 
@@ -9,7 +9,6 @@
 #[](#potw)
 
 *  [irc](https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive) [twitter](http://twitter.com/rcodcompetitive) [verified list](http://www.reddit.com/r/CoDCompetitive/wiki/verified_list)  [RULES](http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules) [Calendar](http://cod.esportspedia.com/wiki/Calendar)
-  * [May 8-10](#date) [Spring Masters I](#event) [](#ev) [London, UK](#location) [](#loc)
   * [May 15-17](#date) [UMG California](#event) [](#ev) [Ontario, CA](#location) [](#loc)
   * [May 22-24](#date) [MES Detroit](#event) [](#ev) [Detroit, MI](#location) [](#loc)
   * [May 30-31](#date) [ACL Brisbane](#event) [](#ev) [Brisbane, AU](#location) [](#loc)
@@ -83,6 +82,7 @@
 
  >| Tournament | Date | Winners |
 | :------------------------: | :--------: | :-----------------: |
+| [](#gfinity) Spring Masters I| May 2015 | [](#opticgaming) |
 | [](#eswc) Zenith 2015 | May 2015 | [](#opticgaming) |
 | [](#ugc) Niagara | April 2015 |  [](#tk) |
 | [](#codchamps) 2015 | April 2015 | [](#denial)  |

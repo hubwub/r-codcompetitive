@@ -1,7 +1,6 @@
 /*
 /r/codcompetitive stylesheet - light
 template: naut 3.2
-last modified: 05/08/2015
  */
 /* general - links / buttons / inputs */
 
@@ -14,11 +13,11 @@ last modified: 05/08/2015
 body {
   overflow-x: hidden;
   background: #f9f9f9;
-  min-width: 640px;
+  min-width: 640px
 }
 
 a {
-  color: #4F8EF7;
+  color: #4f8ef7;
   transition: color .15s ease
 }
 
@@ -31,27 +30,27 @@ input:not([type="submit"]), textarea, .roundfield textarea, .roundfield input[ty
   background-color: #fff!important;
   border: 1px solid #e5e5e5!important;
   color: #707070!important;
-  transition: border 0.15s ease, color 0.15s ease!important;
+  transition: border .15s ease, color .15s ease!important
 }
 
 input:hover, textarea:hover, .roundfield textarea:hover, .roundfield input[type=text]:hover, .roundfield input[type=url]:hover, .roundfield input[type=password]:hover, .roundfield input[type=number]:hover, .linefield textarea:hover, .linefield input[type=text]:hover, .linefield input[type=password]:hover, .pretty-form input[type=text]:hover, .pretty-form textarea:hover, .pretty-form input[type=password]:hover, .pretty-form input[type=number]:hover, .login-form-side input[type=text]:hover, .login-form-side input[type=password]:hover {
-  border-color: #C5C5C5!important;
+  border-color: #c5c5c5!important
 }
 
 input:active, textarea:active, .roundfield textarea:active, .roundfield input[type=text]:active, .roundfield input[type=url]:active, .roundfield input[type=password]:active, .roundfield input[type=number]:active, .linefield textarea:active, .linefield input[type=text]:active, .linefield input[type=password]:active, .pretty-form input[type=text]:active, .pretty-form textarea:active, .pretty-form input[type=password]:active, .pretty-form input[type=number]:active, .login-form-side input[type=text]:active, .login-form-side input[type=password]:active {
   outline: none!important;
-  border-color: #4F8EF7;
-  color: #4D5763
+  border-color: #4f8ef7;
+  color: #4d5763
 }
 
 input:focus, textarea:focus {
   outline: none!important;
-  border-color: #4F8EF7!important;
-  color: #4D5763!important;
+  border-color: #4f8ef7!important;
+  color: #4d5763!important
 }
 
 .btn, button {
-  margin: 4px 8px 4px 0px;
+  margin: 4px 8px 4px 0;
   padding: 1px 12px 2px 12px;
   background-color: #fff;
   border: 1px solid #d4d4d4;
@@ -65,8 +64,8 @@ input:focus, textarea:focus {
   font-weight: bold;
   line-height: 26px;
   cursor: default;
-  transition: all 0.15s ease;
-  height: 29px;
+  transition: all .15s ease;
+  height: 29px
 }
 
 .btn:hover, button:hover {
@@ -74,55 +73,55 @@ input:focus, textarea:focus {
   -ms-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.27);
   -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.27);
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.27);
-  color: #4D5763;
+  color: #4d5763
 }
 
 .btn:active, button:active {
   -moz-box-shadow: inset 0 2px 0 #d6d6d6;
   -ms-box-shadow: inset 0 2px 0 #d6d6d6;
-  -webkit-box-shadow: inset 0 2px 0 #D6D6D6;
-  box-shadow: inset 0 2px 0 #D6D6D6;
-  background-color: #E5E5E5;
-  color: #999;
+  -webkit-box-shadow: inset 0 2px 0 #d6d6d6;
+  box-shadow: inset 0 2px 0 #d6d6d6;
+  background-color: #e5e5e5;
+  color: #999
 }
 
 .btn:focus, button:focus {
-  outline: none
+  outline: 0
 }
 /* header */
 
 #header {
-  margin: 0px;
-  height: 0px;
-  border: none
+  margin: 0;
+  height: 0;
+  border: 0
 }
 
 #sr-header-area {
   overflow: hidden;
   background-color: black!important;
-  border: 0px solid;
-  transition: all 0.15s ease;
+  border: 0 solid;
+  transition: all .15s ease;
   height: 24px;
-  line-height: 23px;
+  line-height: 23px
 }
 
 #sr-header-area .width-clip {
-  right: 20px!important;
+  right: 20px!important
 }
 
 body:not(.loggedin) #sr-header-area .width-clip {
-  right: 340px;
+  right: 340px
 }
 
 #sr-header-area .sr-list {
-  margin-right: 48px;
+  margin-right: 48px
 }
 
 #sr-header-area .sr-bar a, #sr-more-link, #sr-header-area .separator, #sr-header-area .dropdown.srdrop .selected {
   background-color: transparent;
   color: rgba(255, 255, 255, 1);
-  transition: all 0.15s ease;
-  opacity: .45;
+  transition: all .15s ease;
+  opacity: .45
 }
 
 .res #sr-header-area #srDropdownContainer a, #sr-header-ara #srDropdownContainer a {
@@ -133,15 +132,15 @@ body:not(.loggedin) #sr-header-area .width-clip {
   display: block;
   background: url(%%sprites%%) no-repeat black;
   line-height: 24px;
-  text-indent: -999em;
+  text-indent: -999em
 }
 
 #sr-header-area:hover .sr-bar a, #sr-header-area:hover #sr-more-link, #sr-header-area:hover .seperator, #sr-header-area:hover .dropdown.srdrop .selected {
-  opacity: .8;
+  opacity: .8
 }
 
 .sr-bar .separator {
-  color: black!important;
+  color: black!important
 }
 
 #sr-header-area .sr-bar a:hover, #sr-more-link:hover, #sr-header-area .dropdown.srdrop .selected:hover {
@@ -164,7 +163,7 @@ a.random.choice {
 }
 
 #sr-header-area .dropdown.srdrop .selected:hover {
-  text-decoration: underline;
+  text-decoration: underline
 }
 
 #sr-header-area .dropdown.srdrop .selected:after {
@@ -177,7 +176,7 @@ a.random.choice {
 
 #sr-header-area .drop-choices.srdrop {
   background-color: #00000;
-  border: none;
+  border: 0;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15)
 }
 
@@ -202,16 +201,16 @@ a.random.choice {
   margin-left: 19px;
   margin: 0;
   opacity: 1;
-  transition: opacity 0.3s ease;
+  transition: opacity .3s ease
 }
 
 #header-img.default-header:hover, #header-img:hover {
-  opacity: .5;
+  opacity: .5
 }
 
 #header-img.default-header, #header-img {
-  width: 0px;
-  padding-left: 35px;
+  width: 0;
+  padding-left: 35px
 }
 
 #header .pagename {
@@ -224,18 +223,18 @@ a.random.choice {
   margin: auto;
   display: block;
   background: rgba(0, 0, 0, 0.0) url(%%logo-arms%%);
-  background-position: 0px 0px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   text-indent: -9999px;
-  transition: background 0.25s ease;
+  transition: background .25s ease;
   position: relative;
   top: 25px;
   left: -5px;
-  margin-top: -275px;
+  margin-top: -275px
 }
 
 #header .pagename a:hover {
-  background-color: rgba(0, 0, 0, 0.08) url(%%logo-arms%%);
+  background-color: rgba(0, 0, 0, 0.08) url(%%logo-arms%%)
 }
 /* tab menu */
 
@@ -243,66 +242,66 @@ a.random.choice {
   position: relative;
   border-top: 3px #fc6701 solid;
   background-color: #1b0b00;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
-  height: 35px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
+  height: 35px
 }
 
 #header .tabmenu {
-  border: none;
-  margin: 0px;
+  border: 0;
+  margin: 0;
   margin-top: 35px;
   top: -35px;
-  left: -30px;
+  left: -30px
 }
 
 #header .tabmenu li a {
   display: inline-block;
-  margin: 0px 4px;
+  margin: 0 4px;
   padding: 16px 16px;
   background-color: transparent;
-  border: 0px;
-  border-radius: 0px;
+  border: 0;
+  border-radius: 0;
   color: rgba(255, 255, 255, 0.55)!important;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 12px;
   font-family: "Lato", sans-serif;
-  transition: color 0.25s ease;
+  transition: color .25s ease
 }
 
 #header .tabmenu li a {
-  color: #fff;
+  color: #fff
 }
 
 #header .tabmenu li a:hover {
   background-color: transparent;
-  color: rgba(255, 255, 255, .85)!important;
+  color: rgba(255, 255, 255, .85)!important
 }
 
 #header .tabmenu li.selected a {
   padding: 16px 16px 14px 16px;
   background-color: transparent;
-  border: 0px;
+  border: 0;
   color: rgba(255, 255, 255, .85)!important;
   font-weight: bold;
-  font-size: small;
+  font-size: small
 }
 
 #header .tabmenu li.selected a:hover {
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.55)!important;
+  color: rgba(255, 255, 255, 0.55)!important
 }
 /* tab menu rising and etc. */
 
-.listing-page .tabmenu li:nth-of-type(3), .wiki-page .tabmenu li:nth-of-type(3), .listing-page .tabmenu li:nth-of-type(4), .wiki-page .tabmenu li:nth-of-type(4), .listing-page .tabmenu li:nth-of-type(8), .wiki-page .tabmenu li:nth-of-type(8), .listing-page .tabmenu li:nth-of-type(6), .wiki-page .tabmenu li:nth-of-type(6) {
-  display: none;
+listing-page .tabmenu li:nth-of-type(3), .wiki-page .tabmenu li:nth-of-type(3), .listing-page .tabmenu li:nth-of-type(4), .wiki-page .tabmenu li:nth-of-type(4), .listing-page .tabmenu li:nth-of-type(8), .wiki-page .tabmenu li:nth-of-type(8), .listing-page .tabmenu li:nth-of-type(6), .wiki-page .tabmenu li:nth-of-type(6) {
+  display: none
 }
 /* sidebar */
 
 .side {
-  margin: 375px 15px 0px 0px;
-  padding: 0px 16px;
-  background-color: #fff;
+  margin: 375px 15px 0 0;
+  padding: 0 16px;
+  background-color: #fff
 }
 
 #header-bottom-right {
@@ -316,8 +315,8 @@ a.random.choice {
   font-size: 11px;
   color: rgba(255, 255, 255, 0.45);
   padding: 5px 8px 4px 2px;
-  transition: color 0.15s ease;
-  opacity: .75;
+  transition: color .15s ease;
+  opacity: .75
 }
 
 body:not(.loggedin) #header-bottom-right {
@@ -325,19 +324,19 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 #header-bottom-right a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75)
 }
 
 #header-bottom-right a:hover {
   text-decoration: underline;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1)
 }
 /* user karma */
 
 .user .userkarma {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.45);
-  border: none;
+  border: 0;
   font-size: 9px;
   transition: all .15s ease
 }
@@ -348,7 +347,7 @@ body:not(.loggedin) #header-bottom-right {
 /* mail and modmail */
 
 #mail, #modmail {
-  transition: all 0.25s ease;
+  transition: all .25s ease
 }
 
 #mail {
@@ -356,7 +355,7 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 #mail.nohavemail, #mail.havemail {
-  opacity: 1;
+  opacity: 1
 }
 
 .message-count {
@@ -389,9 +388,9 @@ body:not(.loggedin) #header-bottom-right {
 
 .side:after {
   display: block;
-  margin: 10px 0px;
-  padding: 10px 0px;
-  color: #5B92FA;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #5b92fa;
   content: "";
   text-transform: none;
   font-size: 16px;
@@ -399,7 +398,7 @@ body:not(.loggedin) #header-bottom-right {
   position: absolute;
   width: 300px;
   text-align: center;
-  right: 16px;
+  right: 16px
 }
 /* search */
 
@@ -407,25 +406,23 @@ body:not(.loggedin) #header-bottom-right {
   position: relative;
   right: 16px;
   z-index: 1;
-  width: 300px;
+  width: 300px
 }
 
 #search input[type=text] {
   padding: 10px 25px 10px 16px;
-  border: 0px solid !important;
+  border: 0 solid!important;
   border-radius: 2px;
-  transition: background-color 0.25s ease, border-radius 0.25s ease;
+  transition: background-color .25s ease, border-radius .25s ease
 }
 
 #search input[type=text]:hover {
-  background-color: rgb(242, 242, 242)!important;
+  background-color: #f2f2f2!important
 }
 
 #search input[type=text]:focus {
-  border-radius: 2px 2px 0px 0px;
+  border-radius: 2px 2px 0 0
 }
-
-#search input[type=text]:focus:hover {}
 
 #search input[type="text"]:-moz-placeholder {
   font-size: 0
@@ -443,37 +440,37 @@ body:not(.loggedin) #header-bottom-right {
   font-size: 14px;
   content: "Search";
   position: relative;
-  top: 1px;
+  top: 1px
 }
 
 #search input[type="text"]::-webkit-input-placeholder::after {
   font-size: 14px;
   content: "Search";
   position: relative;
-  top: 1px;
+  top: 1px
 }
 
 #search input[type="text"]:-ms-input-placeholder::after {
   font-size: 14px;
   content: "Search";
   position: relative;
-  top: 1px;
+  top: 1px
 }
 
 #search input[type=text]::-webkit-input-placeholder {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 #search input[type=text]:-moz-placeholder {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 #search input[type=text]::-moz-placeholder {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 #search input[type=text]:-ms-input-placeholder {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 #search input[type=submit] {
@@ -483,43 +480,42 @@ body:not(.loggedin) #header-bottom-right {
   background-image: url(%%spritesheet%%);
   background-position: -215px -231px;
   background-repeat: no-repeat;
-  border: none !important;
+  border: none!important;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.00);
-  transition: background-color 0.15s ease;
+  transition: background-color .15s ease
 }
 
 #search input[type=submit]:hover {
   background-image: url(%%spritesheet%%);
   background-position: -215px -231px;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05)
 }
-/* search  */
 
 #search #searchexpando {
   background-color: #f2f2f2;
-  border: none;
-  border-radius: 0px 0px 2px 2px;
+  border: 0;
+  border-radius: 0 0 2px 2px;
   margin-top: -5px;
   padding-top: 10px;
-  padding-right: 0px;
+  padding-right: 0;
   height: 57px;
-  line-height: 45px;
+  line-height: 45px
 }
 
 #search #searchexpando label {
   padding: 18px 8px 17px 8px;
   cursor: pointer;
-  transition: background-color 0.1s ease;
+  transition: background-color .1s ease
 }
 
 #search #searchexpando label:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0)
 }
 
 #search #searchexpando label:active {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0)
 }
 
 #search #searchexpando p {
@@ -535,14 +531,14 @@ body:not(.loggedin) #header-bottom-right {
   right: 15px;
   width: 300px;
   height: 60px;
-  border-radius: 0px;
+  border-radius: 0;
   line-height: 36px;
-  border: none;
+  border: 0;
   text-align: center;
-  padding: 0px 16px;
-  transition: background-color 0.25s ease;
+  padding: 0 16px;
+  transition: background-color .25s ease;
   font-family: "Lato", sans-serif;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .morelink:hover {
@@ -552,8 +548,8 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 .morelink:active {
-  background-color: #4059DB;
-  background-image: none!important;
+  background-color: #4059db;
+  background-image: none!important
 }
 
 .morelink a {
@@ -562,7 +558,7 @@ body:not(.loggedin) #header-bottom-right {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 1.5px;
-  background-image: none!important;
+  background-image: none!important
 }
 
 .morelink:after {
@@ -598,7 +594,7 @@ body:not(.loggedin) #header-bottom-right {
 
 .disabled .morelink {
   box-shadow: none!important;
-  background-color: #CFCFCF
+  background-color: #cfcfcf
 }
 
 .disabled .morelink a {
@@ -607,7 +603,7 @@ body:not(.loggedin) #header-bottom-right {
 
 .disabled .morelink:after {
   content: "You must be approved by the moderators in order to submit.";
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   color: #4d5763
 }
 
@@ -617,7 +613,7 @@ body:not(.loggedin) #header-bottom-right {
 /* login form */
 
 .login-form-side {
-  border: none
+  border: 0
 }
 
 .login-form-side input[type=text], .login-form-side input[type=password] {
@@ -635,13 +631,13 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 .titlebox span.subscribers, .titlebox .users-online, .titlebox .number {
-  color: #999999;
+  color: #999;
   font-size: 12px;
   position: relative;
   top: -2px;
   left: -2px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 div.titlebox span.word {
@@ -657,7 +653,7 @@ div.titlebox span.word {
 }
 
 div.titlebox span.number:before {
-  content: "A community of ";
+  content: "A community of "
 }
 
 div.titlebox span.number:after {
@@ -690,11 +686,11 @@ div.titlebox span.number:after {
 }
 
 .titlebox .tagline:after {
-  content: "";
+  content: ""
 }
 
 .titlebox .tagline a.flairselectbtn {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .titlebox .tagline a.flairselectbtn:after {
@@ -711,7 +707,7 @@ div.titlebox span.number:after {
 /* subscribe button */
 
 .titlebox form.toggle.sr_style_toggle {
-  position: relative;
+  position: relative
 }
 
 .titlebox form.toggle.sr_style_toggle label {
@@ -729,8 +725,8 @@ div.titlebox span.number:after {
 
 .titlebox .fancy-toggle-button .add, .titlebox .fancy-toggle-button .remove {
   background-image: none!important;
-  border: none;
-  color: #4D5763;
+  border: 0;
+  color: #4d5763;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 0;
@@ -740,37 +736,35 @@ div.titlebox span.number:after {
   width: auto
 }
 
-.titlebox .fancy-toggle-button .add:hover, .titlebox .fancy-toggle-button .remove:hover {}
-
 .titlebox .fancy-toggle-button .add:active, .titlebox .fancy-toggle-button .remove:active {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.64)
 }
 
 .titlebox .fancy-toggle-button .add {
-  background-color: transparent;
+  background-color: transparent
 }
 
 .titlebox .fancy-toggle-button .add:hover {
-  background-color: transparent;
+  background-color: transparent
 }
 
 .titlebox .fancy-toggle-button .add:active {
-  background-color: transparent;
+  background-color: transparent
 }
 
 .titlebox .fancy-toggle-button .remove {
   background-color: transparent;
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .titlebox .fancy-toggle-button .remove:hover {
   background-color: transparent;
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .titlebox .fancy-toggle-button .remove:active {
   background-color: transparent;
-  color: #4F8EF7
+  color: #4f8ef7
 }
 /* sidebar text */
 
@@ -778,7 +772,7 @@ div.titlebox span.number:after {
   color: #262626;
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  line-height: 1.3333333333333333em;
+  line-height: 1.3333333333333333em
 }
 
 .side .titlebox .md h1 {
@@ -786,11 +780,11 @@ div.titlebox span.number:after {
   width: 300px;
   margin-left: -16px;
   text-align: center;
-  color: #fff;
+  color: #fff
 }
 
 .side .titlebox .md h2 {
-  margin: 16px 0px 2px 0px;
+  margin: 16px 0 2px 0
 }
 
 .side .titlebox .md h3 a {
@@ -799,12 +793,12 @@ div.titlebox span.number:after {
   border-radius: 2px;
   background-color: #fc6701;
   font-family: "Lato", sans-serif;
-  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  transition: background-color .25s ease, box-shadow .25s ease;
   color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
   display: block;
-  margin: 1.5em 0em;
-  font-size: 12px;
+  margin: 1.5em 0;
+  font-size: 12px
 }
 
 .side .titlebox .md h3 a:hover {
@@ -813,34 +807,34 @@ div.titlebox span.number:after {
 }
 
 .side .titlebox .md h3 a:active {
-  background-color: #4059DB;
+  background-color: #4059db;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.54)
 }
 
 .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4 {
   padding: 12px 16px;
   background-color: #FFF;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
   border-radius: 2px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
   color: #737373;
   font-weight: bold;
-  transition: box-shadow 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+  transition: box-shadow .15s ease, color .15s ease, background-color .15s ease;
   display: block;
-  margin: 1.5em 0em;
-  font-size: 12px;
+  margin: 1.5em 0;
+  font-size: 12px
 }
 
 .side .titlebox h4 a:hover, .wiki-page .wiki-page-content .md.wiki h4:hover {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
-  color: #4D5763;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  color: #4d5763
 }
 
 .side .titlebox h4 a:active, .wiki-page .wiki-page-content .md.wiki h4:active {
-  box-shadow: inset 0 2px 0 #D6D6D6;
-  background-color: #E5E5E5;
+  box-shadow: inset 0 2px 0 #d6d6d6;
+  background-color: #e5e5e5;
   color: #999;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.36);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.36)
 }
 
 .md hr {
@@ -854,18 +848,18 @@ div.titlebox span.number:after {
 
 .side #moderation_tools .title h1 {
   text-transform: capitalize;
-  color: #4D5763
+  color: #4d5763
 }
 
 .side #moderation_tools .title .collapse-button {
-  color: #4D5763;
+  color: #4d5763;
   vertical-align: middle;
   border-radius: 1px;
   border: 1px solid #d8d8d8
 }
 
 .side .sidecontentbox .content {
-  border: none;
+  border: 0;
   padding: 8px 0
 }
 
@@ -890,53 +884,53 @@ div.titlebox span.number:after {
 /* link listing - frontpage */
 
 .content {
-  margin: 375px 10px 0px 15px;
-  padding: 0px;
+  margin: 375px 10px 0 15px;
+  padding: 0
 }
 
 body:before {
   height: 300px;
-  top: 0px;
+  top: 0;
   position: absolute;
   width: 100%;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   content: "";
   text-indent: -9999px;
-  z-index: -1;
+  z-index: -1
 }
 
 .content:before {
   height: 300px;
-  top: 0px;
+  top: 0;
   position: absolute;
   width: 100%;
-  left: 0px;
-  right: 0px;
-  background: #000000 url(%%headerimg%%) fixed no-repeat 50% 0;
-  background-position: 50% 0%;
+  left: 0;
+  right: 0;
+  background: #000 url(%%headerimg%%) fixed no-repeat 50% 0;
+  background-position: 50% 0;
   content: "";
   text-indent: -9999px;
-  z-index: -1;
+  z-index: -1
 }
 
 @media only screen and (min-width: 1920px) {
   .content:before {
-    background-size: 100%;
+    background-size: 100%
   }
 }
 
 .sitetable {
   margin-right: 320px;
-  position: relative;
+  position: relative
 }
 
 .link {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #fff;
   border-top: 1px solid #dee5e7;
-  position: relative;
+  position: relative
 }
 
 .link:before {
@@ -947,37 +941,37 @@ body:before {
   width: 47px;
   height: 100%;
   border-right: 1px solid #dee5e7;
-  background: #f6f6f6;
+  background: #f6f6f6
 }
 
 .res-nightmode .link:before {
-  background: rgb(23, 28, 31);
-  border-color: #13181B;
+  background: #171c1f;
+  border-color: #13181b
 }
 
-body >.content .link .rank, .rank-spacer {
+body>.content .link .rank, .rank-spacer {
   display: none
 }
 
 .link .midcol {
   position: relative;
   width: 47px!important;
-  margin: 0px;
-  padding: 18px 0px 0 0;
+  margin: 0;
+  padding: 18px 0 0 0
 }
 
 .link:nth-child(3) {
-  border-top: none;
+  border-top: 0
 }
 
 .linklisting .link {
-  background-color: white!important;
+  background-color: white!important
 }
 /* upvote downvote score */
 
 .link .score {
   line-height: 16px;
-  font-size: 12px;
+  font-size: 12px
 }
 
 .link .score.likes {
@@ -990,29 +984,29 @@ body >.content .link .rank, .rank-spacer {
 /* upvote downvote arrow */
 
 .arrow {
-  background-image: url(%%spritesheet%%) !important;
+  background-image: url(%%spritesheet%%)!important;
   background-color: transparent;
   width: 33px;
   border-radius: 2px;
-  transition: background-color 0.25s ease;
-  margin-right: 7px;
+  transition: background-color .25s ease;
+  margin-right: 7px
 }
 
 .arrow:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05)
 }
 /* upvotes */
 
 .arrow.up {
   height: 20px;
-  background-position: -64px 0px;
-  transition: background-color 0.25s ease;
+  background-position: -64px 0;
+  transition: background-color .25s ease
 }
 
 .arrow.upmod {
   height: 20px;
-  background-position: -128px 0px;
-  position: relative;
+  background-position: -128px 0;
+  position: relative
 }
 
 .arrow.upmod:focus:after {
@@ -1024,24 +1018,23 @@ body >.content .link .rank, .rank-spacer {
   opacity: 1;
   z-index: 100;
   content: " ";
-  background-color: #ff5500;
+  background-color: #f50;
   border-radius: 28px;
-  animation: upvote 0.35s ease-out forwards;
-  -webkit-animation: upvote 0.35s ease-out forwards;
+  animation: upvote .35s ease-out forwards;
+  -webkit-animation: upvote .35s ease-out forwards
 }
 /* downvotes */
 
 .arrow.down {
   height: 20px;
-  background-position: -160px 0px;
-  transition: background-color 0.25s ease;
+  background-position: -160px 0;
+  transition: background-color .25s ease
 }
 
 .arrow.downmod {
   height: 20px;
-  background-position: -224px 0px;
+  background-position: -224px 0
 }
-/* hover message on downvote */
 
 .arrow.down:after {
   display: block;
@@ -1052,7 +1045,7 @@ body >.content .link .rank, .rank-spacer {
   margin-left: 32px;
   padding: 12px;
   background-color: rgba(79, 77, 192, 0.0);
-  border: none;
+  border: 0;
   border-radius: 2px;
   color: rgba(255, 255, 255, 0);
   content: "For content that does not contribute to any discussion.";
@@ -1060,15 +1053,15 @@ body >.content .link .rank, .rank-spacer {
   letter-spacing: 1px;
   font-weight: normal;
   font-size: 13px;
-  transition: all 0.25s ease;
-  pointer-events: none;
+  transition: all .25s ease;
+  pointer-events: none
 }
 
 .arrow.down:hover:after {
   visibility: visible;
   background-color: rgba(79, 77, 192, 0.9);
   color: #FFF;
-  margin-left: 48px;
+  margin-left: 48px
 }
 
 .subscriber .arrow.up {
@@ -1081,40 +1074,40 @@ body >.content .link .rank, .rank-spacer {
 /* linklisting - submission title */
 
 .link .title {
-  margin: 0px 0px 0px 0px;
+  margin: 0;
   font-size: 15px;
   font-weight: 400;
   font-family: "Lato", sans-serif;
   overflow: visible;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 
 body .content .sitetable .link .title a:hover {
-  color: #880d0d!important;
+  color: #880d0d!important
 }
 
 .link .entry {
   padding: 15px 32px 14px 8px;
-  border-left: 10px solid #E0E6F2;
+  border-left: 10px solid #e0e6f2;
   margin-left: 0;
   min-height: 86px;
-  margin-bottom: -1px;
+  margin-bottom: -1px
 }
 
 .link .entry:hover {
-  border-left-color: #CAD6ED;
+  border-left-color: #cad6ed
 }
 
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .content .thing .title:visited, .content .thing.visited .title {
-  color: #7D5D8A
+  color: #7d5d8a
 }
 
 .thing .title.loggedin.click:visited, .thing .title.click:visited {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 /* linklisting domain */
 
@@ -1131,7 +1124,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .domain a:hover {
-  color: #4F8EF7!important;
+  color: #4f8ef7!important;
   text-decoration: none
 }
 
@@ -1142,7 +1135,7 @@ body .content .sitetable .link .title a:hover {
 
 .expando-button, .expando-button.image, .expando-button.video-muted {
   position: relative;
-  margin: 2px 6px 2px 0 !important;
+  margin: 2px 6px 2px 0!important;
   width: 16px!important;
   height: 16px!important;
   background-color: transparent;
@@ -1151,8 +1144,8 @@ body .content .sitetable .link .title a:hover {
 }
 
 .expando-button:hover {
-  background-color: #4F8EF7;
-  border-color: #4F8EF7
+  background-color: #4f8ef7;
+  border-color: #4f8ef7
 }
 
 .expando-button.selftext.collapsed {
@@ -1241,10 +1234,10 @@ body .content .sitetable .link .title a:hover {
   padding-top: 3px;
   padding-left: 0;
   background-color: transparent;
-  border: 0px solid;
-  border-top: 1px solid #F7F7F7;
-  border-radius: 0px;
-  color: #4D5763;
+  border: 0 solid;
+  border-top: 1px solid #f7f7f7;
+  border-radius: 0;
+  color: #4d5763
 }
 
 .link .entry .tagline {
@@ -1252,7 +1245,7 @@ body .content .sitetable .link .title a:hover {
   color: #b3b3b3;
   font-size: 12px;
   font-family: "Lato", sans-serif;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 
 .link .entry .tagline a {
@@ -1268,7 +1261,7 @@ body .content .sitetable .link .title a:hover {
 }
 
 .link .entry .tagline a:hover {
-  color: #4F8EF7!important;
+  color: #4f8ef7!important;
   text-decoration: none
 }
 
@@ -1286,16 +1279,16 @@ body .content .sitetable .link .title a:hover {
   padding: 1px 3px 1px 2px;
   margin-left: 2px;
   background-color: transparent;
-  color: #fff !important;
+  color: #fff!important;
   vertical-align: middle;
   border-radius: 1px;
   position: relative;
   top: -1px;
-  cursor: help;
+  cursor: help
 }
 
 .link .entry .tagline .userattrs a.moderator {
-  background-color: #65B354
+  background-color: #65b354
 }
 
 .RESUserTagImage {
@@ -1314,7 +1307,7 @@ body .content .sitetable .link .title a:hover {
 /* linklisting comment / report / share */
 
 .link .flat-list {
-  margin-top: 3px;
+  margin-top: 3px
 }
 
 .link .entry .buttons li a {
@@ -1323,7 +1316,7 @@ body .content .sitetable .link .title a:hover {
   font-weight: normal;
   font-size: 11px;
   font-family: "Lato", sans-serif;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 
 .link .entry .buttons li a:hover {
@@ -1334,18 +1327,18 @@ body .content .sitetable .link .title a:hover {
 .nsfw-stamp acronym {
   padding: 2px 3px;
   background-color: transparent;
-  border-color: #e82e63 !important;
+  border-color: #e82e63!important;
   border-radius: 2px;
   color: #e82e63;
   opacity: 100;
-  cursor: help;
+  cursor: help
 }
 
 .link .entry .buttons li a.comments {
   color: #525252!important;
-  font-weight: bold !important;
-  opacity: 100 !important;
-  transition: all 0.25s ease-in-out !important;
+  font-weight: bold!important;
+  opacity: 100!important;
+  transition: all .25s ease-in-out!important
 }
 
 .link .entry li .comments:hover {
@@ -1361,13 +1354,13 @@ body .content .sitetable .link .title a:hover {
   background-color: #fff;
   z-index: 100;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.24);
-  border: none;
+  border: 0;
   border-radius: 2px
 }
 
 .action-form .reason-prompt {
   font-size: 16px;
-  color: #4D5763;
+  color: #4d5763;
   padding-bottom: 8px;
   display: block
 }
@@ -1385,7 +1378,7 @@ body .content .sitetable .link .title a:hover {
   padding: 4px 4px 4px 0;
   cursor: pointer;
   display: block;
-  color: #4D5763;
+  color: #4d5763;
   text-transform: capitalize
 }
 
@@ -1407,46 +1400,45 @@ body .content .sitetable .link .title a:hover {
   padding: 24px;
   background-color: #fff;
   z-index: 100;
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.24);
-  border: none;
-  border-radius: 2px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.24);
+  border: 0;
+  border-radius: 2px
 }
 
 .link .entry .report-form .reason-prompt {
   font-size: 16px;
-  color: #4D5763;
+  color: #4d5763;
   padding-bottom: 8px;
-  display: block;
+  display: block
 }
 
 .link .entry .report-form .reason-prompt:first-letter {
-  text-transform: capitalize;
+  text-transform: capitalize
 }
 
 .link .entry .report-form .reason-prompt li {
-  padding: 4px 4px 4px 0px;
-  display: block;
+  padding: 4px 4px 4px 0;
+  display: block
 }
 
 .link .entry .report-form li label {
-  padding: 4px 4px 4px 0px;
+  padding: 4px 4px 4px 0;
   cursor: pointer;
   display: block;
-  color: #4D5763;
-  text-transform: capitalize;
+  color: #4d5763;
+  text-transform: capitalize
 }
 
 .link .entry .report-form li label:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05)
 }
 
 .report-form input[name="other_reason"] {
-  padding: 8px;
+  padding: 8px
 }
-/* linklisting flair */
 
 .link .entry .buttons li a.flairselectbtn {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 /* linklisting RES L+C */
 
@@ -1461,25 +1453,25 @@ body .content .sitetable .link .title a:hover {
 /* linklisting report / spam / approve */
 
 .thing.spam {
-  background-color: #FFE9E6
+  background-color: #ffe9e6
 }
 
 .entry .buttons li.reported-stamp {
   background-color: transparent;
-  border: 1px solid #EDEEEE!important;
+  border: 1px solid #edeeee!important;
   border-radius: 20px;
-  color: #4A4F57;
-  line-height: 16px;
+  color: #4a4f57;
+  line-height: 16px
 }
 
 a.pretty-button.negative, a.pretty-button.neutral, a.pretty-button.positive {
   background-image: none;
   border: 1px solid;
   border-radius: 20px;
-  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.25);
   color: #fff;
   line-height: 15px;
-  transition: all 0.25s ease;
+  transition: all .25s ease
 }
 
 a.pretty-button.negative {
@@ -1495,7 +1487,7 @@ a.pretty-button.negative:hover {
 a.pretty-button.neutral {
   background-color: #ddd;
   border-color: #ddd;
-  color: #4A4F57
+  color: #4a4f57
 }
 
 a.pretty-button.neutral:hover {
@@ -1524,15 +1516,15 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
 /* linklisting last clicked */
 
 .link.last-clicked {
-  background-color: #F2F2F2;
-  border: none
+  background-color: #f2f2f2;
+  border: 0
 }
 /* linklisting stickied post*/
 
 .thing.stickied, .res-nightmode .thing.stickied {
-  border-radius: 0px;
+  border-radius: 0;
   margin-bottom: 10px!important;
-  border-top: none!important;
+  border-top: none!important
 }
 
 .thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {
@@ -1633,15 +1625,15 @@ body>.content .link.compressed .midcol {
 /* flairs flair selector */
 
 .flairselector {
-  padding: 0px 0px 5px 0px!important;
-  border-radius: 0px;
+  padding: 0 0 5px 0!important;
+  border-radius: 0;
   border-color: #dee5e7;
   box-shadow: none;
-  z-index: 9999;
+  z-index: 9999
 }
 
 .flairselector .customizer {
-  display: none !important;
+  display: none!important
 }
 
 .flairselector.drop-choices.active {
@@ -1651,33 +1643,33 @@ body>.content .link.compressed .midcol {
 .flairselector h2 {
   margin-bottom: 4px;
   padding: 5px;
-  background-color: rgb(246, 246, 246);
+  background-color: #f6f6f6;
   color: #404040;
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 20px
 }
 
 .flairoptionpane {
   max-height: 500px;
   text-align: left;
-  color: #000;
+  color: #000
 }
 
 .flairselector .flairoptionpane ul li {
-  padding: 0!important;
+  padding: 0!important
 }
 
 .flairoptionpane ul li .linkflair {
   text-align: left;
   padding: 0;
-  color: #00000;
+  color: #00000
 }
 
 .flairselector form {
   padding-top: 12px;
-  border-top: 1px solid #F7F7F7
+  border-top: 1px solid #f7f7f7
 }
 
 .flairselector form .flairselection {
@@ -1693,7 +1685,7 @@ body>.content .link.compressed .midcol {
 .flairselector form .flairselection .linkflair a.title {
   font-size: 18px!important;
   opacity: 100!important;
-  color: #4F8EF7!important;
+  color: #4f8ef7!important;
   cursor: default
 }
 
@@ -1707,7 +1699,7 @@ body>.content .link.compressed .midcol {
 .flairselector form .flairselection .flairremove a {
   visibility: visible;
   opacity: 100!important;
-  color: #4F8EF7!important;
+  color: #4f8ef7!important;
   margin-left: -4px;
   text-transform: capitalize
 }
@@ -1742,17 +1734,17 @@ body>.content .link.compressed .midcol {
 }
 
 .flairselector .flairoptionpane ul li {
-  margin: 5px 5px;
+  margin: 5px 5px
 }
 
 .flairselector li.selected {
-  border: none;
+  border: 0;
   background-color: transparent
 }
 
 .flairselector .flairoptionpane ul li.flairsample-right {
   padding: 5px 0!important;
-  border: none
+  border: 0
 }
 
 .flairselector li a, .flairselector form .flairselection a.author {
@@ -1772,7 +1764,7 @@ body>.content .link.compressed .midcol {
 /* linklisting RES selection */
 
 .res .RES-keyNav-activeElement {
-  outline: 0 dashed #E0E0E0!important;
+  outline: 0 dashed #e0e0e0!important;
   transition: all .35s ease
 }
 
@@ -1783,7 +1775,7 @@ body>.content .link.compressed .midcol {
 div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   background-color: transparent!important;
   padding-left: 8px!important;
-  border-left: 2px solid #4F8EF7
+  border-left: 2px solid #4f8ef7
 }
 
 div.commentarea div.RES-keyNav-activeElement .md {
@@ -1791,7 +1783,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .res .commentarea .thing {
-  padding: 0px 0px 0px 15px !important
+  padding: 0 0 0 15px!important
 }
 
 .res .commentarea .entry .flat-list {
@@ -1808,15 +1800,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .RESDialogSmall {
-  border: none;
+  border: 0;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
   margin-top: 8px
 }
 
-.RESDialogSmall > h3 {
-  color: #4F8EF7;
+.RESDialogSmall>h3 {
+  color: #4f8ef7;
   background-color: #FFF;
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1px solid #ededed;
   height: 36px;
   padding: 8px;
   margin: 0
@@ -1834,13 +1826,13 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .RESCloseButton:hover {
-  border: 1px solid #D7D9DC
+  border: 1px solid #d7d9dc
 }
 
 #userTaggerToolTip input[type=text], #userTaggerToolTip select {
   line-height: 22px;
   padding-left: 4px;
-  border: 1px solid #E5E5E5!important
+  border: 1px solid #e5e5e5!important
 }
 
 .toggleButton {
@@ -1849,15 +1841,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .toggleButton .toggleOn {
   border-radius: 0;
-  border: 1px solid #4F8EF7;
-  background-color: #4F8EF7;
+  border: 1px solid #4f8ef7;
+  background-color: #4f8ef7;
   color: #fff;
   text-transform: capitalize
 }
 
 .toggleButton .toggleOff {
   border-radius: 0;
-  border: 1px solid #D7D9DC;
+  border: 1px solid #d7d9dc;
   background-color: transparent;
   text-transform: capitalize
 }
@@ -1896,7 +1888,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   position: relative;
   left: -70px;
   top: 10px;
-  background: none;
+  background: 0;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: normal;
@@ -1904,25 +1896,25 @@ div.commentarea div.RES-keyNav-activeElement .md {
   pointer-events: none;
   padding: 10px 100px 10px 100px;
   margin-right: 20px;
-  overflow: visible;
+  overflow: visible
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop {
   padding: 10px 16px 10px 104px;
   margin-left: 15px;
-  margin-top: 0px;
-  border-radius: 0px;
-  border: none;
-  border-bottom: 1px solid #E0E1E2;
+  margin-top: 0;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #e0e1e2;
   width: calc(100% - 345px);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
-  text-align: right;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.20);
+  text-align: right
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice {
   padding: 10px;
-  color: #4D5763;
-  transition: all 0.25s ease;
+  color: #4d5763;
+  transition: all .25s ease
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice[href*="/?t=all"] {
@@ -1930,7 +1922,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice:hover {
-  background-color: #F5F8F9
+  background-color: #f5f8f9
 }
 
 .top-page .content .menuarea .drop-choices.lightdrop a.choice.selected {
@@ -1940,19 +1932,19 @@ div.commentarea div.RES-keyNav-activeElement .md {
 /* RES popup */
 
 .guider {
-  border: none;
+  border: 0;
   box-shadow: 0 2px 3px #DDD
 }
 
 .guider_content h1 {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .guider_button {
   font-size: 11px;
-  border: none;
+  border: 0;
   background-image: none;
-  background-color: #4F8EF7;
+  background-color: #4f8ef7;
   transition: all .15s ease
 }
 
@@ -1971,15 +1963,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
 /* info bar */
 
 .content .infobar {
-  margin: 0px 0px 16px 0px;
+  margin: 0 0 16px 0;
   padding: 8px 16px;
   line-height: 26px;
-  border: none;
+  border: 0;
   margin-right: 320px;
   background-color: #fc6701;
   color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
-  border-radius: 0px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 0
 }
 
 .infobar .md {
@@ -2029,7 +2021,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 16px;
   background-color: #fff;
   color: #b3b3b3;
-  border-top: 1px solid #F2F2F2;
+  border-top: 1px solid #f2f2f2;
   margin-top: -1px
 }
 
@@ -2055,29 +2047,29 @@ div.commentarea div.RES-keyNav-activeElement .md {
 /* comments page styling */
 
 .comments-page .link {
-  border-radius: 0px;
+  border-radius: 0;
   margin-bottom: 19px!important;
-  border-top: none;
+  border-top: 0
 }
 
 .comments-page .link .entry {
-  border-bottom: none;
+  border-bottom: 0;
   padding-bottom: 10px
 }
 
 .commentarea {
-  margin-right: 320px;
+  margin-right: 320px
 }
 
 .commentarea .panestack-title {
-  margin: 10px 0 0 0px;
+  margin: 10px 0 0 0;
   border-bottom: 0;
   padding-left: 22px;
-  background: #FAFAFA;
+  background: #fafafa
 }
 
 .commentarea .panestack-title .title {
-  color: #4D5763
+  color: #4d5763
 }
 
 .panestack-title .title:first-letter {
@@ -2085,12 +2077,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .commentarea .menuarea {
-  margin: 0 0 0 0px;
-  background: #FAFAFA;
-  padding-left: 22px;
+  margin: 0;
+  background: #fafafa;
+  padding-left: 22px
 }
-
-.commentarea .menuarea .spacer:nth-of-type(2) {}
 
 .commentarea .menuarea span.dropdown-title.lightdrop {
   color: #b3b3b3
@@ -2110,7 +2100,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .commentarea .menuarea .dropdown.lightdrop .selected:hover {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .commentarea .menuarea .dropdown.lightdrop .selected:after {
@@ -2118,7 +2108,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .drop-choices.lightdrop {
-  border: none;
+  border: 0;
   z-index: 1001;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
 }
@@ -2129,7 +2119,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .drop-choices a.choice:hover {
-  background-color: #4F8EF7;
+  background-color: #4f8ef7;
   color: #fff
 }
 
@@ -2139,19 +2129,17 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .commentarea .menuarea .toggle a:hover, .help-hoverable:hover {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .commentarea>.usertext {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 0 0 2px 2px;
   margin: -58px 0 16px;
   padding: 64px 16px 16px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   overflow: visible
 }
-
-.commentarea .usertext-edit {}
 
 .usertext button {
   margin: 4px 16px 8px 0
@@ -2167,12 +2155,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .usertext .bottom-area a.reddiquette {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .gold-accent.comment-visits-box {
-  margin: 0px 0px 12px 0px;
-  border-radius: 2px;
+  margin: 0 0 12px 0;
+  border-radius: 2px
 }
 
 .commentarea .sitetable {
@@ -2181,10 +2169,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .commentarea .thing {
-  border-radius: 0px!important;
+  border-radius: 0!important;
   background-color: #fff;
   margin: 0 0 8px 0;
-  padding: 16px 16px 16px 14px;
+  padding: 16px 16px 16px 14px
 }
 
 .commentarea .child .thing {
@@ -2197,13 +2185,11 @@ div.commentarea div.RES-keyNav-activeElement .md {
   width: 23px;
   margin-right: 10px;
   margin-left: -8px;
-  margin-top: 5px;
+  margin-top: 5px
 }
 
-.commentarea .sitetable .comment {}
-
 .comment .child, .comment .showreplies {
-  border-left: 1px dotted #ECECEC;
+  border-left: 1px dotted #ececec;
   margin-top: 0
 }
 /* comment vote arrows */
@@ -2220,31 +2206,31 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .comment .entry {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px
 }
 
 .comment .entry .tagline {
   color: #b3b3b3;
   font-size: 12px;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif
 }
 
 .comment .expand {
   background-color: transparent;
   transition: all .15s ease;
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 .comment .expand:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #4F8EF7
+  background-color: #4f8ef7
 }
 
 .comment .author {
-  color: #4D5763;
+  color: #4d5763;
   margin-right: 0;
-  font-weight: bold;
+  font-weight: bold
 }
 
 .comment .author:hover {
@@ -2253,8 +2239,8 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .tagline .moderator, .green {
-  color: #65B354;
-  font-weight: bold;
+  color: #65b354;
+  font-weight: bold
 }
 
 .tagline .submitter {
@@ -2266,14 +2252,14 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .res .thing .tagline .author.submitter {
   padding: 1px 4px;
   border-radius: 1px;
-  background-color: #4F8EF7 !important;
-  transition: background-color 0.15s ease;
+  background-color: #4f8ef7!important;
+  transition: background-color .15s ease
 }
 
 .res .thing .tagline .author.submitter:hover {
-  background-color: #0D47A6 !important;
+  background-color: #0d47a6!important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: #4F8EF7!important
+  background-color: #4f8ef7!important
 }
 
 .comment .score {
@@ -2285,12 +2271,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .comment span.userattrs {
   margin-left: 4px
 }
-
-.comment span.userattrs a {}
 /* comment styling */
 
 .comment .usertext .md {
-  color: #4D5763
+  color: #4d5763
 }
 
 .comment .usertext .md p {
@@ -2298,11 +2282,11 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .md a {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .md a:visited {
-  color: #7D5D8A
+  color: #7d5d8a
 }
 
 .md pre {
@@ -2310,18 +2294,18 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .md blockquote {
-  border-left: 2px solid #E5E3DA;
-  color: #706F6F
+  border-left: 2px solid #e5e3da;
+  color: #706f6f
 }
 
 .md h1, .md h2 {
   margin: .5em 0 .25em;
-  border: none;
-  color: #4D5763
+  border: 0;
+  color: #4d5763
 }
 
 .md h3 {
-  color: #4D5763;
+  color: #4d5763;
   margin: 16px 0 0
 }
 /* deleted comment in comments page*/
@@ -2340,20 +2324,18 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .comment .flat-list li a:hover {
-  color: #4F8EF7;
+  color: #4f8ef7;
   text-decoration: none
 }
 
 .comment .flat-list li a[onclick*="reply"] {
-  color: #4F8EF7;
+  color: #4f8ef7;
   font-weight: 700;
   font-size: 11px
 }
 
-.comment .flat-list li a:hover[onclick*="reply"] {}
-
 .deepthread a {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 /* comments page sidebar */
 
@@ -2364,13 +2346,13 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 16px;
   width: 300px;
   background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
-  border: none;
-  border-radius: 0px!important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+  border: 0;
+  border-radius: 0!important
 }
 
 .comments-page .side .linkinfo .date {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 .comments-page .side .linkinfo .date:first-letter {
@@ -2378,11 +2360,11 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .comments-page .side .linkinfo .score {
-  color: #4D5763
+  color: #4d5763
 }
 
 .linkinfo .shortlink input {
-  border: 1px solid #E5E5E5
+  border: 1px solid #e5e5e5
 }
 /* submission page styling */
 
@@ -2392,7 +2374,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .submit-page #newlink.submit.content {
   width: 524px;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 .submit-page #newlink.submit.content form .spacer+.spacer {
@@ -2401,7 +2383,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .submit-page #newlink.submit.content ul.tabmenu.formtab {
   padding: 0;
-  border: none
+  border: 0
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab a {
@@ -2410,12 +2392,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
   display: inline-block;
   text-align: center;
   background-color: #fff;
-  color: #4D5763;
+  color: #4d5763;
   text-transform: uppercase;
   font-weight: bold;
-  transition: background-color 0.25s ease;
+  transition: background-color .25s ease;
   font-size: 16px;
-  border: none
+  border: 0
 }
 
 .submit-page #newlink.submit.content .tabmenu.formtab .selected a {
@@ -2434,7 +2416,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .submit-page .formtabs-content {
   border-top: 0;
-  padding-top: 0;
+  padding-top: 0
 }
 
 .submit-page .roundfield {
@@ -2447,7 +2429,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .submit-page .roundfield .title {
-  color: #4D5763;
+  color: #4d5763;
   text-transform: capitalize
 }
 
@@ -2458,7 +2440,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   color: #fff;
   background-color: #fc6701;
   border-radius: 0 0 2px 2px;
-  border: none;
+  border: 0;
   margin-top: -12px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
   font-size: 0
@@ -2468,15 +2450,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-size: 14px;
   position: absolute;
   content: "Make sure you know the rules before you post!";
-  left: 39%;
+  left: 39%
 }
 
 .content.submit .info-notice {
   background-color: #fff;
   border-radius: 2px;
   padding: 16px;
-  border: none;
-  margin-bottom: 0 px;
+  border: 0;
+  margin-bottom: 0 px
 }
 
 .submit-page #newlink.submit.content .btn {
@@ -2484,19 +2466,19 @@ div.commentarea div.RES-keyNav-activeElement .md {
   line-height: 41px;
   height: 42px;
   margin-top: 24px;
-  border: none;
+  border: 0;
   color: #fff;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 0
 }
 
 .submit-page #newlink.submit.content .btn:hover {
   background-color: #d32525!important;
-  color: #fff;
+  color: #fff
 }
 
 .submit-page #header-bottom-left {
-  top: 241px;
+  top: 241px
 }
 /* search page styling */
 
@@ -2504,14 +2486,14 @@ div.commentarea div.RES-keyNav-activeElement .md {
   margin: 0 320px 0 0;
   background: #fff none;
   padding: 16px;
-  border: none;
-  border-radius: 2px 2px 0px 0px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
-  position: relative;
+  border: 0;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
+  position: relative
 }
 
 .raisedbox h4 {
-  color: #B3B3B3!important;
+  color: #b3b3b3!important;
   font-weight: normal;
   text-transform: capitalize
 }
@@ -2526,7 +2508,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 0;
   margin: 0;
   border-radius: 0;
-  border-bottom: 1px solid #E7E7E7!important;
+  border-bottom: 1px solid #e7e7e7!important;
   margin-bottom: 9px
 }
 
@@ -2536,10 +2518,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .search-page #search label {
   padding: 1em 1em 1em 1em;
-  margin: 0.5em 0em;
-  transition: background-color 0.1s ease;
+  margin: .5em 0;
+  transition: background-color .1s ease;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 12px
 }
 
 .search-page #search label:hover {
@@ -2560,10 +2542,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .search-page .searchfacets {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
-  border: none;
+  border: 0;
   padding: 16px;
   margin: 0;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   border-radius: 0 0 2px 2px
 }
 
@@ -2572,8 +2554,8 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .searchfacets h4.title {
-  color: #4D5763;
-  margin: 0 0 8px 0;
+  color: #4d5763;
+  margin: 0 0 8px 0
 }
 
 .searchfacets h4.title:first-letter {
@@ -2585,7 +2567,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .searchfacets .facet.count {
-  color: #B3B3B3;
+  color: #b3b3b3;
   font-weight: normal
 }
 
@@ -2594,23 +2576,21 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .search-page .menuarea {
-  border-radius: 2px 2px 0px 0px;
-  border-bottom: 0px;
-  margin: 16px 320px 0px 0px;
+  border-radius: 2px 2px 0 0;
+  border-bottom: 0;
+  margin: 16px 320px 0 0;
   padding: 16px;
-  color: #B3B3B3;
+  color: #b3b3b3;
   background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16)
 }
 
 .search-page .menuarea .dropdown.lightdrop .selected {
   text-decoration: none;
-  color: #4D5763;
+  color: #4d5763;
   font-weight: 400;
   cursor: pointer
 }
-
-.search-page #noresults {}
 /* wiki page styling */
 
 .wiki-page .wikititle {
@@ -2619,7 +2599,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0
 }
 
 .wiki-page .pageactions {
@@ -2627,7 +2607,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   margin-left: 16px;
   border-radius: 2px;
   padding: 0 16px;
-  border: none;
+  border: 0;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16)
 }
 
@@ -2636,13 +2616,13 @@ div.commentarea div.RES-keyNav-activeElement .md {
   background-color: transparent;
   border-radius: 0;
   padding: 10px 16px 11px;
-  color: #B3B3B3
+  color: #b3b3b3
 }
 
 .wiki-page .pageactions .wikiaction-current {
   padding: 10px 16px 7px 16px;
-  border-bottom: 4px solid #4F8EF7;
-  color: #4F8EF7;
+  border-bottom: 4px solid #4f8ef7;
+  color: #4f8ef7
 }
 
 .wiki-page .pageactions .wikiaction:hover, .wiki-page .pageactions .wikiaction-current:hover {
@@ -2650,7 +2630,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .wiki-page .wiki-page-content {
-  margin: 16px 320px 16px 0px;
+  margin: 16px 320px 16px 0;
   background-color: #fff;
   padding: 16px;
   border-radius: 2px;
@@ -2658,15 +2638,15 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .wiki-page .wiki-page-content .wiki>.toc>ul {
-  border: none
+  border: 0
 }
 
 .wiki-page .wiki-page-content .wiki.md {
-  color: #4D5763
+  color: #4d5763
 }
 
 .wiki-page .wiki-page-content .wiki.md h2 {
-  color: #4D5763
+  color: #4d5763
 }
 
 .wiki-page .wiki-page-content .wiki.md p {
@@ -2680,13 +2660,13 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .wiki-page .wiki-page-content em {
-  color: #B3B3B3
+  color: #b3b3b3
 }
 /* subreddit settings / flair / stylesheet page styling */
 
 .linefield {
   background-color: #fff;
-  color: #B3B3B3;
+  color: #b3b3b3;
   border-radius: 2px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   margin: 0 0 8px;
@@ -2694,7 +2674,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .linefield .title {
-  color: #4F8EF7;
+  color: #4f8ef7;
   text-transform: capitalize
 }
 
@@ -2733,19 +2713,19 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .tabmenu li a {
   background-color: transparent;
-  color: #4D5763;
-  border: none;
+  color: #4d5763;
+  border: 0;
   font-size: 14px
 }
 
 .tabmenu li.selected a {
-  color: #4F8EF7;
+  color: #4f8ef7;
   background-color: transparent;
-  border: none
+  border: 0
 }
 
 .tabpane-content {
-  border: none
+  border: 0
 }
 
 .tabpane-content .flairrow a.author {
@@ -2753,7 +2733,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .tabpane-content .tagline a {
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .tabpane-content .thing .title {
@@ -2771,8 +2751,8 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 16px;
   margin-right: 320px;
   border-radius: 2px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
-  margin-bottom: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+  margin-bottom: 16px
 }
 
 .stylesheet-customize-container .pretty-form .sheets {
@@ -2785,7 +2765,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .sheets .btn.right {
   background-color: transparent;
-  border: none;
+  border: 0;
   box-shadow: none;
   padding: 0
 }
@@ -2794,24 +2774,24 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 16px;
   background-color: #fff;
   border-radius: 2px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   height: 3000px;
-  margin-right: 320px;
+  margin-right: 320px
 }
 
 #images #image-upload {
-  margin: 0em 0em 4em 0em;
+  margin: 0 0 4em 0
 }
 /* default flair styling from naut */
 
 .flair {
-  border: none;
+  border: 0;
   border-radius: 0;
   font-size: 12px;
   font-family: arial, sans-serif;
   font-weight: 400;
   background-color: transparent;
-  color: #B3B3B3;
+  color: #b3b3b3;
   padding-left: 0;
   margin-right: inherit
 }
@@ -2835,7 +2815,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .listing-page .comment {
   background-color: #fff;
   margin-left: 0;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #f2f2f2;
   padding: 12px
 }
 
@@ -2861,7 +2841,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   padding: 10px;
   margin: 15px;
   display: inline-block;
-  border: none;
+  border: 0
 }
 
 .footer-parent {
@@ -2885,12 +2865,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .footer .col {
-  border-left: none
+  border-left: 0
 }
 
 .footer a {
   color: #b3b3b3;
-  text-decoration: none !important
+  text-decoration: none!important
 }
 
 .footer a:hover {
@@ -2898,13 +2878,13 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .buygold {
-  color: #9a7d2e !important;
+  color: #9a7d2e!important;
   font-weight: normal
 }
 /* RES fixes */
 
 #RESShortcuts {
-  color: rgb(213, 213, 213);
+  color: #d5d5d5
 }
 
 .res .link .tagline a.voteWeight {
@@ -2912,7 +2892,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 }
 
 .res .thing .tagline .author.moderator {
-  background-color: #65B354!important;
+  background-color: #65b354!important;
   padding: 1px 4px;
   border-radius: 1px
 }
@@ -2941,7 +2921,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   background-color: transparent!important;
   color: rgba(255, 255, 255, 0.45);
   border-radius: 0;
-  border: none;
+  border: 0
 }
 
 .res #header-bottom-right .user .userkarma {
@@ -2965,7 +2945,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   max-width: 98px;
   overflow: hidden;
   max-height: 15px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   transition: all .35s ease
 }
 
@@ -2985,12 +2965,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-family: "Lato", sans-serif;
   box-shadow: none;
   font-weight: normal;
-  color: #4D5763;
-  border: none;
+  color: #4d5763;
+  border: 0;
   padding: 0;
   height: inherit;
   margin-left: 4px;
-  margin-top: 5px;
+  margin-top: 5px
 }
 
 html.res-commentBoxes .comment {
@@ -2999,7 +2979,7 @@ html.res-commentBoxes .comment {
 }
 
 .res .commentarea .thing {
-  border-radius: 0px!important
+  border-radius: 0!important
 }
 
 .res .titlebox span.subscribers, .res .titlebox .users-online, .res .titlebox .number {
@@ -3013,8 +2993,8 @@ html.res-commentBoxes .comment {
 
 .res .RESshortcutside, .res .RESDashboardToggle {
   background-image: none!important;
-  border: none;
-  color: #4D5763;
+  border: 0;
+  color: #4d5763;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 0;
@@ -3026,28 +3006,28 @@ html.res-commentBoxes .comment {
 
 .res .RESshortcutside:hover, .res .RESDashboardToggle:hover {
   background-color: transparent;
-  color: #4F8EF7
+  color: #4f8ef7
 }
 
 .res #progressIndicator {
   width: inherit;
   margin-right: 320px;
-  border-radius: 0px;
-  border: none;
+  border-radius: 0;
+  border: 0;
   padding: 16px;
-  margin: 16px 320px 16px 0px;
+  margin: 16px 320px 16px 0;
   color: #b3b3b3;
   background-color: #fff;
-  height: inherit;
+  height: inherit
 }
 
 .res #progressIndicator h2 {
-  color: #4D5763
+  color: #4d5763
 }
 
 .res .NERPageMarker {
   border-radius: 0;
-  border: none;
+  border: 0;
   background-color: #fff;
   padding: 16px 0;
   margin: 0
@@ -3063,7 +3043,7 @@ html.res-commentBoxes .comment {
 }
 
 .res #search #searchexpando label {
-  padding: 13px 0px;
+  padding: 13px 0
 }
 
 .res #searchexpando .searchexpando-submit {
@@ -3071,7 +3051,7 @@ html.res-commentBoxes .comment {
 }
 
 .res h1.hover.redditname {
-  margin-bottom: 0px
+  margin-bottom: 0
 }
 
 .res .titlebox .fancy-toggle-button .add, .res .fancy-toggle-button .remove {
@@ -3083,14 +3063,13 @@ html.res-commentBoxes .comment {
 }
 
 .res .titlebox span.subscribers, .res .titlebox .users-online, .res .titlebox .number {
-  top: 0px
+  top: 0
 }
 
 .res .commentarea .panestack-title {
   margin-top: 0;
   padding-top: 12px
 }
-/* RES gear dropdown */
 
 .gearIcon {
   background: url(%%spritesheet%%) -0 -0!important;
@@ -3101,22 +3080,22 @@ html.res-commentBoxes .comment {
 
 #RESMainGearOverlay {
   background-color: #880d0d;
-  top: 304px !important;
-  height: 26px !important;
-  border-radius: 0px !important;
+  top: 304px!important;
+  height: 26px!important;
+  border-radius: 0!important
 }
 
 .RESDropdownList {
   border-color: #280505;
   margin-top: 4px;
-  margin-right: 8px;
+  margin-right: 8px
 }
 
 .RESDropdownList li {
   background-color: #880d0d;
   color: #fff;
   border-color: #280505;
-  transition: color 0.15s ease, background-color 0.15s ease;
+  transition: color .15s ease, background-color .15s ease
 }
 
 .RESDropdownList li:first-letter {
@@ -3153,24 +3132,22 @@ html.res-commentBoxes .comment {
   transition: all .15s ease;
   border-radius: 2px
 }
-/* RES toggle off  */
 
 .moduleToggle:not(.enabled) .toggleOn, .toggleButton:not(.enabled) .toggleOn, .moduleToggle.enabled .toggleOff, .toggleButton.enabled .toggleOff {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid #280505;
-  transition: all 0.15s ease;
-  border-radius: 2px;
+  transition: all .15s ease;
+  border-radius: 2px
 }
-/* RES toggle on */
 
 .moduleToggle.enabled .toggleOn, .toggleButton.enabled .toggleOn, .moduleToggle:not(.enabled) .toggleOff, .toggleButton:not(.enabled) .toggleOff {
   background-color: #fff;
   color: #fc6701;
   font-weight: bolder;
   border: 1px solid #fff;
-  transition: all 0.15s ease;
-  border-radius: 2px;
+  transition: all .15s ease;
+  border-radius: 2px
 }
 
 body>.content {
@@ -3183,54 +3160,54 @@ body>.content {
 }
 
 @-webkit-keyframes fadein {
-  0% {
+  0 {
     opacity: 0;
     transform: translateY(48px);
     -webkit-transform: translateY(48px)
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px)
+    transform: translateY(0);
+    -webkit-transform: translateY(0)
   }
 }
 
 @-moz-keyframes fadein {
-  0% {
+  0 {
     opacity: 0;
     transform: translateY(48px);
     -webkit-transform: translateY(48px)
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px)
+    transform: translateY(0);
+    -webkit-transform: translateY(0)
   }
 }
 
 @-o-keyframes fadein {
-  0% {
+  0 {
     opacity: 0;
     transform: translateY(48px);
     -webkit-transform: translateY(48px)
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px)
+    transform: translateY(0);
+    -webkit-transform: translateY(0)
   }
 }
 
 @keyframes fadein {
-  0% {
+  0 {
     opacity: 0;
     transform: translateY(48px);
     -webkit-transform: translateY(48px)
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px)
+    transform: translateY(0);
+    -webkit-transform: translateY(0)
   }
 }
 
@@ -3253,7 +3230,7 @@ body>.content {
 }
 
 @-webkit-keyframes toast {
-  0% {
+  0 {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0
@@ -3291,7 +3268,7 @@ body>.content {
 }
 
 @-o-keyframes toast {
-  0% {
+  0 {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0
@@ -3329,7 +3306,7 @@ body>.content {
 }
 
 @-moz-keyframes toast {
-  0% {
+  0 {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0
@@ -3367,7 +3344,7 @@ body>.content {
 }
 
 @keyframes toast {
-  0% {
+  0 {
     transform: translateY(76px);
     -webkit-transform: translateY(76px);
     opacity: 0
@@ -3405,7 +3382,7 @@ body>.content {
 }
 
 @-webkit-keyframes upvote {
-  0% {
+  0 {
     transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     opacity: 1
@@ -3424,7 +3401,7 @@ body>.content {
 }
 
 @-moz-keyframes upvote {
-  0% {
+  0 {
     transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     opacity: 1
@@ -3443,7 +3420,7 @@ body>.content {
 }
 
 @-o-keyframes upvote {
-  0% {
+  0 {
     transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     opacity: 1
@@ -3462,7 +3439,7 @@ body>.content {
 }
 
 @keyframes upvote {
-  0% {
+  0 {
     transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     opacity: 1
@@ -3482,23 +3459,23 @@ body>.content {
 /* customizations to naut */
 
 .search-page .side {
-  margin-top: 375px!important;
+  margin-top: 375px!important
 }
 
 .comments-page .side {
-  margin-top: 480px!important;
+  margin-top: 480px!important
 }
 
 .res .comments-page .side {
-  margin-top: 500px!important;
+  margin-top: 500px!important
 }
 
 .comments-page .side .linkinfo {
-  margin-top: 175px!important;
+  margin-top: 175px!important
 }
 
 #header-bottom-left {
-  top: 241px;
+  top: 241px
 }
 /* potw */
 
@@ -3507,7 +3484,7 @@ body>.content {
   color: #fff;
   clear: both;
   float: left;
-  width: 300px;
+  width: 300px
 }
 
 .res .side .titlebox .md h1 a[href$="#potw"] {
@@ -3515,7 +3492,7 @@ body>.content {
   display: block;
   width: 300px;
   height: 300px;
-  position: relative;
+  position: relative
 }
 
 .side .titlebox .md h1 a[href$="#potw"] {
@@ -3523,7 +3500,7 @@ body>.content {
   display: block;
   width: 300px;
   height: 300px;
-  position: relative;
+  position: relative
 }
 
 body.res .side .titlebox .md h1 a[href$="#potw"] {
@@ -3531,7 +3508,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   display: block;
   width: 300px;
   height: 300px;
-  position: relative;
+  position: relative
 }
 
 .side .titlebox .md h1 a[href$="#potw"]::after {
@@ -3540,26 +3517,21 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   left: 0;
   padding: 5px;
   line-height: 1;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
   font-size: 12px;
   width: 100%;
   color: #fff;
   padding: 5px;
-  text-align: center;
+  text-align: center
 }
 
 .side .titlebox .md h1:first-child {
   height: 0;
   padding: 0;
-  margin: 0;
+  margin: 0
 }
 
 .side .titlebox .md h1 a[href$="#potw"]::after {
-  content: "Gfinity Spring Masters this weekend";
+  content: "MLG Pro League Season 2 resumes on 5/12"
 }
 /* twitter / calendar */
 
@@ -3567,14 +3539,14 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   position: absolute;
   top: 300px;
   left: -40px;
-  border-left: none;
+  border-left: 0;
   background: transparent;
   min-width: 640px;
   max-height: 60px;
   overflow-x: hidden;
   overflow-y: hidden;
   list-style-type: none;
-  width: calc(100% - 290px) !important;
+  width: calc(100% - 290px)!important
 }
 
 .side .usertext-body .md h1+ul li {
@@ -3594,16 +3566,16 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: inherit;
+  cursor: inherit
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://twitter.com/rcodcompetitive"]:before {
-  background: url(%%sprites%%) 0px -50px;
+  background: url(%%sprites%%) 0 -50px;
   display: block;
   margin: 10px auto 2px;
   width: 25px;
   height: 25px;
-  content: "";
+  content: ""
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://cod.esportspedia.com/wiki/Calendar"] {
@@ -3613,16 +3585,16 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: inherit;
+  cursor: inherit
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://cod.esportspedia.com/wiki/Calendar"]:before {
-  background: url(%%sprites%%) 0px -25px;
+  background: url(%%sprites%%) 0 -25px;
   display: block;
   margin: 10px auto 2px;
   width: 25px;
   height: 25px;
-  content: "";
+  content: ""
 }
 
 .side .usertext-body .md h1+ul li a[href$="https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive"] {
@@ -3632,16 +3604,16 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: inherit;
+  cursor: inherit
 }
 
 .side .usertext-body .md h1+ul li a[href$="https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive"]:before {
-  background: url(%%sprites%%) 0px -75px;
+  background: url(%%sprites%%) 0 -75px;
   display: block;
   margin: 10px auto 2px;
   width: 25px;
   height: 25px;
-  content: "";
+  content: ""
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/verified_list"] {
@@ -3651,16 +3623,16 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: inherit;
+  cursor: inherit
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/verified_list"]:before {
-  background: url(%%sprites%%) 0px -100px;
+  background: url(%%sprites%%) 0 -100px;
   display: block;
   margin: 10px auto 2px;
   width: 25px;
   height: 25px;
-  content: "";
+  content: ""
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules"] {
@@ -3670,23 +3642,23 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0 13px 0 0;
   color: #000;
   text-transform: uppercase;
-  cursor: inherit;
+  cursor: inherit
 }
 
 .side .usertext-body .md h1+ul li a[href$="http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules"]:before {
-  background: url(%%sprites%%) 0px -125px;
+  background: url(%%sprites%%) 0 -125px;
   display: block;
   margin: 10px auto 2px;
   width: 25px;
   height: 25px;
-  content: "";
+  content: ""
 }
 
 .side .usertext-body .md h1+ul li ul {
   display: inline-block;
   padding: 0;
   margin: 0;
-  max-height: 60px!important;
+  max-height: 60px!important
 }
 
 .side .usertext-body .md h1+ul li ul li {
@@ -3699,8 +3671,8 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   min-width: 75px;
   max-height: 50px;
   background: #fff;
-  border-bottom: none;
-  white-space: nowrap;
+  border-bottom: 0;
+  white-space: nowrap
 }
 
 .side .usertext-body .md h1+ul li ul li a[href$="#date"] {
@@ -3712,12 +3684,12 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   text-align: center;
   letter-spacing: -1px;
   line-height: 15px;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .side .usertext-body .md h1+ul li ul li:hover a[href$="#date"] {
   color: #FFF!important;
-  background: #fc6701!important;
+  background: #fc6701!important
 }
 
 .side .usertext-body .md h1+ul li ul li a {
@@ -3727,13 +3699,13 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background: none rgba(0, 0, 0, 0)!important;
   cursor: default!important;
   font-size: 11px;
-  z-index: 11;
+  z-index: 11
 }
 
 .side .usertext-body .md h1+ul li ul li a[href$="#event"], .side .usertext-body .md h1+ul li ul li a[href$="#location"] {
   left: 0;
   width: 70px;
-  padding-left: 3px;
+  padding-left: 3px
 }
 
 .side .usertext-body .md h1+ul li ul li a[href$="#ev"], .side .usertext-body .md h1+ul li ul li a[href$="#loc"] {
@@ -3742,7 +3714,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   width: 32px;
   padding-right: 3px;
   text-align: right;
-  font-weight: bold;
+  font-weight: bold
 }
 /* announcemnt(s) in header */
 
@@ -3753,26 +3725,26 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   font-size: 11px!important;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .side .titlebox .md h5 a {
   position: absolute;
   width: 100%;
-  right: 0px;
+  right: 0;
   height: auto;
   top: 24px;
   padding: 3px;
   z-index: 99;
-  border-radius: 0px!important;
+  border-radius: 0!important;
   background-color: #fc6701;
-  color: white !important;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
-  transition: background 0.15s ease;
+  color: white!important;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.20);
+  transition: background .15s ease
 }
 
 .side .titlebox .md h5 a:hover {
-  background: #F22613;
+  background: #f22613
 }
 
 .side .titlebox .md h5 a:before {
@@ -3791,67 +3763,67 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  opacity: .25;
+  opacity: .25
 }
 
 .side .titlebox .md h6 {
   position: absolute;
   width: 400px;
-  right: 0px;
+  right: 0;
   height: auto;
   top: -45px;
   padding: 11px;
-  border-radius: 0px!important;
+  border-radius: 0!important;
   background-color: rgba(0, 0, 0, .65)!important;
   color: rgba(255, 255, 255, 0.85)!important;
   font-size: 10px;
   z-index: 99;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.25s ease;
-  text-transform: uppercase;
+  transition: background-color .25s ease;
+  text-transform: uppercase
 }
 
 .side .titlebox .md h6 a {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5)!important;
   font-weight: bold;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 
 .side .titlebox .md h6:hover {
-  background-color: #fc6701!important;
+  background-color: #fc6701!important
 }
 
 .side .titlebox .md h6 a:hover {
-  color: rgba(255, 255, 255, 0.75)!important;
+  color: rgba(255, 255, 255, 0.75)!important
 }
 
 .side .titlebox .md h6:nth-of-type(1) {
   margin-top: 159px;
-  height: 36px;
+  height: 36px
 }
 
 .side .titlebox .md h6:nth-of-type(2) {
   margin-top: 200px;
-  height: 50px;
+  height: 50px
 }
 
 .side .titlebox .md h6:nth-of-type(3) {
   margin-top: 255px;
-  height: 50px;
+  height: 50px
 }
 /* sidebar hover tables */
 
 .side .usertext-body .md h1+ul+ul {
-  padding-left: 0px;
+  padding-left: 0;
   background: #262626;
   clear: both;
   float: left;
   width: 300px;
   margin-left: -16px;
   margin-bottom: 30px;
-  margin-top: -6px;
+  margin-top: -6px
 }
 
 .side .usertext-body .md h1+ul+ul li {
@@ -3861,78 +3833,78 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   padding: 14px;
   position: relative;
   cursor: pointer;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease
 }
 
 .side .usertext-body .md h1+ul+ul li:first-child {
-  border-top: 1px solid #262626;
+  border-top: 1px solid #262626
 }
 
 .side .usertext-body .md h1+ul+ul li:hover, .side .usertext-body .md h1+ul+ul li:hover p {
   background: #fc6701;
   color: #fff;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease
 }
 
 .side .usertext-body .md h1+ul+ul li p {
   color: #fff;
   margin: 0;
-  font-size: 16px!important;
+  font-size: 16px!important
 }
 
 .side .usertext-body .md h1+ul+ul li blockquote {
   display: none;
-  background: #F1F1F1;
+  background: #f1f1f1;
   position: relative;
   left: -321px;
   width: 300px;
   z-index: 2;
   top: -100px;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc
 }
 
 .side .usertext-body .md h1+ul+ul li:hover blockquote {
   display: block;
-  min-height: 110px;
+  min-height: 110px
 }
 
 .side .md table {
   background: #fff;
   width: 100%;
-  font-size: 11px!important;
+  font-size: 11px!important
 }
 
 .side .md table thead {
-  background: #1A1A1A;
-  color: #fff;
+  background: #1a1a1a;
+  color: #fff
 }
 
 .side .md table tbody tr:nth-child(odd) {
-  background: #f7f7f7;
+  background: #f7f7f7
 }
 
 .side .md table tbody tr {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
 }
 
 .side .md table tbody td {
   border: 0;
-  padding: 8px;
+  padding: 8px
 }
 
 .side .usertext-body .md h1+ul+ul li:hover:before {
   display: block;
   content: "";
-  background: #F1F1F1;
+  background: #f1f1f1;
   height: 15px;
   width: 15px;
   position: absolute;
@@ -3945,24 +3917,24 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   border-right: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #CCC
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1, .side .usertext-body .md h1+ul+ul+hr+h1+p+p+hr+h1 {
   margin: 10px 0 0 0;
   padding-top: 10px;
-  border-top: 2px solid #f2f2f2;
+  border-top: 2px solid #f2f2f2
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1+p, .side .usertext-body .md h1+ul+ul+hr+h1+p+p, .side .usertext-body .md h1+ul+ul+hr+h1+p+p+hr+h1+p {
   padding: 10px;
   margin: 0;
   float: left;
-  width: 100%;
+  width: 100%
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1+p+p {
-  text-align: center;
+  text-align: center
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1+p a, .side .usertext-body .md h1+ul+ul+hr+h1+p+p a, .side .usertext-body .md h1+ul+ul+hr+h1+p+p+hr+h1+p a {
@@ -3973,75 +3945,59 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background: #262626;
   margin: 3px;
   color: #fff;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1+p+p a {
-  width: 100%;
+  width: 100%
 }
 
 .side .usertext-body .md h1+ul+ul+hr+h1+p a:hover, .side .usertext-body .md h1+ul+ul+hr+h1+p+p a:hover, .side .usertext-body .md h1+ul+ul+hr+h1+p+p+hr+h1+p a:hover {
   background: #fc6701;
   color: #fff;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease
 }
 
 .side .usertext-body .md h1+ul li ul li a {
   pointer-events: none;
-  cursor: default;
+  cursor: default
 }
 
 .side .titlebox .md h1:first-child {
   height: 0;
   padding: 0;
-  margin: 0;
+  margin: 0
 }
 /* subreddit name */
 
 .side .redditname {
   display: none;
-  font-size: 0;
+  font-size: 0
 }
 /* button fix */
 
 .morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar, .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, , .fancy-toggle-button .remove:active .expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-  background-color: #fc6701;
+  background-color: #fc6701
 }
 /* thumbnails */
 
 .thumbnail {
-  display: none;
-}
-
-.thumbnail a img, .thumbnail.self, .thumbnail.default {
-  height: 56px
-}
-
-.thumbnail.self {
-  background: url(%%spritesheet%%) -73px -80px
-}
-
-.thumbnail.default {
-  background: url(%%spritesheet%%) -143px -80px
-}
-
-.thumbnail.nsfw {
-  background: url(%%spritesheet%%) -3px -140px
+  display: none
 }
 /* link flair */
 
 .linkflairlabel {
-  padding: 0px 2px;
+  padding: 0 2px;
   height: auto;
-  border-radius: 0px;
+  border-radius: 0;
   color: #333;
   font-weight: bold;
   font-style: normal;
@@ -4049,16 +4005,16 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   font-size: 12px;
   font-family: "Lato", sans-serif;
   cursor: default;
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 .linkflair-mod .linkflairlabel {
-  background-color: #65B354;
+  background-color: #65b354;
   color: #fff
 }
 
 .linkflair-mod a {
-  color: #65B354!important
+  color: #65b354!important
 }
 
 .linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {
@@ -4066,21 +4022,21 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 }
 
 .linkflair:hover {
-  background-position: 100% 0%!important;
+  background-position: 100% 0!important;
   -webkit-transition: background-position .3s ease;
   -moz-transition: background-position .3s ease;
   -ms-transition: background-position .3s ease;
   -o-transition: background-position .3s ease;
-  transition: background-position .3s ease;
+  transition: background-position .3s ease
 }
 
 .linkflair {
-  background-position: 25% 0%!important;
+  background-position: 25% 0!important;
   -webkit-transition: background-position .3s ease;
   -moz-transition: background-position .3s ease;
   -ms-transition: background-position .3s ease;
   -o-transition: background-position .3s ease;
-  transition: background-position .3s ease;
+  transition: background-position .3s ease
 }
 /* user flairs */
 /*flair selection*/
@@ -4148,426 +4104,426 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   padding: 1px 1ex 3px 1px
 }
 
-.flair:before, a[href='#aclpro'], a[href='#ar'], a[href='#ascentia'], a[href='#aus'], a[href='#avantgarde'], a[href='#aware'], a[href='#belgium'], a[href='#brazil'], a[href='#bz'], a[href='#canada'], a[href='#cod4'], a[href='#codaw'], a[href='#codbo'], a[href='#codbo2'], a[href='#codchamps'], a[href='#codghosts'], a[href='#codmw2'], a[href='#codmw3'], a[href='#codwaw'], a[href='#complexity'], a[href='#curse'], a[href='#denial'], a[href='#doesplay'], a[href='#eg'], a[href='#egirlslayers'], a[href='#egl'], a[href='#ego'], a[href='#elevate'], a[href='#england'], a[href='#envyus'], a[href='#epic'], a[href='#epsilon'], a[href='#esl'], a[href='#eswc'], a[href='#eu'], a[href='#exertus'], a[href='#fabe'], a[href='#fariko'], a[href='#faze'], a[href='#fazeblack'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#gamers2'], a[href='#germany'], a[href='#gfinity'], a[href='#hypergames'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#in'], a[href='#infused'], a[href='#ireland'], a[href='#italy'], a[href='#iw'], a[href='#justus'], a[href='#killerfish'], a[href='#klar1ty'], a[href='#lp'], a[href='#menace'], a[href='#mes'], a[href='#mexico'], a[href='#millenium'], a[href='#mindfreak'], a[href='#mlg'], a[href='#netherlands'], a[href='#ni'], a[href='#norway'], a[href='#nz'], a[href='#opticgaming'], a[href='#opticnation'], a[href='#orbit'], a[href='#prophecy'], a[href='#quantic'], a[href='#rapid'], a[href='#rise'], a[href='#russia'], a[href='#sb'], a[href='#scotland'], a[href='#spain'], a[href='#ssof'], a[href='#sweden'], a[href='#tcm'], a[href='#threesup'], a[href='#tk'], a[href='#tr'], a[href='#treyarch'], a[href='#twitch'], a[href='#ugc'], a[href='#uk'], a[href='#umg'], a[href='#underratix'], a[href='#unite'], a[href='#usa'], a[href='#vitality'], a[href='#vvv'], a[href='#wales'], a[href='#xtravagant'] {
+.flair:before, a[href='#aclpro'], a[href='#ar'], a[href='#ascentia'], a[href='#aus'], a[href='#avantgarde'], a[href='#aware'], a[href='#belgium'], a[href='#brazil'], a[href='#bz'], a[href='#canada'], a[href='#cod4'], a[href='#codaw'], a[href='#codbo'], a[href='#codbo2'], a[href='#codbo3'], a[href='#codchamps'], a[href='#codghosts'], a[href='#codmw2'], a[href='#codmw3'], a[href='#codwaw'], a[href='#complexity'], a[href='#curse'], a[href='#denial'], a[href='#doesplay'], a[href='#eg'], a[href='#egirlslayers'], a[href='#egl'], a[href='#ego'], a[href='#elevate'], a[href='#england'], a[href='#envyus'], a[href='#epic'], a[href='#epsilon'], a[href='#esl'], a[href='#eswc'], a[href='#eu'], a[href='#exertus'], a[href='#fabe'], a[href='#fariko'], a[href='#faze'], a[href='#fazeblack'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#gamers2'], a[href='#germany'], a[href='#gfinity'], a[href='#hypergames'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#in'], a[href='#infused'], a[href='#ireland'], a[href='#italy'], a[href='#iw'], a[href='#justus'], a[href='#killerfish'], a[href='#klar1ty'], a[href='#lp'], a[href='#menace'], a[href='#mes'], a[href='#mexico'], a[href='#millenium'], a[href='#mindfreak'], a[href='#mlg'], a[href='#netherlands'], a[href='#ni'], a[href='#norway'], a[href='#nz'], a[href='#opticgaming'], a[href='#opticnation'], a[href='#orbit'], a[href='#prophecy'], a[href='#quantic'], a[href='#rapid'], a[href='#rise'], a[href='#russia'], a[href='#sb'], a[href='#scotland'], a[href='#spain'], a[href='#ssof'], a[href='#sweden'], a[href='#tcm'], a[href='#threesup'], a[href='#tk'], a[href='#tr'], a[href='#treyarch'], a[href='#twitch'], a[href='#ugc'], a[href='#uk'], a[href='#umg'], a[href='#underratix'], a[href='#unite'], a[href='#usa'], a[href='#vitality'], a[href='#vvv'], a[href='#wales'], a[href='#xtravagant'] {
   content: "";
   height: 20px;
   width: 20px;
   display: inline-block;
   background-image: url(%%sheet%%);
-  background-position: 0px 0px;
+  background-position: 0 0;
   background-repeat: no-repeat;
-  vertical-align: middle;
+  vertical-align: middle
 }
 /* user flair images */
 
-.flair-aaadefault:before {
+.flair-aaadefault:before, a[href="#aaadefault"] {
   background-position: -0px -0px
 }
 
-.flair-aclpro:before {
+.flair-aclpro:before, a[href="#aclpro"] {
   background-position: -0px -20px
 }
 
-.flair-ar:before {
+.flair-ar:before, a[href="#ar"] {
   background-position: -0px -40px
 }
 
-.flair-ascentia:before {
+.flair-ascentia:before, a[href="#ascentia"] {
   background-position: -0px -60px
 }
 
-.flair-aus:before {
+.flair-aus:before, a[href="#aus"] {
   background-position: -0px -80px
 }
 
-.flair-avantgarde:before {
+.flair-avantgarde:before, a[href="#avantgarde"] {
   background-position: -0px -100px
 }
 
-.flair-aware:before {
+.flair-aware:before, a[href="#aware"] {
   background-position: -0px -120px
 }
 
-.flair-belgium:before {
+.flair-belgium:before, a[href="#belgium"] {
   background-position: -0px -140px
 }
 
-.flair-brazil:before {
+.flair-brazil:before, a[href="#brazil"] {
   background-position: -0px -160px
 }
 
-.flair-bz:before {
+.flair-bz:before, a[href="#bz"] {
   background-position: -0px -180px
 }
 
-.flair-canada:before {
+.flair-canada:before, a[href="#canada"] {
   background-position: -0px -200px
 }
 
-.flair-cod4:before {
+.flair-cod4:before, a[href="#cod4"] {
   background-position: -0px -220px
 }
 
-.flair-codaw:before {
+.flair-codaw:before, a[href="#codaw"] {
   background-position: -0px -240px
 }
 
-.flair-codbo:before {
+.flair-codbo:before, a[href="#codbo"] {
   background-position: -0px -260px
 }
 
-.flair-codbo2:before {
+.flair-codbo2:before, a[href="#codbo2"] {
   background-position: -0px -280px
 }
 
-.flair-codbo3:before {
+.flair-codbo3:before, a[href="#codbo3"] {
   background-position: -0px -300px
 }
 
-.flair-codchamps:before {
+.flair-codchamps:before, a[href="#codchamps"] {
   background-position: -0px -320px
 }
 
-.flair-codghosts:before {
+.flair-codghosts:before, a[href="#codghosts"] {
   background-position: -0px -340px
 }
 
-.flair-codmw2:before {
+.flair-codmw2:before, a[href="#codmw2"] {
   background-position: -0px -360px
 }
 
-.flair-codmw3:before {
+.flair-codmw3:before, a[href="#codmw3"] {
   background-position: -0px -380px
 }
 
-.flair-codwaw:before {
+.flair-codwaw:before, a[href="#codwaw"] {
   background-position: -0px -400px
 }
 
-.flair-complexity:before {
+.flair-complexity:before, a[href="#complexity"] {
   background-position: -0px -420px
 }
 
-.flair-curse:before {
+.flair-curse:before, a[href="#curse"] {
   background-position: -0px -440px
 }
 
-.flair-denial:before {
+.flair-denial:before, a[href="#denial"] {
   background-position: -0px -460px
 }
 
-.flair-doesplay:before {
+.flair-doesplay:before, a[href="#doesplay"] {
   background-position: -0px -480px
 }
 
-.flair-eg:before {
+.flair-eg:before, a[href="#eg"] {
   background-position: -0px -500px
 }
 
-.flair-egirlslayers:before {
+.flair-egirlslayers:before, a[href="#egirlslayers"] {
   background-position: -0px -520px
 }
 
-.flair-egl:before {
+.flair-egl:before, a[href="#egl"] {
   background-position: -0px -540px
 }
 
-.flair-ego:before {
+.flair-ego:before, a[href="#ego"] {
   background-position: -0px -560px
 }
 
-.flair-elevate:before {
+.flair-elevate:before, a[href="#elevate"] {
   background-position: -0px -580px
 }
 
-.flair-england:before {
+.flair-england:before, a[href="#england"] {
   background-position: -0px -600px
 }
 
-.flair-envyus:before {
+.flair-envyus:before, a[href="#envyus"] {
   background-position: -0px -620px
 }
 
-.flair-epic:before {
+.flair-epic:before, a[href="#epic"] {
   background-position: -0px -640px
 }
 
-.flair-epsilon:before {
+.flair-epsilon:before, a[href="#epsilon"] {
   background-position: -0px -660px
 }
 
-.flair-esl:before {
+.flair-esl:before, a[href="#esl"] {
   background-position: -0px -680px
 }
 
-.flair-eswc:before {
+.flair-eswc:before, a[href="#eswc"] {
   background-position: -0px -700px
 }
 
-.flair-eu:before {
+.flair-eu:before, a[href="#eu"] {
   background-position: -0px -720px
 }
 
-.flair-exertus:before {
+.flair-exertus:before, a[href="#exertus"] {
   background-position: -0px -740px
 }
 
-.flair-fabe:before {
+.flair-fabe:before, a[href="#fabe"] {
   background-position: -0px -760px
 }
 
-.flair-fariko:before {
+.flair-fariko:before, a[href="#fariko"] {
   background-position: -0px -780px
 }
 
-.flair-faze:before {
+.flair-faze:before, a[href="#faze"] {
   background-position: -0px -800px
 }
 
-.flair-fazeblack:before {
+.flair-fazeblack:before, a[href="#fazeblack"] {
   background-position: -0px -820px
 }
 
-.flair-fear:before {
+.flair-fear:before, a[href="#fear"] {
   background-position: -0px -840px
 }
 
-.flair-finalboss:before {
+.flair-finalboss:before, a[href="#finalboss"] {
   background-position: -0px -860px
 }
 
-.flair-finland:before {
+.flair-finland:before, a[href="#finland"] {
   background-position: -0px -880px
 }
 
-.flair-france:before {
+.flair-france:before, a[href="#france"] {
   background-position: -0px -900px
 }
 
-.flair-gamers2:before {
+.flair-gamers2:before, a[href="#gamers2"] {
   background-position: -0px -920px
 }
 
-.flair-germany:before {
+.flair-germany:before, a[href="#germany"] {
   background-position: -0px -940px
 }
 
-.flair-gfinity:before {
+.flair-gfinity:before, a[href="#gfinity"] {
   background-position: -0px -960px
 }
 
-.flair-hypergames:before {
+.flair-hypergames:before, a[href="#hypergames"] {
   background-position: -0px -980px
 }
 
-.flair-icons:before {
+.flair-icons:before, a[href="#icons"] {
   background-position: -0px -1000px
 }
 
-.flair-immunity:before {
+.flair-immunity:before, a[href="#immunity"] {
   background-position: -0px -1020px
 }
 
-.flair-impact:before {
+.flair-impact:before, a[href="#impact"] {
   background-position: -0px -1040px
 }
 
-.flair-in:before {
+.flair-in:before, a[href="#in"] {
   background-position: -0px -1060px
 }
 
-.flair-infused:before {
+.flair-infused:before, a[href="#infused"] {
   background-position: -0px -1080px
 }
 
-.flair-ireland:before {
+.flair-ireland:before, a[href="#ireland"] {
   background-position: -0px -1100px
 }
 
-.flair-italy:before {
+.flair-italy:before, a[href="#italy"] {
   background-position: -0px -1120px
 }
 
-.flair-iw:before {
+.flair-iw:before, a[href="#iw"] {
   background-position: -0px -1140px
 }
 
-.flair-justus:before {
+.flair-justus:before, a[href="#justus"] {
   background-position: -0px -1160px
 }
 
-.flair-killerfish:before {
+.flair-killerfish:before, a[href="#killerfish"] {
   background-position: -0px -1180px
 }
 
-.flair-klar1ty:before {
+.flair-klar1ty:before, a[href="#klar1ty"] {
   background-position: -0px -1200px
 }
 
-.flair-lp:before {
+.flair-lp:before, a[href="#lp"] {
   background-position: -0px -1220px
 }
 
-.flair-menace:before {
+.flair-menace:before, a[href="#menace"] {
   background-position: -0px -1240px
 }
 
-.flair-mes:before {
+.flair-mes:before, a[href="#mes"] {
   background-position: -0px -1260px
 }
 
-.flair-mexico:before {
+.flair-mexico:before, a[href="#mexico"] {
   background-position: -0px -1280px
 }
 
-.flair-millenium:before {
+.flair-millenium:before, a[href="#millenium"] {
   background-position: -0px -1300px
 }
 
-.flair-mindfreak:before {
+.flair-mindfreak:before, a[href="#mindfreak"] {
   background-position: -0px -1320px
 }
 
-.flair-mlg:before {
+.flair-mlg:before, a[href="#mlg"] {
   background-position: -0px -1340px
 }
 
-.flair-netherlands:before {
+.flair-netherlands:before, a[href="#netherlands"] {
   background-position: -0px -1360px
 }
 
-.flair-ni:before {
+.flair-ni:before, a[href="#ni"] {
   background-position: -0px -1380px
 }
 
-.flair-norway:before {
+.flair-norway:before, a[href="#norway"] {
   background-position: -0px -1400px
 }
 
-.flair-nz:before {
+.flair-nz:before, a[href="#nz"] {
   background-position: -0px -1420px
 }
 
-.flair-opticgaming:before {
+.flair-opticgaming:before, a[href="#opticgaming"] {
   background-position: -0px -1440px
 }
 
-.flair-opticnation:before {
+.flair-opticnation:before, a[href="#opticnation"] {
   background-position: -0px -1460px
 }
 
-.flair-orbit:before {
+.flair-orbit:before, a[href="#orbit"] {
   background-position: -0px -1480px
 }
 
-.flair-prophecy:before {
+.flair-prophecy:before, a[href="#prophecy"] {
   background-position: -0px -1500px
 }
 
-.flair-quantic:before {
+.flair-quantic:before, a[href="#quantic"] {
   background-position: -0px -1520px
 }
 
-.flair-rapid:before {
+.flair-rapid:before, a[href="#rapid"] {
   background-position: -0px -1540px
 }
 
-.flair-rise:before {
+.flair-rise:before, a[href="#rise"] {
   background-position: -0px -1560px
 }
 
-.flair-russia:before {
+.flair-russia:before, a[href="#russia"] {
   background-position: -0px -1580px
 }
 
-.flair-sb:before {
+.flair-sb:before, a[href="#sb"] {
   background-position: -0px -1600px
 }
 
-.flair-scotland:before {
+.flair-scotland:before, a[href="#scotland"] {
   background-position: -0px -1620px
 }
 
-.flair-spain:before {
+.flair-spain:before, a[href="#spain"] {
   background-position: -0px -1640px
 }
 
-.flair-ssof:before {
+.flair-ssof:before, a[href="#ssof"] {
   background-position: -0px -1660px
 }
 
-.flair-sweden:before {
+.flair-sweden:before, a[href="#sweden"] {
   background-position: -0px -1680px
 }
 
-.flair-tcm:before {
+.flair-tcm:before, a[href="#tcm"] {
   background-position: -0px -1700px
 }
 
-.flair-threesup:before {
+.flair-threesup:before, a[href="#threesup"] {
   background-position: -0px -1720px
 }
 
-.flair-tk:before {
+.flair-tk:before, a[href="#tk"] {
   background-position: -0px -1740px
 }
 
-.flair-tr:before {
+.flair-tr:before, a[href="#tr"] {
   background-position: -0px -1760px
 }
 
-.flair-treyarch:before {
+.flair-treyarch:before, a[href="#treyarch"] {
   background-position: -0px -1780px
 }
 
-.flair-twitch:before {
+.flair-twitch:before, a[href="#twitch"] {
   background-position: -0px -1800px
 }
 
-.flair-ugc:before {
+.flair-ugc:before, a[href="#ugc"] {
   background-position: -0px -1820px
 }
 
-.flair-uk:before {
+.flair-uk:before, a[href="#uk"] {
   background-position: -0px -1840px
 }
 
-.flair-umg:before {
+.flair-umg:before, a[href="#umg"] {
   background-position: -0px -1860px
 }
 
-.flair-underratix:before {
+.flair-underratix:before, a[href="#underratix"] {
   background-position: -0px -1880px
 }
 
-.flair-unite:before {
+.flair-unite:before, a[href="#unite"] {
   background-position: -0px -1900px
 }
 
-.flair-usa:before {
+.flair-usa:before, a[href="#usa"] {
   background-position: -0px -1920px
 }
 
-.flair-vitality:before {
+.flair-vitality:before, a[href="#vitality"] {
   background-position: -0px -1940px
 }
 
-.flair-vvv:before {
+.flair-vvv:before, a[href="#vvv"] {
   background-position: -0px -1960px
 }
 
-.flair-wales:before {
+.flair-wales:before, a[href="#wales"] {
   background-position: -0px -1980px
 }
 
-.flair-xtravagant:before {
+.flair-xtravagant:before, a[href="#xtravagant"] {
   background-position: -0px -2000px
 }
 /* end user flairs */
 
 a[href='#arrow'] {
   background-image: url(%%sprites%%);
-  background-position: 0px -175px;
+  background-position: 0 -175px;
   display: inline-block;
   vertical-align: middle;
   text-indent: -9999px;
@@ -4577,29 +4533,29 @@ a[href='#arrow'] {
 /* link flairs */
 
 .link {
-  position: relative;
+  position: relative
 }
 
 #tabbedpane-link_templates .thing {
-  position: relative;
+  position: relative
 }
 
 .linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 0;
   display: block;
   height: 100%;
-  border: none;
+  border: 0;
   width: 0;
   padding: 0;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  background: url(%%themeflair-bg%%) no-repeat;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: url(%%themeflair-bg%%) no-repeat
 }
 
 .linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover, .linkflair-spoiler div.entry p .linkflairlabel:hover, .linkflair-aw div.entry p .linkflairlabel:hover, .linkflair-cod div.entry p .linkflairlabel:hover {
@@ -4612,120 +4568,120 @@ a[href='#arrow'] {
   width: 225px;
   max-width: 225px;
   padding: 0;
-  z-index: 1;
+  z-index: 1
 }
 
 .linkflair-red div.entry p .linkflairlabel {
-  border-left: #CF000F solid 5px;
+  border-left: #cf000f solid 5px;
   background-position: 0 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .linkflair-blue div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel {
-  border-left: #22313F solid 5px!important;
+  border-left: #22313f solid 5px!important;
   background-position: -225px 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .linkflair-green div.entry p .linkflairlabel {
-  border-left: #8DC44E solid 5px!important;
+  border-left: #8dc44e solid 5px!important;
   background-position: -450px 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .linkflair-purple div.entry p .linkflairlabel {
-  border-left: #663399 solid 5px!important;
+  border-left: #639 solid 5px!important;
   background-position: -675px 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .linkflair-orange div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel {
-  border-left: #D35400 solid 5px;
+  border-left: #d35400 solid 5px;
   background-position: -900px 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .linkflair-grey div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel {
   border-left: #595a5b solid 5px;
   background-position: -1125px 8px!important;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-red .linkflairlabel {
-  background-color: #CF000F;
+  background-color: #cf000f;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-green .linkflairlabel {
-  background-color: #8DC44E;
+  background-color: #8dc44e;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel {
-  background-color: #22313F;
+  background-color: #22313f;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-purple .linkflairlabel {
-  background-color: #663399;
+  background-color: #639;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-orange .linkflairlabel, div.flairselector .linkflair-bo3 .linkflairlabel, div.flairselector .linkflair-aw .linkflairlabel, div.flairselector .linkflair-cod .linkflairlabel {
-  background-color: #D35400;
+  background-color: #d35400;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 div.flairselector .linkflair-grey .linkflairlabel, div.flairselector .linkflair-spoiler .linkflairlabel {
   background-color: #595a5b;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 body.post-linkflair-gfinity .content:before {
-  background: #000000 url(%%gfinity%%) fixed no-repeat 50% 0;
+  background: #000 url(%%gfinity%%) fixed no-repeat 50% 0
 }
 
 body.post-linkflair-mlg .content:before {
-  background: #000000 url(%%mlg%%) fixed no-repeat 50% 0;
+  background: #000 url(%%mlg%%) fixed no-repeat 50% 0
 }
 
 body.post-linkflair-bo3 .content:before {
-  background: #000000 url(%%bo3%%) fixed no-repeat 50% 0;
+  background: #000 url(%%bo3%%) fixed no-repeat 50% 0
 }
 
 body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before {
-  background: #000000 url(%%aw%%) fixed no-repeat 50% 0;
+  background: #000 url(%%aw%%) fixed no-repeat 50% 0
 }
 
 @media only screen and (min-width: 1920px) {
   body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before, body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before {
-    background-size: 100%;
+    background-size: 100%
   }
 }
 /* spoilers */
 
 .linkflair-spoiler a.title {
-  background: #000 !important;
-  color: #000 !important
+  background: #000!important;
+  color: #000!important
 }
 
 .linkflair-spoiler a.title:hover {
   background-color: transparent!important;
-  color: #b3b3b3!important;
+  color: #b3b3b3!important
 }
 
 a[href="#s"] {
   display: inline-block;
   background: black;
   color: white!important;
-  transition: color 0.15s ease;
-  padding-left: 5px;
+  transition: color .15s ease;
+  padding-left: 5px
 }
 
 a[href="#s"]::after {
@@ -4735,14 +4691,14 @@ a[href="#s"]::after {
   visibility: visible;
   padding-left: 5px;
   padding-right: 5px;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 
 a[href="#s"]:hover::after, a[href="#s"]:active::after {
   color: white;
   padding-left: 5px;
   padding-right: 5px;
-  transition: color 0.15s ease;
+  transition: color .15s ease
 }
 /* comments box */
 
