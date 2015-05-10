@@ -1,8 +1,8 @@
-#####
+#####[FINALS OF THE GFINITY SPRING MASTERS I IS LIVE](http://www.mlg.tv/gfinity)
 
 ###### META: [New subreddit theme, now less dark!](/35ana5)
 
-###### [](#gfinity) SPRING MASTERS I: [KNOCKOUT ROUND](/35fgqi) || [DAY 1](/35b69a) || [DAY 2](/35du7b) || [WAGERS](/353thc) || [OFFICIAL SURVIVAL GUIDE](/3566xb) || [TRASH TALK](/35ady8)
+###### [](#gfinity) SPRING MASTERS I: [DAY 1](/35b69a) || [DAY 2](/35du7b) || [DAY 3](/35h668) || [WAGERS](/353thc) || [SURVIVAL GUIDE](/3566xb) || [TRASH TALK](/35ady8)
 
 ###### COMPETITION: [TOP 5 PLAYS (4th May, 2015)](/34w94g) || [HOW TO ENTER](/31vrl9)
 
