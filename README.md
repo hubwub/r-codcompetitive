@@ -1,5 +1,4 @@
-# /r/codcompetitive
-
+# [/r/codcompetitive](http://reddit.com/r/codcompetitive)
 ---
 
 # stylesheet
