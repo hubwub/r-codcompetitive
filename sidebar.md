@@ -2,18 +2,18 @@
 
 ###### META: [New subreddit theme, now less dark!](/35ana5)
 
-###### [](#gfinity) SPRING MASTERS I: [DAY 1](/35b69a) || [DAY 2](/35du7b) || [DAY 3](/35h668) || [WAGERS](/353thc) || [SURVIVAL GUIDE](/3566xb) || [TRASH TALK](/35ady8)
+######  [](#umg) CALIFORNIA: [Survival Guide](http://www.reddit.com/r/CoDCompetitive/comments/35pkn0/the_umg_california_survival_guide/)
 
 ###### COMPETITION: [TOP 5 PLAYS (4th May, 2015)](/34w94g) || [HOW TO ENTER](/31vrl9)
 
 #[](#potw)
 
 *  [irc](https://client02.chat.mibbit.com/?server=irc.snoonet.org&channel=%23codcompetitive) [twitter](http://twitter.com/rcodcompetitive) [verified list](http://www.reddit.com/r/CoDCompetitive/wiki/verified_list)  [RULES](http://www.reddit.com/r/CoDCompetitive/wiki/index#wiki_rules) [Calendar](http://cod.esportspedia.com/wiki/Calendar)
-  * [May 15-17](#date) [UMG California](#event) [](#ev) [Ontario, CA](#location) [](#loc)
-  * [May 22-24](#date) [MES Detroit](#event) [](#ev) [Detroit, MI](#location) [](#loc)
-  * [May 30-31](#date) [ACL Brisbane](#event) [](#ev) [Brisbane, AU](#location) [](#loc)
-  * [June 5-7](#date) [S2 Playoffs](#event) [](#ev) [Austin, TX](#location) [](#loc)
-  * [June 19-21](#date) [Spring Masters II](#event) [](#ev) [London, UK](#location) [](#loc)
+  * [May 15 - 17](#date) [UMG California](#event) [](#ev) [Ontario, CA](#location) [](#loc)
+  * [May 22 - 24](#date) [MES Detroit](#event) [](#ev) [Detroit, MI](#location) [](#loc)
+  * [May 30 - 31](#date) [ACL Brisbane](#event) [](#ev) [Brisbane, AU](#location) [](#loc)
+  * [June 5 - 7](#date) [S2 Playoffs](#event) [](#ev) [Austin, TX](#location) [](#loc)
+  * [June 19 - 21](#date) [Spring Masters II](#event) [](#ev) [London, UK](#location) [](#loc)
 
 #
 

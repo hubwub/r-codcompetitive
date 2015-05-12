@@ -3887,7 +3887,7 @@ a[href='#arrow'] {
 #tabbedpane-link_templates .thing {
   position: relative
 }
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel {
+.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel,  .linkflair-umg div.entry p .linkflairlabel {
   position: absolute;
   left: 0;
   top: 0;
@@ -3904,7 +3904,7 @@ a[href='#arrow'] {
   border-radius: 0;
   background: url(%%themeflair-bg%%) no-repeat
 }
-.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover, .linkflair-spoiler div.entry p .linkflairlabel:hover, .linkflair-aw div.entry p .linkflairlabel:hover, .linkflair-cod div.entry p .linkflairlabel:hover {
+.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover, .linkflair-spoiler div.entry p .linkflairlabel:hover, .linkflair-aw div.entry p .linkflairlabel:hover, .linkflair-cod div.entry p .linkflairlabel:hover, .linkflair-umg div.entry p .linkflairlabel:hover {
   color: #fff;
   font-weight: normal;
   line-height: 75px;
@@ -3921,7 +3921,7 @@ a[href='#arrow'] {
   background-position: 0 8px!important;
   text-transform: uppercase
 }
-.linkflair-blue div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel {
+.linkflair-blue div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-umg div.entry p .linkflairlabel {
   border-left: #22313f solid 5px!important;
   background-position: -225px 8px!important;
   text-transform: uppercase
@@ -3982,6 +3982,9 @@ body.post-linkflair-gfinity .content:before {
 body.post-linkflair-mlg .content:before {
   background: #000 url(%%mlg%%) fixed no-repeat 50% 0
 }
+body.post-linkflair-umg .content:before {
+  background: #000 url(%%umg%%) fixed no-repeat 50% 0
+}
 body.post-linkflair-bo3 .content:before {
   background: #000 url(%%bo3%%) fixed no-repeat 50% 0
 }
@@ -3989,7 +3992,7 @@ body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before 
   background: #000 url(%%aw%%) fixed no-repeat 50% 0
 }
 @media only screen and (min-width: 1920px) {
-  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before, body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before {
+  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before, body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before, body.post-linkflair-umg .content:before {
     background-size: 100%
   }
 }
