@@ -2,7 +2,7 @@
 
 ###### META: [New subreddit theme, now less dark!](/35ana5)
 
-######  [](#umg) CALIFORNIA: [Survival Guide](http://www.reddit.com/r/CoDCompetitive/comments/35pkn0/the_umg_california_survival_guide/)
+######  [](#umg) CALIFORNIA: [Survival Guide](/35pkn0) || [Trash Talk](/35xrpf)
 
 ###### COMPETITION: [TOP 5 PLAYS (4th May, 2015)](/34w94g) || [HOW TO ENTER](/31vrl9)
 
@@ -38,54 +38,64 @@
 
  >| # |  | Wins | Losses | Win % |
 |:-: | :---------------: | :-: | :-: | :-: |
-|1| [](#opticgaming) | 25 | 3 | 89% |
-|2| [](#elevate) | 20 | 12 | 63% |
-|3| [](#envyus) | 20 | 12 | 63% |
-|4| [](#denial)  | 16 | 12 | 57% |
-|5| [](#faze)  | 14 | 14 | 50% |
-|6| [](#tcm) | 14 | 17 | 45% |
-|7| [](#tk) | 13 | 17 | 43% |
-|8| [](#rise) | 12 | 16 | 43% |
-|9| [](#ar) | 11 | 18 | 38% |
-|10| [](#opticnation) | 12 | 20 | 38% |
-|11| [](#justus) | 10 | 18 | 36% |
-|12| [](#prophecy) | 10 | 18 | 36% |
+|1| [](#opticgaming) | 28 | 4 | 88% |
+|2| [](#elevate) | 24 | 14 | 63% |
+|3| [](#denial) | 20 | 13 | 61% |
+|4| [](#envyus) | 20 | 16 | 56% |
+|5| [](#faze) | 16 | 16 | 50% |
+|6| [](#rise) | 16 | 18 | 47% |
+|8| [](#tk) | 17 | 19 | 44% |
+|7| [](#tcm) | 15 | 20 | 42% |
+|9| [](#opticnation) | 14 | 22 | 39% |
+|10| [](#prophecy) | 13 | 22 | 37% |
+|11| [](#ar) | 12 | 21 | 36% |
+|12| [](#justus) | 12 | 22 | 35% |
 
 * MLG League Results
 
- >|5th May|Home|Score|Away
+ >|13th May|Home|Score|Away
 | :-----:| :------: | :--: | :--------: |
-| 19:00 | [](#tk) | 2-3 | [](#rise) |
-| 19:00 | [](#justus) | 0-3 | [](#prophecy) |
-| 19:00 | [](#elevate) | 3-2 | [](#ar) |
-| 20:30 | [](#ar) | 2-3 | [](#justus) |
-| 20:30 | [](#elevate) | 3-1 |  [](#tk) |
-| 20:30 | [](#rise) | 3-2 | [](#prophecy) |
+| 19:00 | [](#envyus) | 1 - 3 | [](#justus) |
+| 19:00 | [](#denial) | 3 - 2 | [](#faze) |
+| 19:00 | [](#opticgaming) | 3 - 0 | [](#elevate) |
+| 19:00 | [](#ar) | 1 - 3 | [](#tk) |
+| 19:00 | [](#rise) | 3 - 1 | [](#tcm) |
+| 19:00 | [](#prophecy) | 3 - 1 | [](#opticnation) |
+| 20:30 | [](#tk) | 3 - 0 | [](#prophecy) |
+| 20:30 | [](#tcm) | 0 - 3 | [](#opticgaming) |
+| 20:30 | [](#opticnation) | 3 - 2 | [](#rise) |
+| 20:30 | [](#elevate) | 0 - 3 | [](#faze) |
+| 20:30 | [](#ar) | 3 - 0 | [](#envyus) |
+| 20:30 | [](#justus) | 1 - 3 | [](#denial) |
+| 22:00 | [](#prophecy) | 1 - 3 | [](#opticgaming) |
 
 * MLG League Schedule
 
- >|12th May|Home||Away
+ >|19th May|Home||Away
 | :----: | :------------: | :--: | :--------: |
-| 19:00 | [](#envyus) | vs. | [](#tcm) |
-| 19:00 | [](#elevate) | vs. | [](#rise) |
-| 19:00 | [](#prophecy) | vs. | [](#denial) |
-| 19:00 | [](#tk) | vs. | [](#justus) |
-| 19:00 | [](#opticnation) | vs. | [](#faze) |
-| 20:30 | [](#opticnation) | vs. | [](#envyus) |
-| 20:30 | [](#denial) | vs. | [](#rise) |
-| 20:30 | [](#tk) | vs. | [](#faze) |
-| 20:30 | [](#justus) | vs. | [](#elevate)|
-| 20:30 | [](#prophecy) | vs. | [](#tcm) |
-| 22:00 | [](#opticgaming) | vs. | [](#denial) |
+| 19:00 | [](#denial) | vs. | [](#tcm) |
+| 19:00 | [](#prophecy) | vs. | [](#envyus) |
+| 19:00 | [](#opticnation) | vs. | [](#rise) |
+| 19:00 | [](#justus) | vs. | [](#opticgaming) |
+| 19:00 | [](#faze) | vs. | [](#ar) |
+| 19:00 | [](#tk) | vs. | [](#elevate) |
+| 20:30 | [](#tk) | vs. | [](#envyus) |
+| 20:30 | [](#justus) | vs. | [](#tcm) |
+| 20:30 | [](#elevate) | vs. | [](#opticnation) |
+| 20:30 | [](#rise) | vs. | [](#opticgaming)|
+| 20:30 | [](#faze) | vs. | [](#prophecy) |
+| 20:30 | [](#ar) | vs. | [](#denial) |
+| 22:00 | [](#faze) | vs. | [](#denial) |
+| 22:00 | [](#opticgaming) | vs. | [](#rise) |
 
 * Recent Winners
 
  >| Tournament | Date | Winners |
 | :------------------------: | :--------: | :-----------------: |
-| [](#gfinity) Spring Masters I| May 2015 | [](#opticgaming) |
-| [](#eswc) Zenith 2015 | May 2015 | [](#opticgaming) |
-| [](#ugc) Niagara | April 2015 |  [](#tk) |
-| [](#codchamps) 2015 | April 2015 | [](#denial)  |
-| [](#codchamps) NA Championships | March 2015 | [](#opticgaming) |
 | [](#codchamps) EU Championships | February 2015 | [](#epsilon)  |
-| [](#mlg) S1 Playoffs | February 2015 | [](#opticgaming) |
+| [](#codchamps) NA Championships | March 2015 | [](#opticgaming) |
+| [](#codchamps) 2015 | March 2015 | [](#denial)  |
+| [](#gfinity) CoD Open | April 2015 | [](#epsilon) |
+| [](#ugc) Niagara | April 2015 |  [](#tk) |
+| [](#eswc) Zenith 2015 | May 2015 | [](#opticgaming) |
+| [](#gfinity) Spring Masters I| May 2015 | [](#opticgaming) |

@@ -2050,7 +2050,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   width: 262px;
   display: inline-block;
   text-align: center;
-  background-color: #fff;
+  background-color: #fc6701;
   color: #4d5763;
   text-transform: uppercase;
   font-weight: bold;
@@ -3755,7 +3755,7 @@ div.flairselector .linkflair-green .linkflairlabel {
   color: #fff;
   text-transform: uppercase
 }
-div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel {
+div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel, div.flairselector .linkflair-umg .linkflairlabel {
   background-color: #22313f;
   color: #fff;
   text-transform: uppercase

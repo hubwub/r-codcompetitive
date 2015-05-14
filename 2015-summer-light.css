@@ -2113,6 +2113,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
   height: 42px;
   margin-top: 24px;
   border: 0;
+  background-color: #fc6701;
   color: #fff;
   cursor: pointer;
   border-radius: 0
@@ -3042,7 +3043,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0
 }
 .side .titlebox .md h1 a[href$="#potw"]::after {
-  content: "MLG Pro League Season 2 resumes on 5/12"
+  content: "UMG Live from Ontario, California (not Canada)"
 }
 /* twitter / calendar */
 
@@ -3956,7 +3957,7 @@ div.flairselector .linkflair-green .linkflairlabel {
   color: #fff;
   text-transform: uppercase
 }
-div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel {
+div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel,  div.flairselector .linkflair-umg .linkflairlabel {
   background-color: #22313f;
   color: #fff;
   text-transform: uppercase
