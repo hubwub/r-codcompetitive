@@ -1,12 +1,13 @@
-text,css,name
-,empty,null
+,css,name
+,default,null
 Current Teams,label,null
-3s Up,threesup,null
+3s Up,3sup,null
 Automatic Reload,ar,null
 Avant Garde,avantgarde,null
 Aware Gaming,aware,null
 Below Zero,bz,null
 Denial eSports,denial,null
+DT,dt,null
 Epsilon eSports,epsilon,null
 Exertus,exertus,null
 Fabe,fabe,null
@@ -14,6 +15,7 @@ FaZe Clan,faze,null
 Gamers 2,gamers2,null
 Hypergames,hypergames,null
 Integral Nation,in,null
+iSolation Empire,iso,null
 Menace,menace,null
 Millenium,millenium,null
 Mindfreak,mindfreak,null
@@ -24,6 +26,7 @@ Rapid,rapid,null
 Rise Nation,rise,null
 SSOF,ssof,null
 Strictly Business,sb,null
+SYNRGY Gaming,syn,null
 TCM Gaming,tcm,null
 Team AscenTia,ascentia,null
 Team eLevate,elevate,null
@@ -32,12 +35,16 @@ Team Infused,infused,null
 Team JusTus,justus,null
 Team Kaliber,tk,null
 Team Klar1ty,klar1ty,null
-Team Prophecy,prophecy,null
-Team Revenge,tr,null
+Team Prophecy ,prophecy,null
+Team Revenge ,tr,null
 UnderratiX,underratix,null
+VexX Gaming,vexx,null
 Vitality,vitality,null
+vVV Gaming,vvv,null
+VwS Gaming,vws,null
+XGN,xgn,null
 Legacy Teams,label,null
-Complexity Gaming,complexity,null
+Complexity ,complexity,null
 Curse Gaming,curse,null
 eGirl Slayers,egirlslayers,null
 Evil Geniuses,eg,null
@@ -48,11 +55,11 @@ iCoNs Gaming,icons,null
 Impact,impact,null
 Killerfish,killerfish,null
 Lightning Pandaz ,lp,null
+Quantic Gaming,quantic,null
 Team FeaR,fear,null
 Team Immunity,immunity,null
-Quantic Gaming,quantic,null
+TKO,tko,null
 UNiTE Gaming,unite,null
-vVV Gaming,vvv,null
 Xtravagant,xtravagant,null
 Tournaments,label,null
 ACL Pro,aclpro,null
@@ -102,6 +109,5 @@ Modern Warfare 3,codmw3,null
 Black Ops 2,codbo2,null
 Ghosts,codghosts,null
 Advanced Warfare,codaw,null
-Black Ops 3,codbo3,null
 Infinity Ward,iw,null
 Treyarch,treyarch,null

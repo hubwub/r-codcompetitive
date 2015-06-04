@@ -1,9 +1,3 @@
-/*
-/r/codcompetitive stylesheet - light
-template: naut 3.2
- */
-/* general - links / buttons / inputs */
-
 *, :before, :after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -77,8 +71,6 @@ input:focus, textarea:focus {
 .btn:focus, button:focus {
   outline: 0
 }
-/* header */
-
 #header {
   margin: 0;
   height: 0;
@@ -148,8 +140,6 @@ a.random.choice {
   margin-left: 4px;
   font-size: 10px
 }
-/* my subreddits dropwdown menu */
-
 #sr-header-area .drop-choices.srdrop {
   background-color: #00000;
   border: 0;
@@ -163,8 +153,6 @@ a.random.choice {
 #sr-header-area .drop-choices a.choice:hover {
   background-color: #f1f1f1
 }
-/* header image */
-
 #header-img.default-header, #header-img {
   z-index: 99;
   width: 25px;
@@ -205,8 +193,6 @@ a.random.choice {
 #header .pagename a:hover {
   background-color: rgba(0, 0, 0, 0.08) url(%%logo-arms%%)
 }
-/* tab menu */
-
 #header-bottom-left {
   position: relative;
   border-top: 3px #fc6701 solid;
@@ -254,13 +240,9 @@ a.random.choice {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.55)!important
 }
-/* tab menu rising and etc. */
-
 listing-page .tabmenu li:nth-of-type(3), .wiki-page .tabmenu li:nth-of-type(3), .listing-page .tabmenu li:nth-of-type(4), .wiki-page .tabmenu li:nth-of-type(4), .listing-page .tabmenu li:nth-of-type(8), .wiki-page .tabmenu li:nth-of-type(8), .listing-page .tabmenu li:nth-of-type(6), .wiki-page .tabmenu li:nth-of-type(6) {
   display: none
 }
-/* sidebar */
-
 .side {
   margin: 375px 15px 0 0;
   padding: 0 16px;
@@ -290,8 +272,6 @@ body:not(.loggedin) #header-bottom-right {
   text-decoration: underline;
   color: rgba(255, 255, 255, 1)
 }
-/* user karma */
-
 .user .userkarma {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.45);
@@ -302,8 +282,6 @@ body:not(.loggedin) #header-bottom-right {
 .separator, .user {
   color: rgba(255, 255, 255, 0.45)
 }
-/* mail and modmail */
-
 #mail, #modmail {
   transition: all .25s ease
 }
@@ -321,8 +299,6 @@ body:not(.loggedin) #header-bottom-right {
 #modmail {
   top: -3px
 }
-/* logout and preferences */
-
 #header-bottom-right a.pref-lang, .loggedin .logout a {
   background-position: -0 -16px;
   background-image: url(%%spritesheet%%);
@@ -352,8 +328,6 @@ body:not(.loggedin) #header-bottom-right {
   text-align: center;
   right: 16px
 }
-/* search */
-
 #search {
   position: relative;
   right: 16px;
@@ -453,8 +427,6 @@ body:not(.loggedin) #header-bottom-right {
 #search #searchexpando p {
   display: none!important
 }
-/* submit button */
-
 .morelink {
   top: 307px;
   position: absolute;
@@ -517,8 +489,6 @@ body:not(.loggedin) #header-bottom-right {
   visibility: visible;
   transition-delay: .25s
 }
-/* restricted submission */
-
 .disabled .morelink {
   box-shadow: none!important;
   background-color: #cfcfcf
@@ -534,8 +504,6 @@ body:not(.loggedin) #header-bottom-right {
 .account-activity-box, .sidebox.create, .morelink .nub, .sidebox.submit.submit-text {
   display: none
 }
-/* login form */
-
 .login-form-side {
   border: 0
 }
@@ -545,8 +513,6 @@ body:not(.loggedin) #header-bottom-right {
 .login-form-side button.btn {
   margin-right: -3px
 }
-/* subreddit name and subscribers */
-
 .titlebox h1 {
   color: #4d5763;
   margin-bottom: 6px
@@ -609,8 +575,6 @@ div.titlebox span.number:after {
 .titlebox form.toggle.flairtoggle, .leavemoderator, .titlebox .tagline a.author, .sidebox .subtitle {
   display: none
 }
-/* subscribe button */
-
 .titlebox form.toggle.sr_style_toggle {
   position: relative
 }
@@ -660,8 +624,6 @@ div.titlebox span.number:after {
   background-color: transparent;
   color: #4f8ef7
 }
-/* sidebar text */
-
 .side .md .-blocks, .side .md .-lists, .side .md pre, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
   color: #262626;
   font-size: 16px;
@@ -728,8 +690,6 @@ div.titlebox span.number:after {
 .titlebox .bottom {
   display: none
 }
-/* sidebar moderation tools */
-
 .side #moderation_tools .title h1 {
   text-transform: capitalize;
   color: #4d5763
@@ -747,8 +707,6 @@ div.titlebox span.number:after {
 .icon-menu a {
   background-color: transparent
 }
-/* sidebar ads */
-
 #ad_sponsorship, #ad-frame, #ad_main {
   margin-left: -16px
 }
@@ -756,13 +714,9 @@ div.titlebox span.number:after {
   margin-top: -18px;
   border-radius: 2px 2px 0 0
 }
-/* sidebar recently viewed links */
-
 .gadget .midcol {
   width: 38px
 }
-/* link listing - frontpage */
-
 .content {
   margin: 375px 10px 0 15px;
   padding: 0
@@ -791,7 +745,7 @@ body:before {
   text-indent: -9999px;
   z-index: -1
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width:1920px) {
   .content:before {
     background-size: 100%
   }
@@ -836,8 +790,6 @@ body>.content .link .rank, .rank-spacer {
 .linklisting .link {
   background-color: white!important
 }
-/* upvote downvote score */
-
 .link .score {
   line-height: 16px;
   font-size: 12px
@@ -848,8 +800,6 @@ body>.content .link .rank, .rank-spacer {
 .link .score.dislikes {
   color: #5c5bd7
 }
-/* upvote downvote arrow */
-
 .arrow {
   background-image: url(%%spritesheet%%)!important;
   background-color: transparent;
@@ -861,8 +811,6 @@ body>.content .link .rank, .rank-spacer {
 .arrow:hover {
   background-color: rgba(0, 0, 0, 0.05)
 }
-/* upvotes */
-
 .arrow.up {
   height: 20px;
   background-position: -64px 0;
@@ -887,8 +835,6 @@ body>.content .link .rank, .rank-spacer {
   animation: upvote .35s ease-out forwards;
   -webkit-animation: upvote .35s ease-out forwards
 }
-/* downvotes */
-
 .arrow.down {
   height: 20px;
   background-position: -160px 0;
@@ -930,8 +876,6 @@ body>.content .link .rank, .rank-spacer {
 .subscriber .arrow.down {
   display: block!important
 }
-/* linklisting - submission title */
-
 .link .title {
   margin: 0;
   font-size: 15px;
@@ -962,8 +906,6 @@ body .content .sitetable .link .title a:hover {
 .thing .title.loggedin.click:visited, .thing .title.click:visited {
   color: #4f8ef7
 }
-/* linklisting domain */
-
 .link .domain {
   visibility: hidden
 }
@@ -981,8 +923,6 @@ body .content .sitetable .link .title a:hover {
 .approval-checkmark {
   cursor: default
 }
-/* linklisting expando */
-
 .expando-button, .expando-button.image, .expando-button.video-muted {
   position: relative;
   margin: 2px 6px 2px 0!important;
@@ -1056,8 +996,6 @@ body .content .sitetable .link .title a:hover {
 .expando-button.video-muted.expanded:hover {
   background-position: -80px -32px!important
 }
-/* linklisting expando self body text */
-
 .link .usertext .md {
   margin-top: 10px;
   padding-top: 3px;
@@ -1122,8 +1060,6 @@ body .content .sitetable .link .title a:hover {
 .RESUserTagImage:hover {
   opacity: 1!important
 }
-/* linklisting comment / report / share */
-
 .link .flat-list {
   margin-top: 3px
 }
@@ -1195,8 +1131,6 @@ body .content .sitetable .link .title a:hover {
 .action-form input[name="other_reason"] {
   padding: 8px
 }
-/* linklisting reporting comment */
-
 .link .entry .report-form {
   position: fixed;
   top: 35%;
@@ -1239,8 +1173,6 @@ body .content .sitetable .link .title a:hover {
 .link .entry .buttons li a.flairselectbtn {
   color: #4f8ef7
 }
-/* linklisting RES L+C */
-
 .link .entry .buttons li .redditSingleClick {
   padding: 0 1px;
   color: #b3b3b3;
@@ -1249,8 +1181,6 @@ body .content .sitetable .link .title a:hover {
   font-family: "Lato", sans-serif;
   transition: all .15s ease
 }
-/* linklisting report / spam / approve */
-
 .thing.spam {
   background-color: #ffe9e6
 }
@@ -1302,14 +1232,10 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
 .comment.spam>.child, .message.spam>.child {
   background-color: transparent
 }
-/* linklisting last clicked */
-
 .link.last-clicked {
   background-color: #f2f2f2;
   border: 0
 }
-/* linklisting stickied post*/
-
 .thing.stickied, .res-nightmode .thing.stickied {
   border-radius: 0;
   margin-bottom: 10px!important;
@@ -1326,16 +1252,12 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
   color: #b3b3b3;
   cursor: help
 }
-/* linklisting self post */
-
 .thing.stickied .domain {
   display: none
 }
 .content .spacer {
   margin: 0
 }
-/* linklisting ad*/
-
 .link.promotedlink.promoted {
   margin-right: 0;
   background-color: #e0e6f2;
@@ -1345,16 +1267,7 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
   padding-top: 0;
   padding-bottom: 0
 }
-.link.promotedlink.promoted .thumbnail {
-  max-height: inherit;
-  max-width: inherit;
-  margin-top: 8px
-}
-.link.promotedlink.promoted .thumbnail img {
-  height: inherit;
-  width: inherit
-}
-.organic-listing {
+.link.promotedlink.promoted ..organic-listing {
   background-color: white!important;
   padding: 0;
   z-index: 9999;
@@ -1382,8 +1295,6 @@ a.pretty-button.positive.pressed, a.pretty-button.neutral.pressed, a.pretty-butt
   margin-right: 16px;
   color: #b3b3b3
 }
-/* compressed post */
-
 .link.compressed {
   margin: 0
 }
@@ -1397,8 +1308,6 @@ body>.content .link.compressed .midcol {
   height: auto;
   margin: 8px 0 0 4px
 }
-/* flairs flair selector */
-
 .flairselector {
   padding: 0 0 5px 0!important;
   border-radius: 0;
@@ -1430,91 +1339,13 @@ body>.content .link.compressed .midcol {
 .flairselector .flairoptionpane ul li {
   padding: 0!important
 }
-.flairoptionpane ul li .linkflair {
-  text-align: left;
-  padding: 0;
-  color: #00000
-}
-.flairselector form {
-  padding-top: 12px;
-  border-top: 1px solid #f7f7f7
-}
-.flairselector form .flairselection {
-  text-align: center
-}
-.flairselector form .flairselection:before {
-  display: block;
-  content: "Selected Flair:";
-  color: #b3b3b3
-}
-.flairselector form .flairselection .linkflair a.title {
-  font-size: 18px!important;
-  opacity: 100!important;
-  color: #4f8ef7!important;
-  cursor: default
-}
-.flairselector form .flairselection .flairremove {
-  padding: 4px 0;
-  margin-bottom: 8px;
-  visibility: hidden;
-  display: block!important
-}
-.flairselector form .flairselection .flairremove a {
-  visibility: visible;
-  opacity: 100!important;
-  color: #4f8ef7!important;
-  margin-left: -4px;
-  text-transform: capitalize
-}
-.flairselector form .flairselection .flairremove a:first-letter {
-  text-transform: capitalize
-}
-.flairselector form .flairselection .flairremove a:hover {
-  text-decoration: underline!important
-}
-.flairselector .error {
-  text-align: left
-}
-.flairselector .error:first-letter {
-  text-transform: capitalize
-}
-.flairselector .error:after {
-  display: block;
-  color: #b3b3b3;
-  content: "No flairs at the moment."
-}
-.flairselector img {
-  position: relative;
-  left: 50%;
-  margin-left: -9px;
-  opacity: .5
-}
-.flairselector .flairoptionpane ul li {
-  margin: 5px 5px
-}
-.flairselector li.selected {
-  border: 0;
-  background-color: transparent
-}
-.flairselector .flairoptionpane ul li.flairsample-right {
-  padding: 5px 0!important;
-  border: 0
-}
-.flairselector li a, .flairselector form .flairselection a.author {
-  color: #b3b3b3!important;
-  font-size: 11px
-}
-/* unvotable linklisting */
-
-.unvotable-message {
+.flairoptionpane ul li .unvotable-message {
   border: 0 solid;
   color: #b3b3b3
 }
 .unvotable-message:first-letter {
   text-transform: capitalize
 }
-/* linklisting RES selection */
-
 .res .RES-keyNav-activeElement {
   outline: 0 dashed #e0e0e0!important;
   transition: all .35s ease
@@ -1536,8 +1367,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .res .commentarea .entry .flat-list {
   padding-bottom: 16px
 }
-/* linklisting RES tag dialog and RES tag */
-
 .userTagLink.hasTag, #userTaggerPreview {
   font-size: 11px!important;
   border-radius: 0!important;
@@ -1594,8 +1423,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 #userTaggerToolTip input[type=submit] {
   bottom: 10px!important
 }
-/* comment sorting menu */
-
 .top-page .content .menuarea .drop-choices.lightdrop {
   display: inline;
   visibility: visible
@@ -1656,8 +1483,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   background-color: #4f8ef7;
   color: #fff
 }
-/* RES popup */
-
 .guider {
   border: 0;
   box-shadow: 0 2px 3px #DDD
@@ -1682,8 +1507,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .x_button:hover {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15)
 }
-/* info bar */
-
 .content .infobar {
   margin: 0 0 16px 0;
   padding: 8px 16px;
@@ -1701,8 +1524,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .content .infobar:first-letter {
   text-transform: capitalize
 }
-/* welcome infobar */
-
 .content .infobar.welcome {
   line-height: inherit;
   height: 86px
@@ -1719,8 +1540,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   color: rgba(0, 0, 0, 0.54);
   font-weight: 700
 }
-/* noresults image */
-
 #noresults {
   margin: 0;
   position: absolute;
@@ -1732,8 +1551,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-size: 0;
   display: block
 }
-/* next page styling */
-
 .sitetable .nav-buttons {
   padding: 16px;
   background-color: #fff;
@@ -1757,8 +1574,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   border: 0;
   background-color: transparent
 }
-/* comments page styling */
-
 .comments-page .link {
   border-radius: 0;
   margin-bottom: 19px!important;
@@ -1878,8 +1693,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   border-left: 1px dotted #ececec;
   margin-top: 0
 }
-/* comment vote arrows */
-
 .comment .midcol {
   width: 24px;
   margin-right: 0
@@ -1924,8 +1737,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-weight: bold;
   color: #4f8ef7
 }
-/* res comment fixes */
-
 .res .thing .tagline .author.submitter {
   padding: 1px 4px;
   border-radius: 1px;
@@ -1945,8 +1756,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .comment span.userattrs {
   margin-left: 4px
 }
-/* comment styling */
-
 .comment .usertext .md {
   color: #4d5763
 }
@@ -1975,16 +1784,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
   color: #4d5763;
   margin: 16px 0 0
 }
-/* deleted comment in comments page*/
-
 .usertext.grayed .usertext-body {
   margin: 4px 0;
   background-color: transparent;
   text-transform: italic;
   padding: 0
 }
-/* comments reply / share report */
-
 .comment .flat-list li a {
   color: #b3b3b3;
   font-size: 10px
@@ -2001,8 +1806,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .deepthread a {
   color: #4f8ef7
 }
-/* comments page sidebar */
-
 .comments-page .side .linkinfo {
   position: absolute;
   right: 15px;
@@ -2026,8 +1829,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .linkinfo .shortlink input {
   border: 1px solid #e5e5e5
 }
-/* submission page styling */
-
 .submit-page .side, .submit-page .content h1, #suggested-reddits {
   display: none
 }
@@ -2125,8 +1926,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .submit-page #header-bottom-left {
   top: 241px
 }
-/* search page styling */
-
 .search-page .searchpane {
   margin: 0 320px 0 0;
   background: #fff none;
@@ -2218,8 +2017,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-weight: 400;
   cursor: pointer
 }
-/* wiki page styling */
-
 .wiki-page .wikititle {
   background-color: #fff;
   padding: 1px 16px 10px 16px;
@@ -2278,8 +2075,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .wiki-page .wiki-page-content em {
   color: #b3b3b3
 }
-/* subreddit settings / flair / stylesheet page styling */
-
 .linefield {
   background-color: #fff;
   color: #b3b3b3;
@@ -2343,8 +2138,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .fancy-settings .pretty-form {
   padding-top: 0
 }
-/* stylesheet page styling */
-
 .stylesheet-customize-container .pretty-form {
   padding-top: 0;
   background-color: #fff;
@@ -2377,8 +2170,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 #images #image-upload {
   margin: 0 0 4em 0
 }
-/* default flair styling from naut */
-
 .flair {
   border: 0;
   border-radius: 0;
@@ -2402,8 +2193,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .side .flair:before {
   margin-left: 0
 }
-/* listing page comment */
-
 .listing-page .comment {
   background-color: #fff;
   margin-left: 0;
@@ -2423,8 +2212,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   font-size: 14px;
   margin-left: 8px
 }
-/* footer */
-
 .footer {
   color: #000;
   padding: 10px;
@@ -2464,8 +2251,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
   color: #9a7d2e!important;
   font-weight: normal
 }
-/* RES fixes */
-
 #RESShortcuts {
   color: #d5d5d5
 }
@@ -2978,8 +2763,6 @@ body>.content {
     opacity: 0
   }
 }
-/* customizations to naut */
-
 .search-page .side {
   margin-top: 375px!important
 }
@@ -2995,8 +2778,6 @@ body>.content {
 #header-bottom-left {
   top: 241px
 }
-/* potw */
-
 .side .titlebox .md h1 {
   padding-left: 0;
   color: #fff;
@@ -3043,10 +2824,8 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0
 }
 .side .titlebox .md h1 a[href$="#potw"]::after {
-  content: "MLG Pro League Season 2"
+  content: ""
 }
-/* twitter / calendar */
-
 .side .usertext-body .md h1+ul {
   position: absolute;
   top: 300px;
@@ -3210,8 +2989,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   text-align: right;
   font-weight: bold
 }
-/* announcemnt(s) in header */
-
 .side .titlebox .md h5 {
   text-align: center;
   letter-spacing: .5px;
@@ -3297,8 +3074,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin-top: 255px;
   height: 50px
 }
-/* sidebar hover tables */
-
 .side .usertext-body .md h1+ul+ul {
   padding-left: 0;
   background: #262626;
@@ -3440,77 +3215,14 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   padding: 0;
   margin: 0
 }
-/* subreddit name */
-
 .side .redditname {
   display: none;
   font-size: 0
 }
-/* button fix */
-
 .morelink, .titlebox .fancy-toggle-button .add, .morelink:after, .content .infobar, .submit-page #newlink.submit.content .tabmenu.formtab .selected a, .submit-page .infobar, .submit-page #newlink.submit.content .btn, .drop-choices a.choice:hover, , .fancy-toggle-button .remove:active .expando-button:hover, .top-page .content .menuarea .dropdown.lightdrop .selected, .expando-button:hover, .side .titlebox .md h3 a, .res div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   background-color: #fc6701
 }
-/* thumbnails */
-
-.thumbnail {
-  display: none
-}
-/* link flair */
-
-.linkflairlabel {
-  padding: 0 2px;
-  height: auto;
-  border-radius: 0;
-  color: #333;
-  font-weight: bold;
-  font-style: normal;
-  font-variant: normal;
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-  cursor: default;
-  vertical-align: middle
-}
-.linkflair-mod .linkflairlabel {
-  background-color: #65b354;
-  color: #fff
-}
-.linkflair-mod a {
-  color: #65b354!important
-}
-.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {
-  background: url(%%spritesheet%%) -3px -80px!important
-}
-.linkflair:hover {
-  background-position: 100% 0!important;
-  -webkit-transition: background-position .3s ease;
-  -moz-transition: background-position .3s ease;
-  -ms-transition: background-position .3s ease;
-  -o-transition: background-position .3s ease;
-  transition: background-position .3s ease
-}
-.linkflair {
-  background-position: 25% 0!important;
-  -webkit-transition: background-position .3s ease;
-  -moz-transition: background-position .3s ease;
-  -ms-transition: background-position .3s ease;
-  -o-transition: background-position .3s ease;
-  transition: background-position .3s ease
-}
-/* user flairs */
-/*flair selection*/
-
-.flair {
-  width: 25px;
-  height: 25px;
-  line-height: 20px;
-  overflow: hidden;
-  vertical-align: middle;
-  font-size: inherit;
-  background-color: transparent;
-  color: #222;
-}
-.flairoptionpane .flair-label:before, .flair-empty:before, span.flair.flair-empty, .flairoptionpane .author {
+flairoptionpane .flair-label:before, .flair-empty:before, span.flair.flair-empty, .flairoptionpane .author {
   display: none
 }
 .flairoptionpane .flair:hover {
@@ -3520,7 +3232,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   margin: 0
 }
 .flairoptionpane .flair {
-  background: none;
+  background: 0;
   border: 0 none;
   width: auto;
   border-width: 0
@@ -3533,7 +3245,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 }
 .flairoptionpane li:hover {
   background: #fff;
-  border: 0px none
+  border: 0 none
 }
 .flairoptionpane li .flair-label {
   background: #ccc;
@@ -3554,7 +3266,7 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background-color: #fff;
   padding: 1px 1ex 3px 1px
 }
-.flair:before, a[href='#aclpro'], a[href='#ar'], a[href='#ascentia'], a[href='#aus'], a[href='#avantgarde'], a[href='#aware'], a[href='#belgium'], a[href='#brazil'], a[href='#bz'], a[href='#canada'], a[href='#cod4'], a[href='#codaw'], a[href='#codbo'], a[href='#codbo2'], a[href='#codbo3'], a[href='#codchamps'], a[href='#codghosts'], a[href='#codmw2'], a[href='#codmw3'], a[href='#codwaw'], a[href='#complexity'], a[href='#curse'], a[href='#denial'], a[href='#doesplay'], a[href='#eg'], a[href='#egirlslayers'], a[href='#egl'], a[href='#ego'], a[href='#elevate'], a[href='#england'], a[href='#envyus'], a[href='#epic'], a[href='#epsilon'], a[href='#esl'], a[href='#eswc'], a[href='#eu'], a[href='#exertus'], a[href='#fabe'], a[href='#fariko'], a[href='#faze'], a[href='#fazeblack'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#gamers2'], a[href='#germany'], a[href='#gfinity'], a[href='#hypergames'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#in'], a[href='#infused'], a[href='#ireland'], a[href='#italy'], a[href='#iw'], a[href='#justus'], a[href='#killerfish'], a[href='#klar1ty'], a[href='#lp'], a[href='#menace'], a[href='#mes'], a[href='#mexico'], a[href='#millenium'], a[href='#mindfreak'], a[href='#mlg'], a[href='#netherlands'], a[href='#ni'], a[href='#norway'], a[href='#nz'], a[href='#opticgaming'], a[href='#opticnation'], a[href='#orbit'], a[href='#prophecy'], a[href='#quantic'], a[href='#rapid'], a[href='#rise'], a[href='#russia'], a[href='#sb'], a[href='#scotland'], a[href='#spain'], a[href='#ssof'], a[href='#sweden'], a[href='#tcm'], a[href='#threesup'], a[href='#tk'], a[href='#tr'], a[href='#treyarch'], a[href='#twitch'], a[href='#ugc'], a[href='#uk'], a[href='#umg'], a[href='#underratix'], a[href='#unite'], a[href='#usa'], a[href='#vitality'], a[href='#vvv'], a[href='#wales'], a[href='#xtravagant'] {
+.flair:before, a[href='#aclpro'], a[href='#ar'], a[href='#ascentia'], a[href='#aus'], a[href='#avantgarde'], a[href='#aware'], a[href='#belgium'], a[href='#brazil'], a[href='#bz'], a[href='#canada'], a[href='#cod4'], a[href='#codaw'], a[href='#codbo'], a[href='#codbo2'], a[href='#codbo3'], a[href='#codchamps'], a[href='#codghosts'], a[href='#codmw2'], a[href='#codmw3'], a[href='#codwaw'], a[href='#complexity'], a[href='#curse'], a[href='#denial'], a[href='#doesplay'], a[href='#eg'], a[href='#egirlslayers'], a[href='#egl'], a[href='#ego'], a[href='#elevate'], a[href='#england'], a[href='#envyus'], a[href='#epic'], a[href='#epsilon'], a[href='#esl'], a[href='#eswc'], a[href='#eu'], a[href='#exertus'], a[href='#fabe'], a[href='#fariko'], a[href='#faze'], a[href='#fazeblack'], a[href='#fear'], a[href='#finalboss'], a[href='#finland'], a[href='#france'], a[href='#gamers2'], a[href='#germany'], a[href='#gfinity'], a[href='#hypergames'], a[href='#icons'], a[href='#immunity'], a[href='#impact'], a[href='#in'], a[href='#infused'], a[href='#ireland'], a[href='#italy'], a[href='#iw'], a[href='#justus'], a[href='#killerfish'], a[href='#klar1ty'], a[href='#lp'], a[href='#menace'], a[href='#mes'], a[href='#mexico'], a[href='#millenium'], a[href='#mindfreak'], a[href='#mlg'], a[href='#netherlands'], a[href='#ni'], a[href='#norway'], a[href='#nz'], a[href='#opticgaming'], a[href='#opticnation'], a[href='#orbit'], a[href='#prophecy'], a[href='#quantic'], a[href='#rapid'], a[href='#rise'], a[href='#russia'], a[href='#sb'], a[href='#scotland'], a[href='#kappa'], a[href='#spain'], a[href='#ssof'], a[href='#sweden'], a[href='#tcm'], a[href='#threesup'], a[href='#tk'], a[href='#tr'], a[href='#treyarch'], a[href='#twitch'], a[href='#ugc'], a[href='#uk'], a[href='#umg'], a[href='#underratix'], a[href='#unite'], a[href='#usa'], a[href='#vitality'], a[href='#vvv'], a[href='#wales'], a[href='#xtravagant'] {
   content: "";
   height: 20px;
   width: 20px;
@@ -3564,8 +3276,6 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
   background-repeat: no-repeat;
   vertical-align: middle
 }
-/* user flair images */
-
 .flair-aaadefault:before, a[href="#aaadefault"] {
   background-position: -0 -0px
 }
@@ -3641,236 +3351,258 @@ body.res .side .titlebox .md h1 a[href$="#potw"] {
 .flair-doesplay:before, a[href="#doesplay"] {
   background-position: -0 -480px
 }
-.flair-eg:before, a[href="#eg"] {
+.flair-dt:before, a[href="#dt"] {
   background-position: -0 -500px
 }
-.flair-egirlslayers:before, a[href="#egirlslayers"] {
+.flair-eg:before, a[href="#eg"] {
   background-position: -0 -520px
 }
-.flair-egl:before, a[href="#egl"] {
+.flair-egirlslayers:before, a[href="#egirlslayers"] {
   background-position: -0 -540px
 }
-.flair-ego:before, a[href="#ego"] {
+.flair-egl:before, a[href="#egl"] {
   background-position: -0 -560px
 }
-.flair-elevate:before, a[href="#elevate"] {
+.flair-ego:before, a[href="#ego"] {
   background-position: -0 -580px
 }
-.flair-england:before, a[href="#england"] {
+.flair-elevate:before, a[href="#elevate"] {
   background-position: -0 -600px
 }
-.flair-envyus:before, a[href="#envyus"] {
+.flair-england:before, a[href="#england"] {
   background-position: -0 -620px
 }
-.flair-epic:before, a[href="#epic"] {
+.flair-envyus:before, a[href="#envyus"] {
   background-position: -0 -640px
 }
-.flair-epsilon:before, a[href="#epsilon"] {
+.flair-epic:before, a[href="#epic"] {
   background-position: -0 -660px
 }
-.flair-esl:before, a[href="#esl"] {
+.flair-epsilon:before, a[href="#epsilon"] {
   background-position: -0 -680px
 }
-.flair-eswc:before, a[href="#eswc"] {
+.flair-esl:before, a[href="#esl"] {
   background-position: -0 -700px
 }
-.flair-eu:before, a[href="#eu"] {
+.flair-eswc:before, a[href="#eswc"] {
   background-position: -0 -720px
 }
-.flair-exertus:before, a[href="#exertus"] {
+.flair-eu:before, a[href="#eu"] {
   background-position: -0 -740px
 }
-.flair-fabe:before, a[href="#fabe"] {
+.flair-exertus:before, a[href="#exertus"] {
   background-position: -0 -760px
 }
-.flair-fariko:before, a[href="#fariko"] {
+.flair-fabe:before, a[href="#fabe"] {
   background-position: -0 -780px
 }
-.flair-faze:before, a[href="#faze"] {
+.flair-fariko:before, a[href="#fariko"] {
   background-position: -0 -800px
 }
-.flair-fazeblack:before, a[href="#fazeblack"] {
+.flair-faze:before, a[href="#faze"] {
   background-position: -0 -820px
 }
-.flair-fear:before, a[href="#fear"] {
+.flair-fazeblack:before, a[href="#fazeblack"] {
   background-position: -0 -840px
 }
-.flair-finalboss:before, a[href="#finalboss"] {
+.flair-fear:before, a[href="#fear"] {
   background-position: -0 -860px
 }
-.flair-finland:before, a[href="#finland"] {
+.flair-finalboss:before, a[href="#finalboss"] {
   background-position: -0 -880px
 }
-.flair-france:before, a[href="#france"] {
+.flair-finland:before, a[href="#finland"] {
   background-position: -0 -900px
 }
-.flair-gamers2:before, a[href="#gamers2"] {
+.flair-france:before, a[href="#france"] {
   background-position: -0 -920px
 }
-.flair-germany:before, a[href="#germany"] {
+.flair-gamers2:before, a[href="#gamers2"] {
   background-position: -0 -940px
 }
-.flair-gfinity:before, a[href="#gfinity"] {
+.flair-germany:before, a[href="#germany"] {
   background-position: -0 -960px
 }
-.flair-hypergames:before, a[href="#hypergames"] {
+.flair-gfinity:before, a[href="#gfinity"] {
   background-position: -0 -980px
 }
-.flair-icons:before, a[href="#icons"] {
+.flair-hypergames:before, a[href="#hypergames"] {
   background-position: -0 -1000px
 }
-.flair-immunity:before, a[href="#immunity"] {
+.flair-icons:before, a[href="#icons"] {
   background-position: -0 -1020px
 }
-.flair-impact:before, a[href="#impact"] {
+.flair-immunity:before, a[href="#immunity"] {
   background-position: -0 -1040px
 }
-.flair-in:before, a[href="#in"] {
+.flair-impact:before, a[href="#impact"] {
   background-position: -0 -1060px
 }
-.flair-infused:before, a[href="#infused"] {
+.flair-in:before, a[href="#in"] {
   background-position: -0 -1080px
 }
-.flair-ireland:before, a[href="#ireland"] {
+.flair-infused:before, a[href="#infused"] {
   background-position: -0 -1100px
 }
-.flair-italy:before, a[href="#italy"] {
+.flair-ireland:before, a[href="#ireland"] {
   background-position: -0 -1120px
 }
-.flair-iw:before, a[href="#iw"] {
+.flair-iso:before, a[href="#iso"] {
   background-position: -0 -1140px
 }
-.flair-justus:before, a[href="#justus"] {
+.flair-italy:before, a[href="#italy"] {
   background-position: -0 -1160px
 }
-.flair-killerfish:before, a[href="#killerfish"] {
+.flair-iw:before, a[href="#iw"] {
   background-position: -0 -1180px
 }
-.flair-klar1ty:before, a[href="#klar1ty"] {
+.flair-justus:before, a[href="#justus"] {
   background-position: -0 -1200px
 }
-.flair-lp:before, a[href="#lp"] {
+.flair-killerfish:before, a[href="#killerfish"] {
   background-position: -0 -1220px
 }
-.flair-menace:before, a[href="#menace"] {
+.flair-klar1ty:before, a[href="#klar1ty"] {
   background-position: -0 -1240px
 }
-.flair-mes:before, a[href="#mes"] {
+.flair-lp:before, a[href="#lp"] {
   background-position: -0 -1260px
 }
-.flair-mexico:before, a[href="#mexico"] {
+.flair-menace:before, a[href="#menace"] {
   background-position: -0 -1280px
 }
-.flair-millenium:before, a[href="#millenium"] {
+.flair-mes:before, a[href="#mes"] {
   background-position: -0 -1300px
 }
-.flair-mindfreak:before, a[href="#mindfreak"] {
+.flair-mexico:before, a[href="#mexico"] {
   background-position: -0 -1320px
 }
-.flair-mlg:before, a[href="#mlg"] {
+.flair-millenium:before, a[href="#millenium"] {
   background-position: -0 -1340px
 }
-.flair-netherlands:before, a[href="#netherlands"] {
+.flair-mindfreak:before, a[href="#mindfreak"] {
   background-position: -0 -1360px
 }
-.flair-ni:before, a[href="#ni"] {
+.flair-mlg:before, a[href="#mlg"] {
   background-position: -0 -1380px
 }
-.flair-norway:before, a[href="#norway"] {
+.flair-netherlands:before, a[href="#netherlands"] {
   background-position: -0 -1400px
 }
-.flair-nz:before, a[href="#nz"] {
+.flair-ni:before, a[href="#ni"] {
   background-position: -0 -1420px
 }
-.flair-opticgaming:before, a[href="#opticgaming"] {
+.flair-norway:before, a[href="#norway"] {
   background-position: -0 -1440px
 }
-.flair-opticnation:before, a[href="#opticnation"] {
+.flair-nz:before, a[href="#nz"] {
   background-position: -0 -1460px
 }
-.flair-orbit:before, a[href="#orbit"] {
+.flair-opticgaming:before, a[href="#opticgaming"] {
   background-position: -0 -1480px
 }
-.flair-prophecy:before, a[href="#prophecy"] {
+.flair-opticnation:before, a[href="#opticnation"] {
   background-position: -0 -1500px
 }
-.flair-quantic:before, a[href="#quantic"] {
+.flair-orbit:before, a[href="#orbit"] {
   background-position: -0 -1520px
 }
-.flair-rapid:before, a[href="#rapid"] {
+.flair-prophecy:before, a[href="#prophecy"] {
   background-position: -0 -1540px
 }
-.flair-rise:before, a[href="#rise"] {
+.flair-quantic:before, a[href="#quantic"] {
   background-position: -0 -1560px
 }
-.flair-russia:before, a[href="#russia"] {
+.flair-rapid:before, a[href="#rapid"] {
   background-position: -0 -1580px
 }
-.flair-sb:before, a[href="#sb"] {
+.flair-rise:before, a[href="#rise"] {
   background-position: -0 -1600px
 }
-.flair-scotland:before, a[href="#scotland"] {
+.flair-russia:before, a[href="#russia"] {
   background-position: -0 -1620px
 }
-.flair-spain:before, a[href="#spain"] {
+.flair-sb:before, a[href="#sb"] {
   background-position: -0 -1640px
 }
-.flair-ssof:before, a[href="#ssof"] {
+.flair-scotland:before, a[href="#scotland"] {
   background-position: -0 -1660px
 }
-.flair-sweden:before, a[href="#sweden"] {
+.flair-spain:before, a[href="#spain"] {
   background-position: -0 -1680px
 }
-.flair-tcm:before, a[href="#tcm"] {
+.flair-ssof:before, a[href="#ssof"] {
   background-position: -0 -1700px
 }
-.flair-threesup:before, a[href="#threesup"] {
+.flair-sweden:before, a[href="#sweden"] {
   background-position: -0 -1720px
 }
-.flair-tk:before, a[href="#tk"] {
+.flair-syn:before, a[href="#syn"] {
   background-position: -0 -1740px
 }
-.flair-tr:before, a[href="#tr"] {
+.flair-tcm:before, a[href="#tcm"] {
   background-position: -0 -1760px
 }
-.flair-treyarch:before, a[href="#treyarch"] {
+.flair-threesup:before, a[href="#threesup"] {
   background-position: -0 -1780px
 }
-.flair-twitch:before, a[href="#twitch"] {
+.flair-tk:before, a[href="#tk"] {
   background-position: -0 -1800px
 }
-.flair-ugc:before, a[href="#ugc"] {
+.flair-tko:before, a[href="#tko"] {
   background-position: -0 -1820px
 }
-.flair-uk:before, a[href="#uk"] {
+.flair-tr:before, a[href="#tr"] {
   background-position: -0 -1840px
 }
-.flair-umg:before, a[href="#umg"] {
+.flair-treyarch:before, a[href="#treyarch"] {
   background-position: -0 -1860px
 }
-.flair-underratix:before, a[href="#underratix"] {
+.flair-twitch:before, a[href="#twitch"] {
   background-position: -0 -1880px
 }
-.flair-unite:before, a[href="#unite"] {
+.flair-ugc:before, a[href="#ugc"] {
   background-position: -0 -1900px
 }
-.flair-usa:before, a[href="#usa"] {
+.flair-uk:before, a[href="#uk"] {
   background-position: -0 -1920px
 }
-.flair-vitality:before, a[href="#vitality"] {
+.flair-umg:before, a[href="#umg"] {
   background-position: -0 -1940px
 }
-.flair-vvv:before, a[href="#vvv"] {
+.flair-underratix:before, a[href="#underratix"] {
   background-position: -0 -1960px
 }
-.flair-wales:before, a[href="#wales"] {
+.flair-unite:before, a[href="#unite"] {
   background-position: -0 -1980px
 }
-.flair-xtravagant:before, a[href="#xtravagant"] {
+.flair-usa:before, a[href="#usa"] {
   background-position: -0 -2000px
 }
-/* end user flairs */
-
+.flair-vexx:before, a[href="#vexx"] {
+  background-position: -0 -2020px
+}
+.flair-vitality:before, a[href="#vitality"] {
+  background-position: -0 -2040px
+}
+.flair-vvv:before, a[href="#vvv"] {
+  background-position: -0 -2060px
+}
+.flair-vws:before, a[href="#vws"] {
+  background-position: -0 -2080px
+}
+.flair-wales:before, a[href="#wales"] {
+  background-position: -0 -2100px
+}
+.flair-xgn:before, a[href="#xgn"] {
+  background-position: -0 -2120px
+}
+.flair-xtravagant:before, a[href="#xtravagant"] {
+  background-position: -0 -2140px
+}
+./* flair-kappa:before, a[href="#kappa"] {
+  background-position: -0 -2020px
+} */
 a[href='#arrow'] {
   background-image: url(%%sprites%%);
   background-position: 0 -175px;
@@ -3880,157 +3612,415 @@ a[href='#arrow'] {
   width: 25px;
   height: 25px
 }
+.
+/*POST TAGS*/
+
+.linkflairlabel {
+  display: none;
+}
+
+/* FLAIR THUMBNAILS */
+
+.thing a.thumbnail {
+  background: url(%%post-flairs%%);
+  width: 50px !important;
+  height: 50px !important;
+  margin: 10px 10px 0 10px;
+  background-position: -150px -0px;
+}
+.thing a.thumbnail img {
+  display: none;
+}
+.res-nightmode .listing-page .linklisting:hover {
+  background-color: #222 !important;
+}
+
 /* link flairs */
 
-.link {
-  position: relative
+.thing.linkflair-weekly a.thumbnail {
+  background-position: -0px -0px;
 }
-#tabbedpane-link_templates .thing {
-  position: relative
+.listing-page .linklisting .thing.linkflair-weekly:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #5e60d3 solid !important;
 }
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-blue div.entry p .linkflairlabel, .linkflair-green div.entry p .linkflairlabel, .linkflair-red div.entry p .linkflairlabel, .linkflair-purple div.entry p .linkflairlabel, .linkflair-grey div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel,  .linkflair-umg div.entry p .linkflairlabel {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: block;
-  height: 100%;
-  border: 0;
-  width: 0;
-  padding: 0;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  background: url(%%themeflair-bg%%) no-repeat
+.res-nightmode .listing-page .linklisting .thing.linkflair-weekly:hover {
+  background-color: #222 !important;
+  border-left: 3px #5e60d3 solid !important;
 }
-.linkflair-orange div.entry p .linkflairlabel:hover, .linkflair-blue div.entry p .linkflairlabel:hover, .linkflair-green div.entry p .linkflairlabel:hover, .linkflair-red div.entry p .linkflairlabel:hover, .linkflair-purple div.entry p .linkflairlabel:hover, .linkflair-grey div.entry p .linkflairlabel:hover, .linkflair-gfinity div.entry p .linkflairlabel:hover, .linkflair-mlg div.entry p .linkflairlabel:hover, .linkflair-bo3 div.entry p .linkflairlabel:hover, .linkflair-spoiler div.entry p .linkflairlabel:hover, .linkflair-aw div.entry p .linkflairlabel:hover, .linkflair-cod div.entry p .linkflairlabel:hover, .linkflair-umg div.entry p .linkflairlabel:hover {
-  color: #fff;
-  font-weight: normal;
-  line-height: 75px;
-  text-indent: 20px;
-  font-size: 18px;
-  letter-spacing: 1px;
-  width: 225px;
-  max-width: 225px;
-  padding: 0;
-  z-index: 1
+.thing.linkflair-gif a.thumbnail {
+  background-position: -200px -200px;
 }
-.linkflair-red div.entry p .linkflairlabel {
-  border-left: #cf000f solid 5px;
-  background-position: 0 8px!important;
-  text-transform: uppercase
+.listing-page .linklisting .thing.linkflair-gif:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #363636 solid !important;
 }
-.linkflair-blue div.entry p .linkflairlabel, .linkflair-gfinity div.entry p .linkflairlabel, .linkflair-mlg div.entry p .linkflairlabel, .linkflair-umg div.entry p .linkflairlabel {
-  border-left: #22313f solid 5px!important;
-  background-position: -225px 8px!important;
-  text-transform: uppercase
+.res-nightmode .listing-page .linklisting .thing.linkflair-gif:hover {
+  background-color: #222 !important;
+  border-left: 3px #363636 solid !important;
 }
-.linkflair-green div.entry p .linkflairlabel {
-  border-left: #8dc44e solid 5px!important;
-  background-position: -450px 8px!important;
-  text-transform: uppercase
+.thing.linkflair-stats a.thumbnail {
+  background-position: -200px -250px;
 }
-.linkflair-purple div.entry p .linkflairlabel {
-  border-left: #639 solid 5px!important;
-  background-position: -675px 8px!important;
-  text-transform: uppercase
+.listing-page .linklisting .thing.linkflair-stats:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #218bb0 solid !important;
 }
-.linkflair-orange div.entry p .linkflairlabel, .linkflair-bo3 div.entry p .linkflairlabel, .linkflair-aw div.entry p .linkflairlabel, .linkflair-cod div.entry p .linkflairlabel {
-  border-left: #d35400 solid 5px;
-  background-position: -900px 8px!important;
-  text-transform: uppercase
+.res-nightmode .listing-page .linklisting .thing.linkflair-stats:hover {
+  background-color: #222 !important;
+  border-left: 3px #218bb0 solid !important;
 }
-.linkflair-grey div.entry p .linkflairlabel, .linkflair-spoiler div.entry p .linkflairlabel {
-  border-left: #595a5b solid 5px;
-  background-position: -1125px 8px!important;
-  text-transform: uppercase
+.thing.linkflair-top5 a.thumbnail {
+  background-position: -200px -300px;
 }
-div.flairselector .linkflair-red .linkflairlabel {
-  background-color: #cf000f;
-  color: #fff;
-  text-transform: uppercase
+.listing-page .linklisting .thing.linkflair-top5:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #9a2522 solid !important;
 }
-div.flairselector .linkflair-green .linkflairlabel {
-  background-color: #8dc44e;
-  color: #fff;
-  text-transform: uppercase
+.res-nightmode .listing-page .linklisting .thing.linkflair-top5:hover {
+  background-color: #222 !important;
+  border-left: 3px #9a2522 solid !important;
 }
-div.flairselector .linkflair-blue .linkflairlabel, div.flairselector .linkflair-gfinity .linkflairlabel, div.flairselector .linkflair-mlg .linkflairlabel,  div.flairselector .linkflair-umg .linkflairlabel {
-  background-color: #22313f;
-  color: #fff;
-  text-transform: uppercase
+.thing.linkflair-tweet a.thumbnail {
+  background-position: -0px -50px;
 }
-div.flairselector .linkflair-purple .linkflairlabel {
-  background-color: #639;
-  color: #fff;
-  text-transform: uppercase
+.listing-page .linklisting .thing.linkflair-tweet:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #00acee solid !important;
 }
-div.flairselector .linkflair-orange .linkflairlabel, div.flairselector .linkflair-bo3 .linkflairlabel, div.flairselector .linkflair-aw .linkflairlabel, div.flairselector .linkflair-cod .linkflairlabel {
-  background-color: #d35400;
-  color: #fff;
-  text-transform: uppercase
+.res-nightmode .listing-page .linklisting .thing.linkflair-tweet:hover {
+  background-color: #222 !important;
+  border-left: 3px #00acee solid !important;
 }
-div.flairselector .linkflair-grey .linkflairlabel, div.flairselector .linkflair-spoiler .linkflairlabel {
-  background-color: #595a5b;
-  color: #fff;
-  text-transform: uppercase
+.thing.linkflair-vid a.thumbnail {
+  background-position: -0px -100px;
 }
-body.post-linkflair-gfinity .content:before {
-  background: #000 url(%%gfinity%%) fixed no-repeat 50% 0
+.listing-page .linklisting .thing.linkflair-vid:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #cb433f solid !important;
 }
-body.post-linkflair-mlg .content:before {
-  background: #000 url(%%mlg%%) fixed no-repeat 50% 0
+.res-nightmode .listing-page .linklisting .thing.linkflair-vid:hover {
+  background-color: #222 !important;
+  border-left: 3px #cb433f solid !important;
 }
-body.post-linkflair-umg .content:before {
-  background: #000 url(%%umg%%) fixed no-repeat 50% 0
+.thing.linkflair-event a.thumbnail {
+  background-position: -0px -150px;
 }
-body.post-linkflair-bo3 .content:before {
-  background: #000 url(%%bo3%%) fixed no-repeat 50% 0
+.listing-page .linklisting .thing.linkflair-event:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #6d59cf solid !important;
 }
-body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before {
-  background: #000 url(%%aw%%) fixed no-repeat 50% 0
+.res-nightmode .listing-page .linklisting .thing.linkflair-event:hover {
+  background-color: #222 !important;
+  border-left: 3px #6d59cf solid !important;
 }
-@media only screen and (min-width: 1920px) {
-  body.post-linkflair-gfinity .content:before, body.post-linkflair-mlg .content:before, body.post-linkflair-bo3 .content:before, body.post-linkflair-aw .content:before, body.post-linkflair-cod .content:before, body.post-linkflair-umg .content:before {
-    background-size: 100%
-  }
+.thing.linkflair-dis a.thumbnail {
+  background-position: -0px -200px;
 }
-/* spoilers */
-
-.linkflair-spoiler a.title {
-  background: #000!important;
-  color: #000!important
+.listing-page .linklisting .thing.linkflair-dis:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #52b7aa solid !important;
 }
-.linkflair-spoiler a.title:hover {
-  background-color: transparent!important;
-  color: #b3b3b3!important
+.res-nightmode .listing-page .linklisting .thing.linkflair-dis:hover {
+  background-color: #222 !important;
+  border-left: 3px #52b7aa solid !important;
 }
-a[href="#s"] {
-  display: inline-block;
-  background: black;
-  color: white!important;
-  transition: color .15s ease;
-  padding-left: 5px
+.thing.linkflair-question a.thumbnail {
+  background-position: -0px -250px;
 }
-a[href="#s"]::after {
-  content: attr(title);
-  background: black;
-  color: black;
-  visibility: visible;
-  padding-left: 5px;
-  padding-right: 5px;
-  transition: color .15s ease
+.listing-page .linklisting .thing.linkflair-question:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #91b650 solid !important;
 }
-a[href="#s"]:hover::after, a[href="#s"]:active::after {
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  transition: color .15s ease
+.res-nightmode .listing-page .linklisting .thing.linkflair-question:hover {
+  background-color: #222 !important;
+  border-left: 3px #91b650 solid !important;
 }
-/* comments box */
-
+.thing.linkflair-win a.thumbnail {
+  background-position: -0px -300px;
+}
+.listing-page .linklisting .thing.linkflair-win:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #e7ba33 solid !important;
+}
+.thing.linkflair-meta a.thumbnail, .thumbnail.self {
+  background-position: -50px -0px;
+}
+.listing-page .linklisting .thing.linkflair-meta:hover, .listing-page .linklisting .thing.self:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #3696e0 solid !important;
+}
+.thing.linkflair-fluff a.thumbnail {
+  background-position: -50px -50px;
+}
+.listing-page .linklisting .thing.linkflair-fluff:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #ff9933 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-fluff:hover {
+  background-color: #222 !important;
+  border-left: 3px #ff9933 solid !important;
+}
+.thing.linkflair-article a.thumbnail {
+  background-position: -50px -100px;
+}
+.listing-page .linklisting .thing.linkflair-article:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #41a2a8 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-article:hover {
+  background-color: #222 !important;
+  border-left: 3px #41a2a8 solid !important;
+}
+.thing.linkflair-ama a.thumbnail {
+  background-position: -50px -150px;
+}
+.listing-page .linklisting .thing.linkflair-ama:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #4e4ea1 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-ama:hover {
+  background-color: #222 !important;
+  border-left: 3px #4e4ea1 solid !important;
+}
+.thing.linkflair-news a.thumbnail {
+  background-position: -50px -200px;
+}
+.listing-page .linklisting .thing.linkflair-news:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #5b9c51 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-news:hover {
+  background-color: #222 !important;
+  border-left: 3px #5b9c51 solid !important;
+}
+.thing.linkflair-pic a.thumbnail {
+  background-position: -50px -250px;
+}
+.listing-page .linklisting .thing.linkflair-pic:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #8b80e5 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-pic:hover {
+  background-color: #222 !important;
+  border-left: 3px #8b80e5 solid !important;
+}
+.thing.linkflair-trashtalkthread a.thumbnail {
+  background-position: -50px -300px;
+}
+.listing-page .linklisting .thing.linkflair-trashtalkthread:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #434343 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-trashtalkthread:hover {
+  background-color: #222 !important;
+  border-left: 3px #434343 solid !important;
+}
+.thing.linkflair-psa a.thumbnail {
+  background-position: -100px -0px;
+}
+.listing-page .linklisting .thing.linkflair-psa:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #96a56c solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-psa:hover {
+  background-color: #222 !important;
+  border-left: 3px #96a56c solid !important;
+}
+.thing.linkflair-team a.thumbnail {
+  background-position: -100px -50px;
+}
+.listing-page .linklisting .thing.linkflair-team:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #975eb7 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-team:hover {
+  background-color: #222 !important;
+  border-left: 3px #975eb7 solid !important;
+}
+.thing.linkflair-ugcn a.thumbnail {
+  background-position: -100px -100px;
+}
+.listing-page .linklisting .thing.linkflair-ugcn:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #bf1c1f solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-ugcn:hover {
+  background-color: #222 !important;
+  border-left: 3px #bf1c1f solid !important;
+}
+.thing.linkflair-twitch a.thumbnail {
+  background-position: -100px -150px;
+}
+.listing-page .linklisting .thing.linkflair-twitch:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #6441a5 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-twitch:hover {
+  background-color: #222 !important;
+  border-left: 3px #6441a5 solid !important;
+}
+.thing.linkflair-mlg a.thumbnail {
+  background-position: -100px -200px;
+}
+.listing-page .linklisting .thing.linkflair-mlg:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #901926 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-mlg:hover {
+  background-color: #222 !important;
+  border-left: 3px #901926 solid !important;
+}
+.thing.linkflair-iw a.thumbnail {
+  background-position: -100px -250px;
+}
+.listing-page .linklisting .thing.linkflair-iw:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #a04848 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-iw:hover {
+  background-color: #222 !important;
+  border-left: 3px #a04848 solid !important;
+}
+.thing.linkflair-ghosts a.thumbnail {
+  background-position: -100px -300px;
+}
+.listing-page .linklisting .thing.linkflair-ghosts:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #1a1a1a solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-ghosts:hover {
+  background-color: #222 !important;
+  border-left: 3px #1a1a1a solid !important;
+}
+.thing.linkflair-codchamps a.thumbnail {
+  background-position: -150px -50px;
+}
+.listing-page .linklisting .thing.linkflair-codchamps:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #1f6192 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-codchamps:hover {
+  background-color: #222 !important;
+  border-left: 3px #1f6192 solid !important;
+}
+.thing.linkflair-dogecoin a.thumbnail {
+  background-position: -150px -100px;
+}
+.listing-page .linklisting .thing.linkflair-dogecoin:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #ba9f33 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-dogecoin:hover {
+  background-color: #222 !important;
+  border-left: 3px #ba9f33 solid !important;
+}
+.thing.linkflair-astro a.thumbnail {
+  background-position: -150px -150px;
+}
+.thing.linkflair-rumour a.thumbnail {
+  background-position: -150px -100px;
+}
+.listing-page .linklisting .thing.linkflair-rumour:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #e74c3c solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-rumour:hover {
+  background-color: #222 !important;
+  border-left: 3px #e74c3c solid !important;
+}
+.thing.linkflair-cetv a.thumbnail {
+  background-position: -150px -200px;
+}
+.listing-page .linklisting .thing.linkflair-cetv:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #282828 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-cetv:hover {
+  background-color: #222 !important;
+  border-left: 3px #282828 solid !important;
+}
+.thing.linkflair-pax a.thumbnail {
+  background-position: -150px -300px;
+}
+.listing-page .linklisting .thing.linkflair-pax:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #282828 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-pax:hover {
+  background-color: #222 !important;
+  border-left: 3px #282828 solid !important;
+}
+.thing.linkflair-xgames a.thumbnail {
+  background-position: -200px -0px;
+}
+.listing-page .linklisting .thing.linkflair-xgames:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #363636 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-xgames:hover {
+  background-color: #222 !important;
+  border-left: 3px #363636 solid !important;
+}
+.thing.linkflair-gfinity a.thumbnail {
+  background-position: -200px -50px;
+}
+.listing-page .linklisting .thing.linkflair-gfinity:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #969696 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-gfinity:hover {
+  background-color: #222 !important;
+  border-left: 3px #969696 solid !important;
+}
+.thing.linkflair-umg a.thumbnail {
+  background-position: -200px -100px;
+}
+.listing-page .linklisting .thing.linkflair-umg:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #969696 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-umg:hover {
+  background-color: #222 !important;
+  border-left: 3px #969696 solid !important;
+}
+.thing.linkflair-aw a.thumbnail {
+  background-position: -200px -150px;
+}
+.listing-page .linklisting .thing.linkflair-aw:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #969696 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-aw:hover {
+  background-color: #222 !important;
+  border-left: 3px #969696 solid !important;
+}
+.thing.linkflair-eswc a.thumbnail {
+  background-position: -250px -0px;
+}
+.listing-page .linklisting .thing.linkflair-eswc:hover {
+  background-color: #f9f9f9 !important;
+  border-left: 3px #0079e6 solid !important;
+}
+.res-nightmode .listing-page .linklisting .thing.linkflair-eswc:hover {
+  background-color: #222 !important;
+  border-left: 3px #0079e6 solid !important;
+}
+.linklisting .thing {
+  border: 1px #e3e3e3 solid;
+  border-left: 3px #e3e3e3 solid;
+  padding: 10px;
+}
+.link .entry {
+  padding: 8px 0px 0px 8px;
+  border-left: 10px solid #e0e6f2;
+  margin-left: 0;
+  min-height: 10px;
+  margin-bottom: -1px
+}
+.link .entry:hover {
+  border-left-color: #cad6ed
+}
 .commentarea .usertext-edit textarea {
   background: url(%%comment%%) no-repeat 0 0
 }
@@ -4051,13 +4041,13 @@ a[href="#s"]:hover::after, a[href="#s"]:active::after {
 .roundfield-content>.usertext textarea:focus {
   background-position: -504px -104px
 }
-/* verified users */
-
-a[href$="user/hubwub"]:before, a[href$="u/hubwub"]:before, a[href$="user/cpennington"]:before, a[href$="u/cpennington"]:before, a[href$="user/synide"]:before, a[href$="u/synide"]:before, a[href$="user/OpTicH3CZ"]:before, a[href$="u/OpTicH3CZ"]:before, a[href$="user/FeaRMoho"]:before, a[href$="u/FeaRMoho"]:before, a[href$="user/JayApex"]:before, a[href$="u/JayApex"]:before, a[href$="user/Synfula"]:before, a[href$="u/Synfula"]:before, a[href$="user/RisePacman"]:before, a[href$="u/RisePacman"]:before, a[href$="user/RickyStacy"]:before, a[href$="u/RickyStacy"]:before, a[href$="user/Kieranfitzz"]:before, a[href$="u/Kieranfitzz"]:before, a[href$="user/JoeLauzonDotCom"]:before, a[href$="u/JoeLauzonDotCom"]:before, a[href$="user/CrsIskatu"]:before, a[href$="u/CrsIskatu"]:before, a[href$="user/RayLyaR"]:before, a[href$="u/RayLyaR"]:before, a[href$="user/monksyman9"]:before, a[href$="u/monksyman9"]:before, a[href$="user/AttachCoD"]:before, a[href$="u/AttachCoD"]:before, a[href$="user/Stun552"]:before, a[href$="u/Stun552"]:before, a[href$="user/EGMrX"]:before, a[href$="u/EGMrX"]:before, a[href$="user/jbass698"]:before, a[href$="u/jbass698"]:before, a[href$="user/te_speedy"]:before, a[href$="u/te_speedy"]:before, a[href$="user/sellmate"]:before, a[href$="u/sellmate"]:before, a[href$="user/ESLqntm"]:before, a[href$="u/ESLqntm"]:before, a[href$="user/shane_lp"]:before, a[href$="u/shane_lp"]:before, a[href$="user/TOMMEYJT"]:before, a[href$="u/TOMMEYJT"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/bigsnackks"]:before, a[href$="u/bigsnackks"]:before, a[href$="user/EnableIan"]:before, a[href$="u/EnableIan"]:before, a[href$="user/Mcondrey"]:before, a[href$="u/Mcondrey"]:before, a[href$="user/EGCrimsix"]:before, a[href$="u/EGCrimsix"]:before, a[href$="user/Jaaaan"]:before, a[href$="u/Jaaaan"]:before, a[href$="user/AlessandroR"]:before, a[href$="u/AlessandroR"]:before, a[href$="user/FearCrad"]:before, a[href$="u/FearCrad"]:before, a[href$="user/HazardTV"]:before, a[href$="u/HazardTV"]:before, a[href$="user/-Swanny"]:before, a[href$="u/-Swanny"]:before, a[href$="user/Sundanced"]:before, a[href$="u/Sundanced"]:before, a[href$="user/Bio-Acid"]:before, a[href$="u/Bio-Acid"]:before, a[href$="user/CrsBlevdog"]:before, a[href$="u/CrsBlevdog"]:before, a[href$="user/letsgohome86"]:before, a[href$="u/letsgohome86"]:before, a[href$="user/RevanJB"]:before, a[href$="u/RevanJB"]:before, a[href$="user/Clay792"]:before, a[href$="u/Clay792"]:before, a[href$="user/rlxthegreat"]:before, a[href$="u/rlxthegreat"]:before, a[href$="user/UNiTE_Jasen"]:before, a[href$="u/UNiTE_Jasen"]:before, a[href$="user/UNiTE_Dan"]:before, a[href$="u/UNiTE_Dan"]:before, a[href$="user/coLMrX"]:before, a[href$="u/coLMrX"]:before, a[href$="user/TeePeeCoD"]:before, a[href$="u/TeePeeCoD"]:before, a[href$="user/PATTYCACHES"]:before, a[href$="u/PATTYCACHES"]:before, a[href$="user/coL-CSIX"]:before, a[href$="u/coL-CSIX"]:before, a[href$="user/MrMLGAdam"]:before, a[href$="u/MrMLGAdam"]:before, a[href$="user/ChanceMLG"]:before, a[href$="u/ChanceMLG"]:before, a[href$="user/GoldenboyFTW"]:before, a[href$="u/GoldenboyFTW"]:before, a[href$="user/BrianSaintt"]:before, a[href$="u/BrianSaintt"]:before, a[href$="user/nadeshot"]:before, a[href$="u/nadeshot"]:before, a[href$="user/schillez"]:before, a[href$="u/schillez"]:before, a[href$="user/Hollow_sB"]:before, a[href$="u/Hollow_sB"]:before, a[href$="user/Tartopome"]:before, a[href$="u/Tartopome"]:before, a[href$="user/eMeRiKa13"]:before, a[href$="u/eMeRiKa13"]:before, a[href$="user/YonnYonn"]:before, a[href$="u/YonnYonn"]:before, a[href$="user/Slashered"]:before, a[href$="u/Slashered"]:before, a[href$="user/Drift0r"]:before, a[href$="u/Drift0r"]:before, a[href$="user/mrfarly"]:before, a[href$="u/mrfarly"]:before, a[href$="user/CrsNameless"]:before, a[href$="u/CrsNameless"]:before, a[href$="user/muddawg"]:before, a[href$="u/muddawg"]:before, a[href$="user/Chewwy94"]:before, a[href$="u/Chewwy94"]:before, a[href$="user/Bricetacular"]:before, a[href$="u/Bricetacular"]:before, a[href$="user/Crsblevdog"]:before, a[href$="u/Crsblevdog"]:before, a[href$="user/APIce"]:before, a[href$="u/APIce"]:before, a[href$="user/Wi5dom12"]:before, a[href$="u/Wi5dom12"]:before, a[href$="user/fwiz"]:before, a[href$="u/fwiz"]:before, a[href$="user/AntMethodz"]:before, a[href$="u/AntMethodz"]:before, a[href$="user/iCn_Quest"]:before, a[href$="u/iCn_Quest"]:before, a[href$="user/SoaRMethodz"]:before, a[href$="u/SoaRMethodz"]:before, a[href$="user/benbowe100"]:before, a[href$="u/benbowe100"]:before, a[href$="user/iloveFPS"]:before, a[href$="u/iloveFPS"]:before, a[href$="user/coLKarma"]:before, a[href$="u/coLKarma"]:before, a[href$="user/PHiZZURP"]:before, a[href$="u/PHiZZURP"]:before, a[href$="user/MLGPuckett"]:before, a[href$="u/MLGPuckett"]:before, a[href$="user/John287"]:before, a[href$="u/John287"]:before, a[href$="user/NotTheFakeJKap"]:before, a[href$="u/NotTheFakeJKap"]:before, a[href$="user/SinfuL-"]:before, a[href$="u/SinfuL-"]:before, a[href$="user/OMGLove"]:before, a[href$="u/OMGLove"]:before, a[href$="user/AcidOli"]:before, a[href$="u/AcidOli"]:before, a[href$="user/Mr_NameLeSs"]:before, a[href$="u/Mr_NameLeSs"]:before, a[href$="user/AnthonyMethodz"]:before, a[href$="u/AnthonyMethodz"]:before, a[href$="user/FBogre2"]:before, a[href$="u/FBogre2"]:before, a[href$="user/SCOTTJORGENSEN"]:before, a[href$="u/SCOTTJORGENSEN"]:before, a[href$="user/Gfinity"]:before, a[href$="u/Gfinity"]:before, a[href$="user/MLGColey"]:before, a[href$="u/MLGColey"]:before, a[href$="user/Revzzz"]:before, a[href$="u/Revzzz"]:before, a[href$="user/iCheeto"]:before, a[href$="u/iCheeto"]:before, a[href$="user/ScottGandhii"]:before, a[href$="u/ScottGandhii"]:before, a[href$="user/Hitchariide"]:before, a[href$="u/Hitchariide"]:before, a[href$="user/NotParasite"]:before, a[href$="u/NotParasite"]:before, a[href$="user/MBoZe"]:before, a[href$="u/MBoZe"]:before, a[href$="user/WhoisRob"]:before, a[href$="u/WhoisRob"]:before, a[href$="user/FB_Snip3down"]:before, a[href$="u/FB_Snip3down"]:before, a[href$="user/agermanguy"]:before, a[href$="u/agermanguy"]:before, a[href$="user/smitingfatty"]:before, a[href$="u/smitingfatty"]:before, a[href$="user/whea7s"]:before, a[href$="u/whea7s"]:before, a[href$="user/SpaceLyNJ"]:before, a[href$="u/SpaceLyNJ"]:before, a[href$="user/Miyagisaur"]:before, a[href$="u/Miyagisaur"]:before, a[href$="user/CurseCable"]:before, a[href$="u/CurseCable"]:before, a[href$="user/TheGinjaNinja6828"]:before, a[href$="u/TheGinjaNinja6828"]:before, a[href$="user/EZGamingEvents"]:before, a[href$="u/EZGamingEvents"]:before, a[href$="user/CrsMochila"]:before, a[href$="u/CrsMochila"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Tipsy93"]:before, a[href$="u/Tipsy93"]:before, a[href$="user/hastr0"]:before, a[href$="u/hastr0"]:before, a[href$="user/yoPittsburgh"]:before, a[href$="u/yoPittsburgh"]:before, a[href$="user/BrianPRPLXD"]:before, a[href$="u/BrianPRPLXD"]:before, a[href$="user/RogueLv"]:before, a[href$="u/RogueLv"]:before, a[href$="user/j0kr555"]:before, a[href$="u/j0kr555"]:before, a[href$="user/clairejeepchick"]:before, a[href$="u/clairejeepchick"]:before, a[href$="user/UGCevents"]:before, a[href$="u/UGCevents"]:before, a[href$="user/Kingdom_Soldier"]:before, a[href$="u/Kingdom_Soldier"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Maven285"]:before, a[href$="u/Maven285"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/UMGChris"]:before, a[href$="u/UMGChris"]:before, a[href$="user/BsportJoshh"]:before, a[href$="u/BsportJoshh"]:before, a[href$="user/EGDKarma"]:before, a[href$="u/EGDKarma"]:before, a[href$="user/RealizeEU"]:before, a[href$="u/RealizeEU"]:before, a[href$="user/EDiehlReadyUpGmng"]:before, a[href$="u/EDiehlReadyUpGmng"]:before, a[href$="user/ApathyCoD"]:before, a[href$="u/ApathyCoD"]:before, a[href$="user/MLGIlir"]:before, a[href$="u/MLGIlir"]:before, a[href$="user/fobindianman"]:before, a[href$="u/fobindianman"]:before, a[href$="user/MLGRon"]:before, a[href$="u/MLGRon"]:before, a[href$="user/MLGBradley"]:before, a[href$="u/MLGBradley"]:before, a[href$="user/Brocco-"]:before, a[href$="u/Brocco-"]:before, a[href$="user/Snxwe"]:before, a[href$="u/Snxwe"]:before, a[href$="user/FuzzyOtterBalls"]:before, a[href$="u/FuzzyOtterBalls"]:before, a[href$="user/xiSerbia"]:before, a[href$="u/xiSerbia"]:before, a[href$="user/samzorzSH"]:before, a[href$="u/samzorzSH"]:before, a[href$="user/BuZZZO"]:before, a[href$="u/BuZZZO"]:before, a[href$="user/CptSwizz"]:before, a[href$="u/CptSwizz"]:before, a[href$="user/Peatiee"]:before, a[href$="u/Peatiee"]:before, a[href$="user/MarkyBCoD"]:before, a[href$="u/MarkyBCoD"]:before, a[href$="user/Zoomaaa"]:before, a[href$="u/Zoomaaa"]:before, a[href$="user/mlgkc"]:before, a[href$="u/mlgkc"]:before, a[href$="user/FroZnRay"]:before, a[href$="u/FroZnRay"]:before, a[href$="user/ringokid"]:before, a[href$="u/ringokid"]:before, a[href$="user/OrbitWanted"]:before, a[href$="u/OrbitWanted"]:before, a[href$="user/Orbit_ZeBrain"]:before, a[href$="u/Orbit_ZeBrain"]:before, a[href$="user/EuropeanGamingLeague"]:before, a[href$="u/EuropeanGamingLeague"]:before, a[href$="user/OpTicMiDNiTE"]:before, a[href$="u/OpTicMiDNiTE"]:before, a[href$="user/Sharp_tK"]:before, a[href$="u/Sharp_tK"]:before, a[href$="user/TheTurboShow"]:before, a[href$="u/TheTurboShow"]:before, a[href$="user/iSowerz"]:before, a[href$="u/iSowerz"]:before, a[href$="user/Crimsux"]:before, a[href$="u/Crimsux"]:before, a[href$="user/UMGmatt"]:before, a[href$="u/UMGmatt"]:before, a[href$="user/RAGEDuffMan"]:before, a[href$="u/RAGEDuffMan"]:before, a[href$="user/Affentod"]:before, a[href$="u/Affentod"]:before, a[href$="user/MyNamesNotNathan"]:before, a[href$="u/MyNamesNotNathan"]:before, a[href$="user/Iamneslo"]:before, a[href$="u/Iamneslo"]:before, a[href$="user/yoBundo"]:before, a[href$="u/yoBundo"]:before, a[href$="user/LambzyJM"]:before, a[href$="u/LambzyJM"]:before, a[href$="user/ottersareneat"]:before, a[href$="u/ottersareneat"]:before, a[href$="user/MerK_nV"]:before, a[href$="u/MerK_nV"]:before, a[href$="user/ChrisTunn"]:before, a[href$="u/ChrisTunn"]:before, a[href$="user/evensides"]:before, a[href$="u/evensides"]:before, a[href$="user/ivscourage"]:before, a[href$="u/ivscourage"]:before, a[href$="user/RealFears"]:before, a[href$="u/RealFears"]:before, a[href$="user/RealLegal"]:before, a[href$="u/RealLegal"]:before, a[href$="user/DenialKross"]:before, a[href$="u/DenialKross"]:before, a[href$="user/AEL_CJ"]:before, a[href$="u/AEL_CJ"]:before, a[href$="user/MrEmceec"]:before, a[href$="u/MrEmceec"]:before, a[href$="user/NakeeeZe"]:before, a[href$="u/NakeeeZe"]:before, a[href$="user/StarClutch"]:before, a[href$="u/StarClutch"]:before, a[href$="user/ACLPro"]:before, a[href$="u/ACLPro"]:before, a[href$="user/mattmrx"]:before, a[href$="u/mattmrx"]:before, a[href$="user/hojuuuu"]:before, a[href$="u/hojuuuu"]:before, a[href$="user/rambo_nv"]:before, a[href$="u/rambo_nv"]:before {
+a[href$="user/hubwub"]:before, a[href$="u/hubwub"]:before, a[href$="user/cpennington"]:before, a[href$="u/cpennington"]:before, a[href$="user/synide"]:before, a[href$="u/synide"]:before, a[href$="user/OpTicH3CZ"]:before, a[href$="u/OpTicH3CZ"]:before, a[href$="user/FeaRMoho"]:before, a[href$="u/FeaRMoho"]:before, a[href$="user/JayApex"]:before, a[href$="u/JayApex"]:before, a[href$="user/Synfula"]:before, a[href$="u/Synfula"]:before, a[href$="user/RisePacman"]:before, a[href$="u/RisePacman"]:before, a[href$="user/RickyStacy"]:before, a[href$="u/RickyStacy"]:before, a[href$="user/Kieranfitzz"]:before, a[href$="u/Kieranfitzz"]:before, a[href$="user/JoeLauzonDotCom"]:before, a[href$="u/JoeLauzonDotCom"]:before, a[href$="user/CrsIskatu"]:before, a[href$="u/CrsIskatu"]:before, a[href$="user/RayLyaR"]:before, a[href$="u/RayLyaR"]:before, a[href$="user/monksyman9"]:before, a[href$="u/monksyman9"]:before, a[href$="user/AttachCoD"]:before, a[href$="u/AttachCoD"]:before, a[href$="user/Stun552"]:before, a[href$="u/Stun552"]:before, a[href$="user/EGMrX"]:before, a[href$="u/EGMrX"]:before, a[href$="user/jbass698"]:before, a[href$="u/jbass698"]:before, a[href$="user/te_speedy"]:before, a[href$="u/te_speedy"]:before, a[href$="user/sellmate"]:before, a[href$="u/sellmate"]:before, a[href$="user/ESLqntm"]:before, a[href$="u/ESLqntm"]:before, a[href$="user/shane_lp"]:before, a[href$="u/shane_lp"]:before, a[href$="user/TOMMEYJT"]:before, a[href$="u/TOMMEYJT"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/bigsnackks"]:before, a[href$="u/bigsnackks"]:before, a[href$="user/EnableIan"]:before, a[href$="u/EnableIan"]:before, a[href$="user/Mcondrey"]:before, a[href$="u/Mcondrey"]:before, a[href$="user/EGCrimsix"]:before, a[href$="u/EGCrimsix"]:before, a[href$="user/Jaaaan"]:before, a[href$="u/Jaaaan"]:before, a[href$="user/AlessandroR"]:before, a[href$="u/AlessandroR"]:before, a[href$="user/FearCrad"]:before, a[href$="u/FearCrad"]:before, a[href$="user/HazardTV"]:before, a[href$="u/HazardTV"]:before, a[href$="user/-Swanny"]:before, a[href$="u/-Swanny"]:before, a[href$="user/Sundanced"]:before, a[href$="u/Sundanced"]:before, a[href$="user/Bio-Acid"]:before, a[href$="u/Bio-Acid"]:before, a[href$="user/CrsBlevdog"]:before, a[href$="u/CrsBlevdog"]:before, a[href$="user/letsgohome86"]:before, a[href$="u/letsgohome86"]:before, a[href$="user/RevanJB"]:before, a[href$="u/RevanJB"]:before, a[href$="user/Clay792"]:before, a[href$="u/Clay792"]:before, a[href$="user/rlxthegreat"]:before, a[href$="u/rlxthegreat"]:before, a[href$="user/UNiTE_Jasen"]:before, a[href$="u/UNiTE_Jasen"]:before, a[href$="user/UNiTE_Dan"]:before, a[href$="u/UNiTE_Dan"]:before, a[href$="user/coLMrX"]:before, a[href$="u/coLMrX"]:before, a[href$="user/TeePeeCoD"]:before, a[href$="u/TeePeeCoD"]:before, a[href$="user/PATTYCACHES"]:before, a[href$="u/PATTYCACHES"]:before, a[href$="user/coL-CSIX"]:before, a[href$="u/coL-CSIX"]:before, a[href$="user/MrMLGAdam"]:before, a[href$="u/MrMLGAdam"]:before, a[href$="user/ChanceMLG"]:before, a[href$="u/ChanceMLG"]:before, a[href$="user/GoldenboyFTW"]:before, a[href$="u/GoldenboyFTW"]:before, a[href$="user/BrianSaintt"]:before, a[href$="u/BrianSaintt"]:before, a[href$="user/nadeshot"]:before, a[href$="u/nadeshot"]:before, a[href$="user/schillez"]:before, a[href$="u/schillez"]:before, a[href$="user/Hollow_sB"]:before, a[href$="u/Hollow_sB"]:before, a[href$="user/Tartopome"]:before, a[href$="u/Tartopome"]:before, a[href$="user/eMeRiKa13"]:before, a[href$="u/eMeRiKa13"]:before, a[href$="user/YonnYonn"]:before, a[href$="u/YonnYonn"]:before, a[href$="user/Slashered"]:before, a[href$="u/Slashered"]:before, a[href$="user/Drift0r"]:before, a[href$="u/Drift0r"]:before, a[href$="user/mrfarly"]:before, a[href$="u/mrfarly"]:before, a[href$="user/CrsNameless"]:before, a[href$="u/CrsNameless"]:before, a[href$="user/muddawg"]:before, a[href$="u/muddawg"]:before, a[href$="user/Chewwy94"]:before, a[href$="u/Chewwy94"]:before, a[href$="user/Bricetacular"]:before, a[href$="u/Bricetacular"]:before, a[href$="user/Crsblevdog"]:before, a[href$="u/Crsblevdog"]:before, a[href$="user/APIce"]:before, a[href$="u/APIce"]:before, a[href$="user/Wi5dom12"]:before, a[href$="u/Wi5dom12"]:before, a[href$="user/fwiz"]:before, a[href$="u/fwiz"]:before, a[href$="user/AntMethodz"]:before, a[href$="u/AntMethodz"]:before, a[href$="user/iCn_Quest"]:before, a[href$="u/iCn_Quest"]:before, a[href$="user/SoaRMethodz"]:before, a[href$="u/SoaRMethodz"]:before, a[href$="user/benbowe100"]:before, a[href$="u/benbowe100"]:before, a[href$="user/iloveFPS"]:before, a[href$="u/iloveFPS"]:before, a[href$="user/coLKarma"]:before, a[href$="u/coLKarma"]:before, a[href$="user/PHiZZURP"]:before, a[href$="u/PHiZZURP"]:before, a[href$="user/MLGPuckett"]:before, a[href$="u/MLGPuckett"]:before, a[href$="user/John287"]:before, a[href$="u/John287"]:before, a[href$="user/NotTheFakeJKap"]:before, a[href$="u/NotTheFakeJKap"]:before, a[href$="user/SinfuL-"]:before, a[href$="u/SinfuL-"]:before, a[href$="user/OMGLove"]:before, a[href$="u/OMGLove"]:before, a[href$="user/AcidOli"]:before, a[href$="u/AcidOli"]:before, a[href$="user/Mr_NameLeSs"]:before, a[href$="u/Mr_NameLeSs"]:before, a[href$="user/AnthonyMethodz"]:before, a[href$="u/AnthonyMethodz"]:before, a[href$="user/FBogre2"]:before, a[href$="u/FBogre2"]:before, a[href$="user/SCOTTJORGENSEN"]:before, a[href$="u/SCOTTJORGENSEN"]:before, a[href$="user/Gfinity"]:before, a[href$="u/Gfinity"]:before, a[href$="user/MLGColey"]:before, a[href$="u/MLGColey"]:before, a[href$="user/Revzzz"]:before, a[href$="u/Revzzz"]:before, a[href$="user/iCheeto"]:before, a[href$="u/iCheeto"]:before, a[href$="user/ScottGandhii"]:before, a[href$="u/ScottGandhii"]:before, a[href$="user/Hitchariide"]:before, a[href$="u/Hitchariide"]:before, a[href$="user/NotParasite"]:before, a[href$="u/NotParasite"]:before, a[href$="user/MBoZe"]:before, a[href$="u/MBoZe"]:before, a[href$="user/WhoisRob"]:before, a[href$="u/WhoisRob"]:before, a[href$="user/FB_Snip3down"]:before, a[href$="u/FB_Snip3down"]:before, a[href$="user/agermanguy"]:before, a[href$="u/agermanguy"]:before, a[href$="user/smitingfatty"]:before, a[href$="u/smitingfatty"]:before, a[href$="user/whea7s"]:before, a[href$="u/whea7s"]:before, a[href$="user/SpaceLyNJ"]:before, a[href$="u/SpaceLyNJ"]:before, a[href$="user/Miyagisaur"]:before, a[href$="u/Miyagisaur"]:before, a[href$="user/CurseCable"]:before, a[href$="u/CurseCable"]:before, a[href$="user/TheGinjaNinja6828"]:before, a[href$="u/TheGinjaNinja6828"]:before, a[href$="user/EZGamingEvents"]:before, a[href$="u/EZGamingEvents"]:before, a[href$="user/CrsMochila"]:before, a[href$="u/CrsMochila"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Tipsy93"]:before, a[href$="u/Tipsy93"]:before, a[href$="user/hastr0"]:before, a[href$="u/hastr0"]:before, a[href$="user/yoPittsburgh"]:before, a[href$="u/yoPittsburgh"]:before, a[href$="user/BrianPRPLXD"]:before, a[href$="u/BrianPRPLXD"]:before, a[href$="user/RogueLv"]:before, a[href$="u/RogueLv"]:before, a[href$="user/j0kr555"]:before, a[href$="u/j0kr555"]:before, a[href$="user/clairejeepchick"]:before, a[href$="u/clairejeepchick"]:before, a[href$="user/UGCevents"]:before, a[href$="u/UGCevents"]:before, a[href$="user/Kingdom_Soldier"]:before, a[href$="u/Kingdom_Soldier"]:before, a[href$="user/Burnsoff"]:before, a[href$="u/Burnsoff"]:before, a[href$="user/Maven285"]:before, a[href$="u/Maven285"]:before, a[href$="user/OpTicDi3seL"]:before, a[href$="u/OpTicDi3seL"]:before, a[href$="user/UMGChris"]:before, a[href$="u/UMGChris"]:before, a[href$="user/BsportJoshh"]:before, a[href$="u/BsportJoshh"]:before, a[href$="user/EGDKarma"]:before, a[href$="u/EGDKarma"]:before, a[href$="user/RealizeEU"]:before, a[href$="u/RealizeEU"]:before, a[href$="user/EDiehlReadyUpGmng"]:before, a[href$="u/EDiehlReadyUpGmng"]:before, a[href$="user/ApathyCoD"]:before, a[href$="u/ApathyCoD"]:before, a[href$="user/MLGIlir"]:before, a[href$="u/MLGIlir"]:before, a[href$="user/fobindianman"]:before, a[href$="u/fobindianman"]:before, a[href$="user/MLGRon"]:before, a[href$="u/MLGRon"]:before, a[href$="user/MLGBradley"]:before, a[href$="u/MLGBradley"]:before, a[href$="user/Brocco-"]:before, a[href$="u/Brocco-"]:before, a[href$="user/Snxwe"]:before, a[href$="u/Snxwe"]:before, a[href$="user/FuzzyOtterBalls"]:before, a[href$="u/FuzzyOtterBalls"]:before, a[href$="user/xiSerbia"]:before, a[href$="u/xiSerbia"]:before, a[href$="user/samzorzSH"]:before, a[href$="u/samzorzSH"]:before, a[href$="user/BuZZZO"]:before, a[href$="u/BuZZZO"]:before, a[href$="user/CptSwizz"]:before, a[href$="u/CptSwizz"]:before, a[href$="user/Peatiee"]:before, a[href$="u/Peatiee"]:before, a[href$="user/MarkyBCoD"]:before, a[href$="u/MarkyBCoD"]:before, a[href$="user/Zoomaaa"]:before, a[href$="u/Zoomaaa"]:before, a[href$="user/mlgkc"]:before, a[href$="u/mlgkc"]:before, a[href$="user/FroZnRay"]:before, a[href$="u/FroZnRay"]:before, a[href$="user/ringokid"]:before, a[href$="u/ringokid"]:before, a[href$="user/OrbitWanted"]:before, a[href$="u/OrbitWanted"]:before, a[href$="user/Orbit_ZeBrain"]:before, a[href$="u/Orbit_ZeBrain"]:before, a[href$="user/EuropeanGamingLeague"]:before, a[href$="u/EuropeanGamingLeague"]:before, a[href$="user/OpTicMiDNiTE"]:before, a[href$="u/OpTicMiDNiTE"]:before, a[href$="user/Sharp_tK"]:before, a[href$="u/Sharp_tK"]:before, a[href$="user/TheTurboShow"]:before, a[href$="u/TheTurboShow"]:before, a[href$="user/iSowerz"]:before, a[href$="u/iSowerz"]:before, a[href$="user/Crimsux"]:before, a[href$="u/Crimsux"]:before, a[href$="user/UMGmatt"]:before, a[href$="u/UMGmatt"]:before, a[href$="user/RAGEDuffMan"]:before, a[href$="u/RAGEDuffMan"]:before, a[href$="user/Affentod"]:before, a[href$="u/Affentod"]:before, a[href$="user/MyNamesNotNathan"]:before, a[href$="u/MyNamesNotNathan"]:before, a[href$="user/Iamneslo"]:before, a[href$="u/Iamneslo"]:before, a[href$="user/yoBundo"]:before, a[href$="u/yoBundo"]:before, a[href$="user/LambzyJM"]:before, a[href$="u/LambzyJM"]:before, a[href$="user/ottersareneat"]:before, a[href$="u/ottersareneat"]:before, a[href$="user/MerK_nV"]:before, a[href$="u/MerK_nV"]:before, a[href$="user/ChrisTunn"]:before, a[href$="u/ChrisTunn"]:before, a[href$="user/evensides"]:before, a[href$="u/evensides"]:before, a[href$="user/ivscourage"]:before, a[href$="u/ivscourage"]:before, a[href$="user/RealFears"]:before, a[href$="u/RealFears"]:before, a[href$="user/RealLegal"]:before, a[href$="u/RealLegal"]:before, a[href$="user/DenialKross"]:before, a[href$="u/DenialKross"]:before, a[href$="user/BionicPotato"]:before, a[href$="u/BionicPotato"]:before, a[href$="user/MrEmceec"]:before, a[href$="u/MrEmceec"]:before, a[href$="user/NakeeeZe"]:before, a[href$="u/NakeeeZe"]:before, a[href$="user/StarClutch"]:before, a[href$="u/StarClutch"]:before, a[href$="user/ACLPro"]:before, a[href$="u/ACLPro"]:before, a[href$="user/mattmrx"]:before, a[href$="user/FoxtheDon"]:before, a[href$="u/FoxtheDon"]:before, a[href$="u/mattmrx"]:before, a[href$="user/hojuuuu"]:before, a[href$="u/hojuuuu"]:before, a[href$="user/rambo_nv"]:before, a[href$="u/rambo_nv"]:before, a[href$="user/Paradox511"]:before, a[href$="u/Paradox511"]:before {
   content: url(%%verified%%);
   position: relative;
   right: -4px;
   bottom: -4px;
   margin-right: 8px
 }
-/* end verified users */
+.link {
+  margin: -10px;
+}
